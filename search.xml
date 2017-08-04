@@ -5,7 +5,9 @@
     <entry>
       <title><![CDATA[test]]></title>
       <url>/2017/08/04/test/</url>
-      <content type="html"><![CDATA[<p><img src="/2017/08/04/test/jumu.jpeg =45x45" alt="logs"><br>just a test.<br><img src="/2017/08/04/test/2017/08/04/test/jumu.jpeg" alt="This is an image" title="This is an image"></p>
+      <content type="html"><![CDATA[<p><img src="jumu.jpeg =45x45" alt="logs"></p>
+<p>just a test.<br><img src="/2017/08/04/test/jumu.jpeg" alt="This is an image" title="This is an image"><br>这样呢？<br><img src="/images/jumu.jpeg" alt=""></p>
+<p>还有这样：<br><img src="/images/jumu.jpeg =45x45" alt="的"></p>
 ]]></content>
       
         
