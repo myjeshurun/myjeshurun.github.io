@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://myjeshurun.github.io/"/>
-  <updated>2017-08-04T16:57:00.000Z</updated>
+  <updated>2017-08-04T18:35:25.000Z</updated>
   <id>http://myjeshurun.github.io/</id>
   
   <author>
@@ -14,6 +14,41 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>向写作者推荐leanote蚂蚁笔记</title>
+    <link href="http://myjeshurun.github.io/2017/08/04/%E5%90%91%E5%86%99%E4%BD%9C%E8%80%85%E6%8E%A8%E8%8D%90leanote%E8%9A%82%E8%9A%81%E7%AC%94%E8%AE%B0/"/>
+    <id>http://myjeshurun.github.io/2017/08/04/向写作者推荐leanote蚂蚁笔记/</id>
+    <published>2017-08-04T18:34:33.000Z</published>
+    <updated>2017-08-04T18:35:25.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Leanote蚂蚁笔记说自己是有极客范的笔记，被别人说成是功能最强悍的笔记软件。我觉得这些名号都不过分，尤其它一开始就开源，为未来开创了一个非常广阔的前景。要知道，苹果系统MacOS的原身是unix，安卓系统，chrome浏览器都是开源项目。我个人非常看好它。&lt;/p&gt;
+&lt;p&gt;对于一个写作者来说，我一直希望有这样的工具/网站：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;为写微信公号的作者提供一个备份，也是一个管理和再呈现自己公号文章的网页。提供好的技术支持。&lt;/li&gt;
+&lt;li&gt;为有写作的欲望（不是写作的恩赐），但又很难Handle个人公号的人提供平台，类似简书。他们的文章可以被主内的机构公号收录，或者他们可以主动向他们投稿。&lt;/li&gt;
+&lt;li&gt;保险起见，在主页上不公开。首页只有一个登录入口. 登录后，可以看到别人的帐号，可以选择关注。&lt;/li&gt;
+&lt;li&gt;整合wordpress和markdown，前者提供rss订阅，而且是blog领域最优秀的代表，有N多的插件可以配合；后者是让作者可以专注写作，而不是呈现。&lt;/li&gt;
+&lt;li&gt;有相应的桌面端工具可以让他们去使用，方便他们使用。&lt;br&gt;–摘自：&lt;a href=&quot;http://leanote.com/s/597f3f34ab644168d300272a&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;给写作者的工具&lt;/a&gt;一文&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;Leanote是最好的选择&quot;&gt;&lt;a href=&quot;#Leanote是最好的选择&quot; class=&quot;headerlink&quot; title=&quot;Leanote是最好的选择&quot;&gt;&lt;/a&gt;Leanote是最好的选择&lt;/h3&gt;&lt;p&gt;我觉得leanote是目前最好的选择，原因如下：&lt;br&gt;
+    
+    </summary>
+    
+      <category term="工具控" scheme="http://myjeshurun.github.io/categories/%E5%B7%A5%E5%85%B7%E6%8E%A7/"/>
+    
+    
+      <category term="leanote" scheme="http://myjeshurun.github.io/tags/leanote/"/>
+    
+      <category term="工具" scheme="http://myjeshurun.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+      <category term="写作" scheme="http://myjeshurun.github.io/tags/%E5%86%99%E4%BD%9C/"/>
+    
+  </entry>
   
   <entry>
     <title>当神拥有我们，我们就是完全的</title>
