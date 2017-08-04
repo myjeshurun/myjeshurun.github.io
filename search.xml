@@ -6,8 +6,9 @@
       <title><![CDATA[test]]></title>
       <url>/2017/08/04/test/</url>
       <content type="html"><![CDATA[<p><img src="jumu.jpeg =45x45" alt="logs"></p>
-<p>just a test.<br><img src="/2017/08/04/test/jumu.jpeg" alt="This is an image" title="This is an image"><br>这样呢？<br><img src="/images/jumu.jpeg" alt=""></p>
-<p>还有这样：<br><img src="/images/jumu.jpeg =45x45" alt="的"></p>
+<p>just a test.<br></p>
+<p>0<br>0<br>这样呢？<br><img src="/images/jumu.jpeg" alt=""></p>
+<p>9<br>9<br>9<br>还有这样：<br><img src="/images/jinrijiayin.jpeg =45x45" alt="的"></p>
 ]]></content>
       
         
