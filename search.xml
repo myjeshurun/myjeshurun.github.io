@@ -12,36 +12,36 @@
 <p>后来用wordpress，iyublog到后来自己用wordpress搭建igencong.com</p>
 <p>后来因为牧会的忙碌，出国读神学的压力，沉寂了一段时间。今年开始自己开始写原创评论，让我一直有想法做个blog把自己写的东西再整理一下。</p>
 <p>这几天对技术突然又开始感兴趣了，先是整了vim和git，后来研究了leanote，还买了旗舰版，信誓旦旦的想大干一场，整出个平台。但leanote有个问题让我很不爽，不能导入md文件，我现在的文档都用markdown写，在nvALT或者Archive中可以很便捷的搜索，使用pandoc我可以变成任何一个格式的文档。leanote的一键发布blog很酷，但我发现它的blog系统没有rss导出，而且定制化也不强。我还是不太满意，刚才我申请退款了。（已经收到退款了）</p>
-<h3 id="误打误撞"><a href="#误打误撞" class="headerlink" title="误打误撞"></a>误打误撞</h3><p>今天用leanote编辑新媒体教会的书稿，看到TOC的功能，才知道这是Table of Contents的缩写，查了一下，查到了<a href="http://mazhuang.org/" target="_blank" rel="external">码志</a>的插件，然后查到了Jekyll，搜索找到了<a href="https://www.zhihu.com/question/20659873" target="_blank" rel="external">知乎</a>上的谈论的博客系统，了解了以前耳闻的hexo，知道hexo和JekyII的不同。<a href="http://www.cnblogs.com/mo-wang/p/5119967.html" target="_blank" rel="external">将博客从jekyll迁移到了hexo</a>这篇文章详细评论了几个静态页面的博客系统，最后决定使用hexo搭建自己的博客平台，原因如下：<br><a id="more"></a></p>
+<h3 id="误打误撞"><a href="#误打误撞" class="headerlink" title="误打误撞"></a>误打误撞</h3><p>今天用leanote编辑新媒体教会的书稿，看到TOC的功能，才知道这是Table of Contents的缩写，查了一下，查到了<a href="http://mazhuang.org/" rel="external nofollow noopener noreferrer" target="_blank">码志</a>的插件，然后查到了Jekyll，搜索找到了<a href="https://www.zhihu.com/question/20659873" rel="external nofollow noopener noreferrer" target="_blank">知乎</a>上的谈论的博客系统，了解了以前耳闻的hexo，知道hexo和JekyII的不同。<a href="http://www.cnblogs.com/mo-wang/p/5119967.html" rel="external nofollow noopener noreferrer" target="_blank">将博客从jekyll迁移到了hexo</a>这篇文章详细评论了几个静态页面的博客系统，最后决定使用hexo搭建自己的博客平台，原因如下：<br><a id="more"></a></p>
 <ol>
 <li>考虑过Farbox，自称是最好的博客系统，能用dropbox发布博客。但比较贵，按我的情况要用标准版65/年。</li>
 <li>JekyII 据说技术难度比较大</li>
 <li>hexo是台湾人开发的，中文支持应该没有问题；中文文档很好。</li>
 <li>貌似hexo可以使用插件跟Google Drive同步，如果这样的话，我就可以建个md，透过hexo发布了。（还得测试）</li>
 </ol>
-<p><a href="http://kuanghy.github.io/2017/03/24/now-everything-is-the-best" target="_blank" rel="external">现在的一切便是最好的</a>这一篇提到，github pages不能被百度搜索到，这的确是个缺点，不过，需要的话，我可以像他一样自己在国内弄一个。</p>
+<p><a href="http://kuanghy.github.io/2017/03/24/now-everything-is-the-best" rel="external nofollow noopener noreferrer" target="_blank">现在的一切便是最好的</a>这一篇提到，github pages不能被百度搜索到，这的确是个缺点，不过，需要的话，我可以像他一样自己在国内弄一个。</p>
 <p>除了以上提到的，以下几个博客对我做这个决定帮助比较大：</p>
 <ol>
-<li><a href="https://shikieiki.github.io/2017/02/23/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8gitHub%E5%92%8CHexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" target="_blank" rel="external">如何使用github和Hexo搭建个人博客</a></li>
-<li><a href="https://thief.one/2017/03/03/Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/" target="_blank" rel="external">Hexo搭建博客教程</a></li>
-<li><a href="https://www.freehao123.com/hexo-jianzhan/" target="_blank" rel="external">Hexo建站从入门到精通-Hexo博客本地环境配置,初始化,写作与部署</a></li>
-<li><a href="http://www.jianshu.com/p/35e17fa3bbe2" target="_blank" rel="external">Hexo(1)-生成本地静态博客-Mac</a></li>
-<li><a href="https://linghucong.js.org/2016/04/15/2016-04-15-hexo-github-pages-blog/" target="_blank" rel="external">手把手教你使用Hexo + Github Pages搭建个人独立博客</a>, 这里面有些高级技巧，很酷。</li>
+<li><a href="https://shikieiki.github.io/2017/02/23/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8gitHub%E5%92%8CHexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" rel="external nofollow noopener noreferrer" target="_blank">如何使用github和Hexo搭建个人博客</a></li>
+<li><a href="https://thief.one/2017/03/03/Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/" rel="external nofollow noopener noreferrer" target="_blank">Hexo搭建博客教程</a></li>
+<li><a href="https://www.freehao123.com/hexo-jianzhan/" rel="external nofollow noopener noreferrer" target="_blank">Hexo建站从入门到精通-Hexo博客本地环境配置,初始化,写作与部署</a></li>
+<li><a href="http://www.jianshu.com/p/35e17fa3bbe2" rel="external nofollow noopener noreferrer" target="_blank">Hexo(1)-生成本地静态博客-Mac</a></li>
+<li><a href="https://linghucong.js.org/2016/04/15/2016-04-15-hexo-github-pages-blog/" rel="external nofollow noopener noreferrer" target="_blank">手把手教你使用Hexo + Github Pages搭建个人独立博客</a>, 这里面有些高级技巧，很酷。</li>
 </ol>
 <hr>
-<p>每个人安装hexo可能都会碰到这样那样的问题，我一直是装不上，后来就一直想办法卸载node, 貌似用了这个办法管用：<a href="https://gist.github.com/nicerobot/2697848" target="_blank" rel="external">https://gist.github.com/nicerobot/2697848</a><br>卸载之后，执行sudo npm install -g hexo-cli，说找不到npm<br>然后，nvm install 4, 就换成node 4,才装上了hexo。</p>
+<p>每个人安装hexo可能都会碰到这样那样的问题，我一直是装不上，后来就一直想办法卸载node, 貌似用了这个办法管用：<a href="https://gist.github.com/nicerobot/2697848" rel="external nofollow noopener noreferrer" target="_blank">https://gist.github.com/nicerobot/2697848</a><br>卸载之后，执行sudo npm install -g hexo-cli，说找不到npm<br>然后，nvm install 4, 就换成node 4,才装上了hexo。</p>
 <p><strong>我的结论</strong>：改变一下node的版本可能就解决问题：使用以下这条命令使用版本6.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">nvm install 6</div></pre></td></tr></table></figure></p>
 <hr>
 <p>终于搞定了，后来又碰到各种问题：</p>
 <ol>
-<li>没有config，原来yml的格式很严格：<a href="https://github.com/hexojs/hexo/issues/1263" target="_blank" rel="external">https://github.com/hexojs/hexo/issues/1263</a></li>
-<li>repo不能用ssh，因为我还没有设置；而只能用https：<a href="https://stackoverflow.com/questions/12940626/github-error-message-permission-denied-publickey" target="_blank" rel="external">https://stackoverflow.com/questions/12940626/github-error-message-permission-denied-publickey</a></li>
+<li>没有config，原来yml的格式很严格：<a href="https://github.com/hexojs/hexo/issues/1263" rel="external nofollow noopener noreferrer" target="_blank">https://github.com/hexojs/hexo/issues/1263</a></li>
+<li>repo不能用ssh，因为我还没有设置；而只能用https：<a href="https://stackoverflow.com/questions/12940626/github-error-message-permission-denied-publickey" rel="external nofollow noopener noreferrer" target="_blank">https://stackoverflow.com/questions/12940626/github-error-message-permission-denied-publickey</a></li>
 <li>（8/3/17）早上把igencong.com的域名弄过来，设置好了。屡次测试还是不行，后来才知道需要24-48个小时，才能转换过来。</li>
 <li></li>
 </ol>
 <h3 id="8-3折腾手记："><a href="#8-3折腾手记：" class="headerlink" title="8/3折腾手记："></a>8/3折腾手记：</h3><ol>
-<li>加上Rss订阅：使用插件<a href="https://github.com/hexojs/hexo-generator-feed" target="_blank" rel="external">hexo-generator-feed</a></li>
-<li>加上了腾讯公益的404页面：<a href="http://www.cnblogs.com/mo-wang/p/5119967.html" target="_blank" rel="external">【五】将博客从jekyll迁移到了hexo</a></li>
+<li>加上Rss订阅：使用插件<a href="https://github.com/hexojs/hexo-generator-feed" rel="external nofollow noopener noreferrer" target="_blank">hexo-generator-feed</a></li>
+<li>加上了腾讯公益的404页面：<a href="http://www.cnblogs.com/mo-wang/p/5119967.html" rel="external nofollow noopener noreferrer" target="_blank">【五】将博客从jekyll迁移到了hexo</a></li>
 <li>装插件的时候，要用上 –save</li>
 </ol>
 <h3 id="后来决定重新装一个全新的hexo："><a href="#后来决定重新装一个全新的hexo：" class="headerlink" title="后来决定重新装一个全新的hexo："></a>后来决定重新装一个全新的hexo：</h3><ol>
@@ -52,13 +52,13 @@
 <li>terminal, cd docs/hexo。</li>
 <li>hexo init</li>
 <li>测试：<blockquote>
-<p>hexo g<br>hexo s<br><a href="http://localhost:4000" target="_blank" rel="external">http://localhost:4000</a></p>
+<p>hexo g<br>hexo s<br><a href="http://localhost:4000" rel="external nofollow noopener noreferrer" target="_blank">http://localhost:4000</a></p>
 <ol>
-<li>关联： myjeshurun.github.io （特别注意yml的语法）<br>deploy:<br>type: git<br>repository: <a href="https://github.com/tengzhangchao/tengzhangchao.github.io.git" target="_blank" rel="external">https://github.com/tengzhangchao/tengzhangchao.github.io.git</a><br>branch: master</li>
+<li>关联： myjeshurun.github.io （特别注意yml的语法）<br>deploy:<br>type: git<br>repository: <a href="https://github.com/tengzhangchao/tengzhangchao.github.io.git" rel="external nofollow noopener noreferrer" target="_blank">https://github.com/tengzhangchao/tengzhangchao.github.io.git</a><br>branch: master</li>
 </ol>
 </blockquote>
 </li>
-<li>修改主题：<a href="http://theme-next.iissnan.com/getting-started.html#description-setting" target="_blank" rel="external">next</a><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ cd your-hexo-site       </div><div class="line">$ git clone https://github.com/iissnan/hexo-theme-next themes/next</div></pre></td></tr></table></figure>
+<li>修改主题：<a href="http://theme-next.iissnan.com/getting-started.html#description-setting" rel="external nofollow noopener noreferrer" target="_blank">next</a><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ cd your-hexo-site       </div><div class="line">$ git clone https://github.com/iissnan/hexo-theme-next themes/next</div></pre></td></tr></table></figure>
 </li>
 </ol>
 <p>在站点config.yml，修改theme: next<br>在theme，config，修改各个参数。scheme改成：mist<br>hexo clean<br>hexo s -debug</p>
@@ -71,16 +71,17 @@
 </ol>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line"># Extensions</div><div class="line">plugins:</div><div class="line"> hexo-generator-feed</div><div class="line"> hexo-generator-sitemap</div><div class="line"># 自动生成xml</div><div class="line">feed:</div><div class="line">  type: atom</div><div class="line">  path: atom.xml</div><div class="line">  limit: 20</div><div class="line">  hub:</div><div class="line">  content:</div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"># 自动生成sitemap</div><div class="line">sitemap:</div><div class="line">path: sitemap.xml</div><div class="line">baidusitemap:</div><div class="line">path: baidusitemap.xml</div></pre></td></tr></table></figure>
 <ol>
-<li><p>提交sitemap到百度：~我还没有做~。<br><a href="https://jingyan.baidu.com/article/c85b7a641109e3003bac95aa.html" target="_blank" rel="external">如何提交sitemap到百度</a></p>
+<li><p>提交sitemap到百度：~我还没有做~。<br><a href="https://jingyan.baidu.com/article/c85b7a641109e3003bac95aa.html" rel="external nofollow noopener noreferrer" target="_blank">如何提交sitemap到百度</a></p>
 </li>
 <li><p>创建标签云页面。done</p>
 </li>
 <li>作者署名和版权声明。done</li>
 <li>加上本地搜索和swifty搜索。done. 但不能搜索不知道为何？</li>
-<li>图片问题：基本上解决了。相同的目录下，建立一个文件夹。使用绝对路径，但是不好用。简易的方案是使用七牛云或者cloudary。最后使用七牛云，学习了<a href="https://www.instapaper.com/read/938856105" target="_blank" rel="external">qshell 同步图片</a></li>
+<li>图片问题：基本上解决了。相同的目录下，建立一个文件夹。使用绝对路径，但是不好用。简易的方案是使用七牛云或者cloudary。最后使用七牛云，学习了<a href="https://www.instapaper.com/read/938856105" rel="external nofollow noopener noreferrer" target="_blank">qshell 同步图片</a></li>
 <li>plugin 卸载：npm uninstall <plugin-name></plugin-name></li>
-<li>评论：使用来比力。done.</li>
-<li></li>
+<li>评论：使用来比力。后来为了能在主页显示评论数量，选择了disqus。done.</li>
+<li>增加了微信、支付宝打赏功能，与时俱进！done</li>
+<li>增加文章阅读量显示。</li>
 </ol>
 <hr>
 <h3 id="一些体会"><a href="#一些体会" class="headerlink" title="一些体会"></a>一些体会</h3><ol>
@@ -107,9 +108,9 @@
 进行“阅读全文”的演示。</li>
 </ol>
 <hr>
-<h3 id="不能忘记的事：备份！"><a href="#不能忘记的事：备份！" class="headerlink" title="不能忘记的事：备份！"></a>不能忘记的事：<strong>备份</strong>！</h3><p>最后一件重要的事，就是备份了。<br>把本地的hexo文件夹备份，我可以使用mac的定期备份；但似乎不太好用。因为github的私有云收费，<a href="http://qiuqingyu.cn/2017/03/16/Hexo%E5%8D%9A%E5%AE%A2%E8%87%AA%E5%8A%A8%E5%A4%87%E4%BB%BD%E5%88%B0Coding/" target="_blank" rel="external">备份到coding上</a><br>~ 吴林er写的这个，用到hexo-backup这个插件，看起来不错。~ 该插件不能用了。折腾了我好久。<br>我不想要每次都备份，只是想看状态不错的时候，<br>以后就用这些代码：</p>
-<p>这个人超级牛，这个备份的问题，我就靠他解决了：<br><a href="http://masikkk.com/article/hexo-10-coding-pages-deploy/" target="_blank" rel="external">http://masikkk.com/article/hexo-10-coding-pages-deploy/</a><br>这个人写的<a href="http://ricky.moe/2017/01/13/hexo-perfect-synchronize/index.html" target="_blank" rel="external">多电脑同步方法</a>，是最好的，很简洁，跟上面那个人一样。只是没有能解决我的问题。我之前估计是用hexo backup插件，把一些东西弄坏了，需要整一下。Masikkk刚好也碰到同样的问题，帮我处理了。这个人就hexo博客谢了14篇blog，是我看到的最全的了。</p>
-<p>同时搭建国内coding上的博客，同步更新以及多台电脑使用。<br>masikkk篇在这个问题上写的最全面了。<a href="http://masikkk.com/article/hexo-3-source-backup-and-sync-between-diff-computer/" target="_blank" rel="external">Hexo博客(3)源码备份及不同电脑上的同步问题</a></p>
+<h3 id="不能忘记的事：备份！"><a href="#不能忘记的事：备份！" class="headerlink" title="不能忘记的事：备份！"></a>不能忘记的事：<strong>备份</strong>！</h3><p>最后一件重要的事，就是备份了。<br>把本地的hexo文件夹备份，我可以使用mac的定期备份；但似乎不太好用。因为github的私有云收费，<a href="http://qiuqingyu.cn/2017/03/16/Hexo%E5%8D%9A%E5%AE%A2%E8%87%AA%E5%8A%A8%E5%A4%87%E4%BB%BD%E5%88%B0Coding/" rel="external nofollow noopener noreferrer" target="_blank">备份到coding上</a><br>~ 吴林er写的这个，用到hexo-backup这个插件，看起来不错。~ 该插件不能用了。折腾了我好久。<br>我不想要每次都备份，只是想看状态不错的时候，<br>以后就用这些代码：</p>
+<p>这个人超级牛，这个备份的问题，我就靠他解决了：<br><a href="http://masikkk.com/article/hexo-10-coding-pages-deploy/" rel="external nofollow noopener noreferrer" target="_blank">http://masikkk.com/article/hexo-10-coding-pages-deploy/</a><br>这个人写的<a href="http://ricky.moe/2017/01/13/hexo-perfect-synchronize/index.html" rel="external nofollow noopener noreferrer" target="_blank">多电脑同步方法</a>，是最好的，很简洁，跟上面那个人一样。只是没有能解决我的问题。我之前估计是用hexo backup插件，把一些东西弄坏了，需要整一下。Masikkk刚好也碰到同样的问题，帮我处理了。这个人就hexo博客谢了14篇blog，是我看到的最全的了。</p>
+<p>同时搭建国内coding上的博客，同步更新以及多台电脑使用。<br>masikkk篇在这个问题上写的最全面了。<a href="http://masikkk.com/article/hexo-3-source-backup-and-sync-between-diff-computer/" rel="external nofollow noopener noreferrer" target="_blank">Hexo博客(3)源码备份及不同电脑上的同步问题</a></p>
 ]]></content>
       
         <categories>
@@ -180,7 +181,7 @@
 <li>为有写作的欲望（不是写作的恩赐），但又很难Handle个人公号的人提供平台，类似简书。他们的文章可以被主内的机构公号收录，或者他们可以主动向他们投稿。</li>
 <li>保险起见，在主页上不公开。首页只有一个登录入口. 登录后，可以看到别人的帐号，可以选择关注。</li>
 <li>整合wordpress和markdown，前者提供rss订阅，而且是blog领域最优秀的代表，有N多的插件可以配合；后者是让作者可以专注写作，而不是呈现。</li>
-<li>有相应的桌面端工具可以让他们去使用，方便他们使用。<br>–摘自：<a href="http://leanote.com/s/597f3f34ab644168d300272a" target="_blank" rel="external">给写作者的工具</a>一文</li>
+<li>有相应的桌面端工具可以让他们去使用，方便他们使用。<br>–摘自：<a href="http://leanote.com/s/597f3f34ab644168d300272a" rel="external nofollow noopener noreferrer" target="_blank">给写作者的工具</a>一文</li>
 </ol>
 </blockquote>
 <h3 id="Leanote是最好的选择"><a href="#Leanote是最好的选择" class="headerlink" title="Leanote是最好的选择"></a>Leanote是最好的选择</h3><p>我觉得leanote是目前最好的选择，原因如下：<br><a id="more"></a></p>
@@ -190,7 +191,7 @@
 <li>一键发布博客；而且笔记端修改同步后，博客自动更新。</li>
 <li>可以作为私人笔记，存放不想发布或还没有成型的东西；</li>
 <li>可以透过分享笔记，投稿给专业的机构或者公号。</li>
-<li>数据备份很容易，不会丢失；随时还原。<a href="http://leanote.leanote.com/post/Leanote-desktop-backup" target="_blank" rel="external">如何备份桌面端数据</a><br>这样，leanote基本上完全可以满足我上面提到的需要，虽然我不能rss导出，但这个也不是最重要的。而且因为开源未来肯定还可以被开发出来的。</li>
+<li>数据备份很容易，不会丢失；随时还原。<a href="http://leanote.leanote.com/post/Leanote-desktop-backup" rel="external nofollow noopener noreferrer" target="_blank">如何备份桌面端数据</a><br>这样，leanote基本上完全可以满足我上面提到的需要，虽然我不能rss导出，但这个也不是最重要的。而且因为开源未来肯定还可以被开发出来的。</li>
 </ol>
 <h3 id="我希望leanote还有这些功能"><a href="#我希望leanote还有这些功能" class="headerlink" title="我希望leanote还有这些功能"></a>我希望leanote还有这些功能</h3><ol>
 <li>可以导入md文档；这样方便那些用其它markdow工具写作的人。</li>
@@ -238,8 +239,8 @@
 <hr>
 <p>8/4/17这几天折腾hexo静态博客之后，决定主要精力放在hexo博客，而leanote以后再考虑。<br>写作工具则会从byword转向mweb这个更强大的markdown编辑软件。这里有个很好介绍：</p>
 <ul>
-<li><a href="https://sspai.com/post/30489" target="_blank" rel="external">集大成的markdown应用</a></li>
-<li>整合<a href="http://hongchenxi.me/2016/07/18/mweb-hexo/" target="_blank" rel="external">mweb，hexo和七牛</a>，正是我要走的方向</li>
+<li><a href="https://sspai.com/post/30489" rel="external nofollow noopener noreferrer" target="_blank">集大成的markdown应用</a></li>
+<li>整合<a href="http://hongchenxi.me/2016/07/18/mweb-hexo/" rel="external nofollow noopener noreferrer" target="_blank">mweb，hexo和七牛</a>，正是我要走的方向</li>
 </ul>
 ]]></content>
       
@@ -274,16 +275,16 @@
 <h4 id="吕振中在鼓浪屿听到了上帝的呼召：翻译圣经"><a href="#吕振中在鼓浪屿听到了上帝的呼召：翻译圣经" class="headerlink" title="吕振中在鼓浪屿听到了上帝的呼召：翻译圣经"></a>吕振中在鼓浪屿听到了上帝的呼召：翻译圣经</h4><p>经朋友介绍，我有幸采访了吕振中的孙子吕子峰牧师，他现在一个宣教机构COCM服事在英国的中国人，主要是中国留学生。以下内容主要就是根据对他的采访，加上网上查阅的相关资料写成。</p>
 <p>吕振中牧师，同时是神学教师和圣经翻译家。他对中国教会最大的贡献，就是他以一人之力从原文希腊文和希伯来文翻译了中文圣经吕振中译本。该译本坚持原文结构逐字直译，语言不那么流畅易懂，被当做平日阅读的不多；却对于深入研习圣经涵义有很大帮助，是信徒研读圣经的必备参考资料。<br><a id="more"></a><br>1898年4月，吕振中生于福建南安县（现已经是一个县级市）一个基督徒家庭，曾祖父就已经是基督徒，他的祖父、父亲都是当地的传道人。他的父母早逝，被当时的西方宣教士收养，在当时的教会学校培元中学读书，因成绩优异，被保送到香港大学读书。1922年毕业后，进入北平燕京大学（现北京大学）宗教学院读神学。后来回到故乡闽南圣道专门学校（后来改名为：闽南神学院）任教，并担任副校长职务。当时的闽南神学院就设在<strong>鼓浪屿</strong>，这就是鼓浪屿与中文圣经翻译的渊源。</p>
 <p>关于吕振中牧师决定翻译圣经的过程，他在1946年出版的《吕译新约初稿》序言中，写道∶“1939年8月4日，译者忽起译经之念；其来也奇而突；无以解之，唯认为上主指令耳。时译者随闽南神学院迁居漳平之永福；厦鼓海口已被封锁；交通阻梗，盘费无养，困难重重，绝无北上希望。乃示像梦境，相继而来；时译者心中毫无成见或狂想。全能上帝即用各种方法，开辟道路。继则步步引领，随事供给，使译者得于翌年2月24日，蹈入沦陷区之母校校园，实行工作。”</p>
-<p>在他的儿子吕荣安写的回忆录，<em>《吕译旧新约圣经》的翻译过程</em>[^发表在：生命季刊 总第16期 2000年12月，<a href="http://www.godcom.net/zhuti/92.htm]提到：“（1939年）在父亲（吕振中）视察永福闽南神学院新地址楼上房间。当晚父亲亲眼看到房间墙上、天花板，整个房间充满发光的‘经’字。经过那晚所看异象，使父亲深信这是上主的旨意，要他从事译经的工作。”" target="_blank" rel="external">http://www.godcom.net/zhuti/92.htm]提到：“（1939年）在父亲（吕振中）视察永福闽南神学院新地址楼上房间。当晚父亲亲眼看到房间墙上、天花板，整个房间充满发光的‘经’字。经过那晚所看异象，使父亲深信这是上主的旨意，要他从事译经的工作。”</a></p>
+<p>在他的儿子吕荣安写的回忆录，<em>《吕译旧新约圣经》的翻译过程</em>[^发表在：生命季刊 总第16期 2000年12月，<a href="http://www.godcom.net/zhuti/92.htm]提到：“（1939年）在父亲（吕振中）视察永福闽南神学院新地址楼上房间。当晚父亲亲眼看到房间墙上、天花板，整个房间充满发光的‘经’字。经过那晚所看异象，使父亲深信这是上主的旨意，要他从事译经的工作。”" rel="external nofollow noopener noreferrer" target="_blank">http://www.godcom.net/zhuti/92.htm]提到：“（1939年）在父亲（吕振中）视察永福闽南神学院新地址楼上房间。当晚父亲亲眼看到房间墙上、天花板，整个房间充满发光的‘经’字。经过那晚所看异象，使父亲深信这是上主的旨意，要他从事译经的工作。”</a></p>
 <p>这段记载的背景是，因为日本侵华战争的关系，当时在鼓浪屿岛上的闽南神学院需要迁到内陆一些的地方，吕振中牧师正是为此到漳平地区的永福镇考察，而就在那当口，他见到了上述所描述的属天的异象，从此确定了上帝对他的旨意。</p>
 <p>不过，子峰牧师告诉我，其实这个异象只是上帝引导吕振中牧师翻译圣经过程中，所赐下的诸多异象、感动的一个，虽然是盖棺确定的那一个。在此之前，如吕振中牧师自己记载：“1939年8月4日，译者忽起译经之念；其来也奇而突；无以解之，唯认为上主指令耳。”我们有理由相信，吕振中牧师是在鼓浪屿的时候开始得到从上帝而来的感动，要翻译圣经。这样，鼓浪屿与基督教深厚的历史渊源中，应该再加上一笔：上帝在鼓浪屿启示他忠心的仆人吕振中翻译圣经，为华人基督徒贡献了一个准确的原文译本。</p>
-<p>翻译圣经是一份难度极大的工作，一般人无法想象。吕振中牧师先是到了北平开始翻译圣经新约，后来又到美国英国进修深造，最后在香港定居，几经辗转，世事变迁，历时30年（1940-70），最终在1970年底由香港圣经公会代印出版了吕译《新旧约全书》。他的儿子这样总结吕振中牧师的译经事奉：”30年来，父亲在<em>斗室</em>中工作和生活，’无间冬夏，坐于斯，行于斯，食于斯，卧于斯’，以他对上主坚定的信心和虔诚的信仰，专心工作。”[^<em>《吕译旧新约圣经》的翻译过程</em>，生命季刊 总第16期 2000年12月，<a href="http://www.godcom.net/zhuti/92.htm]这是顺服上帝旨意的仆人的服事心志和生命样式，是我们这一代的年轻基督徒的楷模。" target="_blank" rel="external">http://www.godcom.net/zhuti/92.htm]这是顺服上帝旨意的仆人的服事心志和生命样式，是我们这一代的年轻基督徒的楷模。</a></p>
-<h4 id="吕振中在鼓浪屿生活的14年"><a href="#吕振中在鼓浪屿生活的14年" class="headerlink" title="吕振中在鼓浪屿生活的14年"></a>吕振中在鼓浪屿生活的14年</h4><p>吕振中在鼓浪屿的闽南神学院执教共14年。吕子峰牧师告诉我，虽然他的爷爷是个神学院老师，思维缜密严谨，对人却不刻板；特别对小孩子，吕振中牧师是很开明的，小孩子很喜欢他。<br>这14年间，他同时参与教会的服事。他在鼓浪屿的福音堂服事，除了在教会教导信徒外，一直担任礼拜堂主日崇拜的司琴及伴奏。许多人不知道的是，吕振中牧师有很深的音乐造诣。他弹一手很好的管风琴，据说是当时闽南最好的管风琴手之一。他还参与《闽南圣诗》的编制工作，根据中华基督教闽南大会新诗歌编辑委员会，于1928年3月15日发布的记录：㊁敦请周辨明、<strong>吕振中</strong>……诸先生为特约委办。㊂派<strong>吕振中</strong>、吴保佐……选取西国最新圣诗并翻译之。派<strong>吕振中</strong>、蔡保和……选取规定各诗谱调。[^<em>闽南基督教编辑新诗歌通启</em>，<a href="https://zh.wikisource.org/zh-hans/%E9%96%A9%E5%8D%97%E5%9F%BA%E7%9D%A3%E6%95%99%E7%B7%A8%E8%BC%AF%E6%96%B0%E8%A9%A9%E6%AD%8C%E9%80%9A%E5%95%9F" target="_blank" rel="external">https://zh.wikisource.org/zh-hans/%E9%96%A9%E5%8D%97%E5%9F%BA%E7%9D%A3%E6%95%99%E7%B7%A8%E8%BC%AF%E6%96%B0%E8%A9%A9%E6%AD%8C%E9%80%9A%E5%95%9F</a>]<br>该诗歌本还在今天的闽南语教会中被广泛使用。</p>
+<p>翻译圣经是一份难度极大的工作，一般人无法想象。吕振中牧师先是到了北平开始翻译圣经新约，后来又到美国英国进修深造，最后在香港定居，几经辗转，世事变迁，历时30年（1940-70），最终在1970年底由香港圣经公会代印出版了吕译《新旧约全书》。他的儿子这样总结吕振中牧师的译经事奉：”30年来，父亲在<em>斗室</em>中工作和生活，’无间冬夏，坐于斯，行于斯，食于斯，卧于斯’，以他对上主坚定的信心和虔诚的信仰，专心工作。”[^<em>《吕译旧新约圣经》的翻译过程</em>，生命季刊 总第16期 2000年12月，<a href="http://www.godcom.net/zhuti/92.htm]这是顺服上帝旨意的仆人的服事心志和生命样式，是我们这一代的年轻基督徒的楷模。" rel="external nofollow noopener noreferrer" target="_blank">http://www.godcom.net/zhuti/92.htm]这是顺服上帝旨意的仆人的服事心志和生命样式，是我们这一代的年轻基督徒的楷模。</a></p>
+<h4 id="吕振中在鼓浪屿生活的14年"><a href="#吕振中在鼓浪屿生活的14年" class="headerlink" title="吕振中在鼓浪屿生活的14年"></a>吕振中在鼓浪屿生活的14年</h4><p>吕振中在鼓浪屿的闽南神学院执教共14年。吕子峰牧师告诉我，虽然他的爷爷是个神学院老师，思维缜密严谨，对人却不刻板；特别对小孩子，吕振中牧师是很开明的，小孩子很喜欢他。<br>这14年间，他同时参与教会的服事。他在鼓浪屿的福音堂服事，除了在教会教导信徒外，一直担任礼拜堂主日崇拜的司琴及伴奏。许多人不知道的是，吕振中牧师有很深的音乐造诣。他弹一手很好的管风琴，据说是当时闽南最好的管风琴手之一。他还参与《闽南圣诗》的编制工作，根据中华基督教闽南大会新诗歌编辑委员会，于1928年3月15日发布的记录：㊁敦请周辨明、<strong>吕振中</strong>……诸先生为特约委办。㊂派<strong>吕振中</strong>、吴保佐……选取西国最新圣诗并翻译之。派<strong>吕振中</strong>、蔡保和……选取规定各诗谱调。[^<em>闽南基督教编辑新诗歌通启</em>，<a href="https://zh.wikisource.org/zh-hans/%E9%96%A9%E5%8D%97%E5%9F%BA%E7%9D%A3%E6%95%99%E7%B7%A8%E8%BC%AF%E6%96%B0%E8%A9%A9%E6%AD%8C%E9%80%9A%E5%95%9F" rel="external nofollow noopener noreferrer" target="_blank">https://zh.wikisource.org/zh-hans/%E9%96%A9%E5%8D%97%E5%9F%BA%E7%9D%A3%E6%95%99%E7%B7%A8%E8%BC%AF%E6%96%B0%E8%A9%A9%E6%AD%8C%E9%80%9A%E5%95%9F</a>]<br>该诗歌本还在今天的闽南语教会中被广泛使用。</p>
 <h4 id="吕振中对鼓浪屿及闽南的情怀"><a href="#吕振中对鼓浪屿及闽南的情怀" class="headerlink" title="吕振中对鼓浪屿及闽南的情怀"></a>吕振中对鼓浪屿及闽南的情怀</h4><p>吕振中牧师对故乡闽南有一种很深的情谊。子峰牧师告诉我，他爷爷在解放前到了香港，后来就一直住在香港，相信这也是神的保守和怜悯，好让他继续翻译圣经。他后来从大陆去了香港，有5、6年的时间跟爷爷一起生活。当时他们就去香港九龙的闽南三一堂聚会；爷爷也经常在家用钢琴弹奏赞美诗 –《闽南圣诗》里的赞美诗。他弹的时候，完全不用看谱；歌谱全部都烙印在他脑海里了。当我问子峰牧师，爷爷晚年有没有回过鼓浪屿？他说：没有。没有机会啊。1978年，才改革开放，环境上不允许；而且那时候，爷爷也已经80岁了，身体也不允许。我相信，如果有条件，吕振中牧师是一定会回到他所成长、所服事、所钟爱的闽南故乡和鼓浪屿看看的。</p>
 <p>但是，这种对故乡爱的情谊不是一种连接于世上乡思乡愁的文化情结，而是深深连接于对永生上帝救赎大爱的感恩情怀。子峰牧师分享说，他爷爷因为成绩优异被保送到香港大学读书，那时候是1922年。想想看，将近100年前香港大学的毕业生如果留在香港，前途将是无法限量的，当官发财都不在话下。但他毕业后，却选择回到大陆，去燕京大学读神学。而读完神学之后，按着他的学识和资历，加上他跟当时的校长司徒雷登的私交（他后来翻译的中文圣经初稿出版，正是司徒雷登给写的序），在燕京大学谋个职位应该不在话下。但他说：“闽南哺育了我，那是我属灵生命的摇篮；我理当回到那里去服事那里的人，报答神的恩典。” 于是，吕振中牧师从香港到北平，从北平到闽南，一路往下走，在鼓浪屿的闽南神学院任教。</p>
 <h4 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h4><p>作为一个闽南人，当了解到这些历史的见证，笔者深感骄傲：为闽南这一片土地上所培育出来的这样一位祝福普世教会的属灵前辈而自豪。虽然闽南曾是福音的热土，有悠久的教会历史和属灵传统，因为厦门是近代中国最早的通商口岸，宣教士最早在这里扎根；但对笔者的生命来说，我对耶稣的信仰并不是在这里开始，也不是在这里成长成熟，而是在遥远的北方。<br>笔者从小在闽南的山区里长大，跟吕牧师所在的南安县隔壁；闽南语是我的母语，闽南就是我的根。我一直渴望能更多的了解我故乡主的教会和她的故事；除了寻根之外，还有一个隐情是让我在闽南的家人，特别是还没有信主的父亲知道，神在和他一样的闽南人中间也兴起了一群很优秀的人。<br>虽然也接触到一些闽南的牧者和弟兄姊妹，但我了解还是不多。可以说，这次对吕振中牧师及其家族四代人的了解，是我第一次真实的近距离接触神在闽南人中间所做奇妙的工作。当我了解到吕牧师晚年的时候，去闽南的教会，弹奏闽南的赞美诗，心中充满了喜乐，闽南文化的根因着她优秀儿女的见证深深扎在神的国度里。<br>我知道，这些话有很强的乡土情结，但相信弟兄姊妹都能理解。当我们信了耶稣之后，我们与我们的文化并不是切断了关系，而是更深了，因为我们的根在神永恒的国度里被更新了。</p>
 <hr>
-<p>本文经同工修改编辑，发布在：<img src="/images/jinrijiayin.jpeg" width="45" height="45"> 2017-7-28 <a href="https://mp.weixin.qq.com/s/BSzAohuh5VlBmaju07ShTA" target="_blank" rel="external">鼓浪屿的骄傲：吕振中和他的中文圣经</a></p>
+<p>本文经同工修改编辑，发布在：<img src="/images/jinrijiayin.jpeg" width="45" height="45"> 2017-7-28 <a href="https://mp.weixin.qq.com/s/BSzAohuh5VlBmaju07ShTA" rel="external nofollow noopener noreferrer" target="_blank">鼓浪屿的骄傲：吕振中和他的中文圣经</a></p>
 ]]></content>
       
         <categories>
@@ -327,7 +328,7 @@
 </blockquote>
 <p>后记：<br>写下这些，并不是说我觉得他是基督徒。我所知道很有限，我的眼界甚至也很狭窄，最根本的我承认我无权判断。但我相信，判断我们的是耶稣，也只有公义的主有全然公义的判断。从一个基督徒的角度，当我了解他的故事，我佩服他活出来的“道成肉身”的榜样，并且以他为我的激励。我想基督徒活在这个世界，这个世界其中所充满的都是属乎神，圣经说：”各样美善的恩赐和各样全备的赏赐都是从上头来的，从众光之父那里降下来的”（雅各书1：17）。我相信，在许多非基督徒的身上，我们也有很多可以学习的。</p>
 <hr>
-<p>本文经同工修改编辑，发布在：<img src="/images/jinrijiayin.jpeg" width="45" height="45"> <a href="http://mp.weixin.qq.com/s/mOclwueX4UeWSSn7qrxFZQ" target="_blank" rel="external">他，住在我们中间</a></p>
+<p>本文经同工修改编辑，发布在：<img src="/images/jinrijiayin.jpeg" width="45" height="45"> <a href="http://mp.weixin.qq.com/s/mOclwueX4UeWSSn7qrxFZQ" rel="external nofollow noopener noreferrer" target="_blank">他，住在我们中间</a></p>
 ]]></content>
       
         <categories>
@@ -398,7 +399,7 @@
 <h3 id="教会的角色：客旅的先知、寄居的祭司"><a href="#教会的角色：客旅的先知、寄居的祭司" class="headerlink" title="教会的角色：客旅的先知、寄居的祭司"></a>教会的角色：客旅的先知、寄居的祭司</h3><p>那么，教会的角色是什么呢？现代的美国在本质上是一个世俗社会，是一个政教分离的国家；她过去不是，现在不是，将来也不会成为一个基督教国家，或者所谓一个神权制度的国家。这意味着，美国，作为一个国家，过去不是，现在不是，将来也不是属神国度的彰显；基督的教会才是。这也意味着，在美国的基督徒所要寻求的和盼望的，不是美国的荣耀，而是天国的荣耀；而在美国的基督徒所要努力的，不是教会能重返社会话语权的黄金时代，而是教会重拾客旅、寄居的属灵传统，敢于对社会的恶发出先知的呼喊和祭司的代求。</p>
 <h3 id="谦卑在神的面前"><a href="#谦卑在神的面前" class="headerlink" title="谦卑在神的面前"></a>谦卑在神的面前</h3><p>因此，只有当教会/基督徒再次回到神的面前，看清楚神在基督耶稣里面所赐给我们的尊贵身份和神圣使命的时候，才能真正有效的参与到社会、政治的活动中。<br>从这个意义上来说，川普的筑墙计划，终究不会保护美国。因为真正的危险不是外在的，而是内在的；不是眼所能见；而是眼所不能见的。当美国不想保护自己的时候，才是最安全的时候。当美国不喊强大的时候，她是最强大的时候。生命季刊发文说，基督徒要祷告，把川普的make America great again 变成 make America humble before God again. 我想这是属灵的洞察！像看戏一样，看美国的竞选过程和结果，感觉美国真的离神的国越来越远了。但要因此跪下来祷告，不要因此站起来对她下审判，因为神是可畏又有怜悯的神！当我们要别人谦卑的时候，首先我们自己要谦卑下来。我们作为中国人什么可夸的！<br>我跟我的美国牧师见面，他分享很多他对竞选结果的失望。但在最后祷告的时候，他感谢神说：感谢神让我们生在美国作为这个国家的子民，让我们机会可以投票；也让我们的社会在投票结果出来之后，依然是和平的。反观整个世界的局势，就这两点来说，美国这个国家还是特别蒙神怜悯眷顾的。我们实在没有什么可夸的！<br>无论美国人，中国人，白人，黑人，愿我们所有人都更懂得谦卑在至高的神面前！</p>
 <hr>
-<p>本文经同工修改编辑，发布在：<img src="/images/jinrijiayin.jpeg" width="45" height="45"> <a href="https://mp.weixin.qq.com/s/_jZY6KwpCZrZMHWlMeUvLQ" target="_blank" rel="external">总统是靠不住的！——也谈基督徒如何参与社会</a></p>
+<p>本文经同工修改编辑，发布在：<img src="/images/jinrijiayin.jpeg" width="45" height="45"> <a href="https://mp.weixin.qq.com/s/_jZY6KwpCZrZMHWlMeUvLQ" rel="external nofollow noopener noreferrer" target="_blank">总统是靠不住的！——也谈基督徒如何参与社会</a></p>
 ]]></content>
       
         <categories>

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://igencong.com/"/>
-  <updated>2017-08-05T13:30:32.000Z</updated>
+  <updated>2017-08-05T20:00:28.000Z</updated>
   <id>http://igencong.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://igencong.com/2017-08-04/%E7%BB%A7%E7%BB%ADblog%EF%BC%8C%E7%BB%A7%E7%BB%AD%E6%88%90%E9%95%BF/"/>
     <id>http://igencong.com/2017-08-04/继续blog，继续成长/</id>
     <published>2017-08-04T04:00:00.000Z</published>
-    <updated>2017-08-05T13:30:32.000Z</updated>
+    <updated>2017-08-05T20:00:28.000Z</updated>
     
     <summary type="html">
     
@@ -31,7 +31,7 @@
 &lt;p&gt;后来用wordpress，iyublog到后来自己用wordpress搭建igencong.com&lt;/p&gt;
 &lt;p&gt;后来因为牧会的忙碌，出国读神学的压力，沉寂了一段时间。今年开始自己开始写原创评论，让我一直有想法做个blog把自己写的东西再整理一下。&lt;/p&gt;
 &lt;p&gt;这几天对技术突然又开始感兴趣了，先是整了vim和git，后来研究了leanote，还买了旗舰版，信誓旦旦的想大干一场，整出个平台。但leanote有个问题让我很不爽，不能导入md文件，我现在的文档都用markdown写，在nvALT或者Archive中可以很便捷的搜索，使用pandoc我可以变成任何一个格式的文档。leanote的一键发布blog很酷，但我发现它的blog系统没有rss导出，而且定制化也不强。我还是不太满意，刚才我申请退款了。（已经收到退款了）&lt;/p&gt;
-&lt;h3 id=&quot;误打误撞&quot;&gt;&lt;a href=&quot;#误打误撞&quot; class=&quot;headerlink&quot; title=&quot;误打误撞&quot;&gt;&lt;/a&gt;误打误撞&lt;/h3&gt;&lt;p&gt;今天用leanote编辑新媒体教会的书稿，看到TOC的功能，才知道这是Table of Contents的缩写，查了一下，查到了&lt;a href=&quot;http://mazhuang.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;码志&lt;/a&gt;的插件，然后查到了Jekyll，搜索找到了&lt;a href=&quot;https://www.zhihu.com/question/20659873&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;知乎&lt;/a&gt;上的谈论的博客系统，了解了以前耳闻的hexo，知道hexo和JekyII的不同。&lt;a href=&quot;http://www.cnblogs.com/mo-wang/p/5119967.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;将博客从jekyll迁移到了hexo&lt;/a&gt;这篇文章详细评论了几个静态页面的博客系统，最后决定使用hexo搭建自己的博客平台，原因如下：&lt;br&gt;
+&lt;h3 id=&quot;误打误撞&quot;&gt;&lt;a href=&quot;#误打误撞&quot; class=&quot;headerlink&quot; title=&quot;误打误撞&quot;&gt;&lt;/a&gt;误打误撞&lt;/h3&gt;&lt;p&gt;今天用leanote编辑新媒体教会的书稿，看到TOC的功能，才知道这是Table of Contents的缩写，查了一下，查到了&lt;a href=&quot;http://mazhuang.org/&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;码志&lt;/a&gt;的插件，然后查到了Jekyll，搜索找到了&lt;a href=&quot;https://www.zhihu.com/question/20659873&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;知乎&lt;/a&gt;上的谈论的博客系统，了解了以前耳闻的hexo，知道hexo和JekyII的不同。&lt;a href=&quot;http://www.cnblogs.com/mo-wang/p/5119967.html&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;将博客从jekyll迁移到了hexo&lt;/a&gt;这篇文章详细评论了几个静态页面的博客系统，最后决定使用hexo搭建自己的博客平台，原因如下：&lt;br&gt;
     
     </summary>
     
@@ -84,7 +84,7 @@
 &lt;li&gt;为有写作的欲望（不是写作的恩赐），但又很难Handle个人公号的人提供平台，类似简书。他们的文章可以被主内的机构公号收录，或者他们可以主动向他们投稿。&lt;/li&gt;
 &lt;li&gt;保险起见，在主页上不公开。首页只有一个登录入口. 登录后，可以看到别人的帐号，可以选择关注。&lt;/li&gt;
 &lt;li&gt;整合wordpress和markdown，前者提供rss订阅，而且是blog领域最优秀的代表，有N多的插件可以配合；后者是让作者可以专注写作，而不是呈现。&lt;/li&gt;
-&lt;li&gt;有相应的桌面端工具可以让他们去使用，方便他们使用。&lt;br&gt;–摘自：&lt;a href=&quot;http://leanote.com/s/597f3f34ab644168d300272a&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;给写作者的工具&lt;/a&gt;一文&lt;/li&gt;
+&lt;li&gt;有相应的桌面端工具可以让他们去使用，方便他们使用。&lt;br&gt;–摘自：&lt;a href=&quot;http://leanote.com/s/597f3f34ab644168d300272a&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;给写作者的工具&lt;/a&gt;一文&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/blockquote&gt;
 &lt;h3 id=&quot;Leanote是最好的选择&quot;&gt;&lt;a href=&quot;#Leanote是最好的选择&quot; class=&quot;headerlink&quot; title=&quot;Leanote是最好的选择&quot;&gt;&lt;/a&gt;Leanote是最好的选择&lt;/h3&gt;&lt;p&gt;我觉得leanote是目前最好的选择，原因如下：&lt;br&gt;
