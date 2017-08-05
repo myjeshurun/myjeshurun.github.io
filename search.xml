@@ -106,6 +106,7 @@
 <li>CNAME文件丢失，当我使用g -d的时候，因为会自动覆盖github上面的文件。解决办法：从我github站上先fork（在右上角），然后下载到我的硬盘上，把CNAME文件拷贝到public目录即可。<br>这一次我学习了github的fork功能，就是把别人的程序随时拷贝走！哇哦，真实了不起。</li>
 <li>使用 <!--more-->
 进行“阅读全文”的演示。</li>
+<li>修改config.yml文件的时候，要看清楚是站点的，还是主题的。两者的文件名一样。</li>
 </ol>
 <hr>
 <h3 id="不能忘记的事：备份！"><a href="#不能忘记的事：备份！" class="headerlink" title="不能忘记的事：备份！"></a>不能忘记的事：<strong>备份</strong>！</h3><p>最后一件重要的事，就是备份了。<br>把本地的hexo文件夹备份，我可以使用mac的定期备份；但似乎不太好用。因为github的私有云收费，<a href="http://qiuqingyu.cn/2017/03/16/Hexo%E5%8D%9A%E5%AE%A2%E8%87%AA%E5%8A%A8%E5%A4%87%E4%BB%BD%E5%88%B0Coding/" rel="external nofollow noopener noreferrer" target="_blank">备份到coding上</a><br>~ 吴林er写的这个，用到hexo-backup这个插件，看起来不错。~ 该插件不能用了。折腾了我好久。<br>我不想要每次都备份，只是想看状态不错的时候，<br>以后就用这些代码：</p>
