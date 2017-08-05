@@ -99,11 +99,89 @@
   </entry>
   
   <entry>
+    <title>我是工具控，我到底要做什么？.md</title>
+    <link href="http://myjeshurun.github.io/2017/07/31/%E6%88%91%E6%98%AF%E5%B7%A5%E5%85%B7%E6%8E%A7%EF%BC%8C%E6%88%91%E5%88%B0%E5%BA%95%E8%A6%81%E5%81%9A%E4%BB%80%E4%B9%88%EF%BC%9F/"/>
+    <id>http://myjeshurun.github.io/2017/07/31/我是工具控，我到底要做什么？/</id>
+    <published>2017-07-31T04:00:00.000Z</published>
+    <updated>2017-08-05T03:32:36.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这些花了我好多时间，我是工具控，我到底要做什么？&lt;/p&gt;
+&lt;h3 id=&quot;开放的leanote&quot;&gt;&lt;a href=&quot;#开放的leanote&quot; class=&quot;headerlink&quot; title=&quot;开放的leanote&quot;&gt;&lt;/a&gt;开放的leanote&lt;/h3&gt;&lt;p&gt;今天我看到leanote，感觉它可以成为我一直想做的东西，为写作者提供一个简单的工具平台。因为：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;它可以一键发布到博客，这很酷。只是它没有rss导出功能让我很纠结。&lt;/li&gt;
+&lt;li&gt;可以跟别人分享，这可以用在投稿上。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;如何与其它工具整合。&quot;&gt;&lt;a href=&quot;#如何与其它工具整合。&quot; class=&quot;headerlink&quot; title=&quot;如何与其它工具整合。&quot;&gt;&lt;/a&gt;如何与其它工具整合。&lt;/h3&gt;&lt;p&gt;另外，我又在考虑如何与nvALT, The Archive, DayOne, Vim这些东西整合在一起。我现在习惯了把东西变成txt，把所有的东西放在一个地方，好方便搜索什么。现在如果再用leanote，我希望能把文章转成txt存档。看起来这个当做markdown编辑器挺不错的。&lt;/p&gt;
+&lt;h3 id=&quot;我的写作流程&quot;&gt;&lt;a href=&quot;#我的写作流程&quot; class=&quot;headerlink&quot; title=&quot;我的写作流程&quot;&gt;&lt;/a&gt;我的写作流程&lt;/h3&gt;&lt;p&gt;我想了想，决定这么来写作：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;用markdown写一切的东西，使用byword、nvALT、The Archive或者vim、DayOne写东西，存成md格式的文档。&lt;/li&gt;
+&lt;li&gt;如果有想发布的个人笔记什么，或者已经发布在的，就转到leanote来与别人分享。
+    
+    </summary>
+    
+      <category term="工具控" scheme="http://myjeshurun.github.io/categories/%E5%B7%A5%E5%85%B7%E6%8E%A7/"/>
+    
+    
+      <category term="leanote" scheme="http://myjeshurun.github.io/tags/leanote/"/>
+    
+      <category term="工具" scheme="http://myjeshurun.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+      <category term="博客" scheme="http://myjeshurun.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+      <category term="协作" scheme="http://myjeshurun.github.io/tags/%E5%8D%8F%E4%BD%9C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>鼓浪屿的骄傲：吕振中和他翻译的中文圣经</title>
+    <link href="http://myjeshurun.github.io/2017/07/22/%E9%BC%93%E6%B5%AA%E5%B1%BF%E7%9A%84%E9%AA%84%E5%82%B2%EF%BC%9A%E5%90%95%E6%8C%AF%E4%B8%AD%E5%92%8C%E4%BB%96%E7%9A%84%E4%B8%AD%E6%96%87%E5%9C%A3%E7%BB%8F/"/>
+    <id>http://myjeshurun.github.io/2017/07/22/鼓浪屿的骄傲：吕振中和他的中文圣经/</id>
+    <published>2017-07-22T11:12:07.000Z</published>
+    <updated>2017-08-05T03:41:26.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今年7月8日，鼓浪屿申遗成功，成为中国第52个世界文化遗产。&lt;/p&gt;
+&lt;p&gt;申遗成功，让世人有机会领略鼓浪屿这个小岛的美丽：首先是她得天独厚的美丽景观，然后是她闻名遐迩的优雅琴声，再者就是她的历史底蕴：那一片土地的人和事。我想这就是鼓浪屿令人着迷的关键所在：美景、琴声、故事
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>他，住在我们中间</title>
+    <link href="http://myjeshurun.github.io/2017/07/15/%E4%BB%96%EF%BC%8C%E4%BD%8F%E5%9C%A8%E6%88%91%E4%BB%AC%E4%B8%AD%E9%97%B4/"/>
+    <id>http://myjeshurun.github.io/2017/07/15/他，住在我们中间/</id>
+    <published>2017-07-15T04:00:00.000Z</published>
+    <updated>2017-08-05T03:18:49.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;道成了肉身，住在我们中间，充充满满的有恩典有真理。&lt;/p&gt;
+&lt;p&gt;读着这富有诗意的句子，我们的脑海中可能会产生一个很浪漫的画面：一片美丽沙漠绿洲，夕阳正尽情的挥洒它最后的灿烂；耶稣来到这个宁静的村庄，支起帐篷，周围的人慕名而来，祂开始为他们讲述天国的真理，祂的眼神里充满了怜
+    
+    </summary>
+    
+      <category term="微信文章" scheme="http://myjeshurun.github.io/categories/%E5%BE%AE%E4%BF%A1%E6%96%87%E7%AB%A0/"/>
+    
+    
+      <category term="道成肉身" scheme="http://myjeshurun.github.io/tags/%E9%81%93%E6%88%90%E8%82%89%E8%BA%AB/"/>
+    
+      <category term="同在" scheme="http://myjeshurun.github.io/tags/%E5%90%8C%E5%9C%A8/"/>
+    
+      <category term="公义" scheme="http://myjeshurun.github.io/tags/%E5%85%AC%E4%B9%89/"/>
+    
+  </entry>
+  
+  <entry>
     <title>总统是靠不住的！</title>
     <link href="http://myjeshurun.github.io/2016/11/16/president_not_faithful/"/>
     <id>http://myjeshurun.github.io/2016/11/16/president_not_faithful/</id>
     <published>2016-11-16T05:00:00.000Z</published>
-    <updated>2017-08-04T16:56:01.000Z</updated>
+    <updated>2017-08-05T03:19:05.000Z</updated>
     
     <summary type="html">
     
