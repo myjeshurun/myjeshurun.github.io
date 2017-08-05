@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://igencong.com/"/>
-  <updated>2017-08-05T07:54:56.000Z</updated>
+  <updated>2017-08-05T13:30:32.000Z</updated>
   <id>http://igencong.com/</id>
   
   <author>
@@ -20,14 +20,14 @@
     <link href="http://igencong.com/2017-08-04/%E7%BB%A7%E7%BB%ADblog%EF%BC%8C%E7%BB%A7%E7%BB%AD%E6%88%90%E9%95%BF/"/>
     <id>http://igencong.com/2017-08-04/继续blog，继续成长/</id>
     <published>2017-08-04T04:00:00.000Z</published>
-    <updated>2017-08-05T07:54:56.000Z</updated>
+    <updated>2017-08-05T13:30:32.000Z</updated>
     
     <summary type="html">
     
       &lt;blockquote&gt;
 &lt;p&gt;这篇记录自己学习hexo这个新东西的过程，很零碎。&lt;/p&gt;
-&lt;h3 id=&quot;决定用hexo和gitpages再搭建自己的博客网站&quot;&gt;&lt;a href=&quot;#决定用hexo和gitpages再搭建自己的博客网站&quot; class=&quot;headerlink&quot; title=&quot;决定用hexo和gitpages再搭建自己的博客网站&quot;&gt;&lt;/a&gt;决定用hexo和gitpages再搭建自己的博客网站&lt;/h3&gt;&lt;/blockquote&gt;
-&lt;p&gt;很喜欢blog，有很长时间的历史了。估计在2002年开始比较多上网的时候，就了解到blog，就有了blogger，后来折腾过blogcn，blogbus，ccblogs等&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;决定用hexo和gitpages再搭建自己的博客网站&quot;&gt;&lt;a href=&quot;#决定用hexo和gitpages再搭建自己的博客网站&quot; class=&quot;headerlink&quot; title=&quot;决定用hexo和gitpages再搭建自己的博客网站&quot;&gt;&lt;/a&gt;决定用hexo和gitpages再搭建自己的博客网站&lt;/h3&gt;&lt;p&gt;很喜欢blog，有很长时间的历史了。估计在2002年开始比较多上网的时候，就了解到blog，就有了blogger，后来折腾过blogcn，blogbus，ccblogs等&lt;/p&gt;
 &lt;p&gt;后来用wordpress，iyublog到后来自己用wordpress搭建igencong.com&lt;/p&gt;
 &lt;p&gt;后来因为牧会的忙碌，出国读神学的压力，沉寂了一段时间。今年开始自己开始写原创评论，让我一直有想法做个blog把自己写的东西再整理一下。&lt;/p&gt;
 &lt;p&gt;这几天对技术突然又开始感兴趣了，先是整了vim和git，后来研究了leanote，还买了旗舰版，信誓旦旦的想大干一场，整出个平台。但leanote有个问题让我很不爽，不能导入md文件，我现在的文档都用markdown写，在nvALT或者Archive中可以很便捷的搜索，使用pandoc我可以变成任何一个格式的文档。leanote的一键发布blog很酷，但我发现它的blog系统没有rss导出，而且定制化也不强。我还是不太满意，刚才我申请退款了。（已经收到退款了）&lt;/p&gt;
