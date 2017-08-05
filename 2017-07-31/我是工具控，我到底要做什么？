@@ -78,7 +78,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, Jesus, 耶稣, 福音, 信仰" />
+  <meta name="keywords" content="leanote,工具,博客,协作," />
 
 
 
@@ -96,16 +96,18 @@
 
 
 
-<meta name="description" content="信仰，一种有热度的生活方式！">
-<meta property="og:type" content="website">
-<meta property="og:title" content="耶书仑的生命志">
-<meta property="og:url" content="http://igencong.com/categories/微信文章/index.html">
+<meta name="description" content="这些花了我好多时间，我是工具控，我到底要做什么？ 开放的leanote今天我看到leanote，感觉它可以成为我一直想做的东西，为写作者提供一个简单的工具平台。因为：  它可以一键发布到博客，这很酷。只是它没有rss导出功能让我很纠结。 可以跟别人分享，这可以用在投稿上。  如何与其它工具整合。另外，我又在考虑如何与nvALT, The Archive, DayOne, Vim这些东西整合在一起。">
+<meta name="keywords" content="leanote,工具,博客,协作">
+<meta property="og:type" content="article">
+<meta property="og:title" content="我是工具控，我到底要做什么？.md">
+<meta property="og:url" content="http://igencong.com/2017-07-31/我是工具控，我到底要做什么？">
 <meta property="og:site_name" content="耶书仑的生命志">
-<meta property="og:description" content="信仰，一种有热度的生活方式！">
+<meta property="og:description" content="这些花了我好多时间，我是工具控，我到底要做什么？ 开放的leanote今天我看到leanote，感觉它可以成为我一直想做的东西，为写作者提供一个简单的工具平台。因为：  它可以一键发布到博客，这很酷。只是它没有rss导出功能让我很纠结。 可以跟别人分享，这可以用在投稿上。  如何与其它工具整合。另外，我又在考虑如何与nvALT, The Archive, DayOne, Vim这些东西整合在一起。">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2017-08-05T03:32:36.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="耶书仑的生命志">
-<meta name="twitter:description" content="信仰，一种有热度的生活方式！">
+<meta name="twitter:title" content="我是工具控，我到底要做什么？.md">
+<meta name="twitter:description" content="这些花了我好多时间，我是工具控，我到底要做什么？ 开放的leanote今天我看到leanote，感觉它可以成为我一直想做的东西，为写作者提供一个简单的工具平台。因为：  它可以一键发布到博客，这很酷。只是它没有rss导出功能让我很纠结。 可以跟别人分享，这可以用在投稿上。  如何与其它工具整合。另外，我又在考虑如何与nvALT, The Archive, DayOne, Vim这些东西整合在一起。">
 
 
 
@@ -134,13 +136,13 @@
 
 
 
-  <link rel="canonical" href="http://igencong.com/categories/微信文章/"/>
+  <link rel="canonical" href="http://igencong.com/2017-07-31/我是工具控，我到底要做什么？"/>
 
 
 
 
 
-  <title>分类: 微信文章 | 耶书仑的生命志</title>
+  <title>我是工具控，我到底要做什么？.md | 耶书仑的生命志</title>
   
 
 
@@ -165,7 +167,7 @@
     
   
 
-  <div class="container sidebar-position-left  ">
+  <div class="container sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -303,139 +305,235 @@
           <div id="content" class="content">
             
 
+  <div id="posts" class="posts-expand">
+    
+
+  
+
   
   
   
-  <div class="post-block category">
-
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>微信文章<small>分类</small>
-        </h1>
-      </div>
-
-      
-        
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://igencong.com/2017-07-31/我是工具控，我到底要做什么？">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="耶书仑Jeshurun">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="耶书仑的生命志">
+    </span>
+
+    
+      <header class="post-header">
+
         
-            <a class="post-title-link" href="/2017-08-03/噩耗袭来，亲人朋友当怎么陪伴？" itemprop="url">
-              
-                <span itemprop="name">灾难来临，亲人朋友第一时间当如何陪伴</span>
-              
-            </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">我是工具控，我到底要做什么？.md</h1>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-08-03T13:16:56-04:00"
-              content="2017-08-03" >
-          08-03
-        </time>
-      </div>
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-07-31T00:00:00-04:00">
+                2017-07-31
+              </time>
+            
 
-    </header>
-  </article>
+            
 
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/工具控/" itemprop="url" rel="index">
+                    <span itemprop="name">工具控</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2017-07-22/鼓浪屿的骄傲：吕振中和他的中文圣经" itemprop="url">
-              
-                <span itemprop="name">鼓浪屿的骄傲：吕振中和他翻译的中文圣经</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-07-22T07:12:07-04:00"
-              content="2017-07-22" >
-          07-22
-        </time>
-      </div>
-
-    </header>
-  </article>
-
+      
 
       
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2017-07-15/他，住在我们中间" itemprop="url">
-              
-                <span itemprop="name">他，住在我们中间</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-07-15T00:00:00-04:00"
-              content="2017-07-15" >
-          07-15
-        </time>
-      </div>
-
-    </header>
-  </article>
-
+        <p>这些花了我好多时间，我是工具控，我到底要做什么？</p>
+<h3 id="开放的leanote"><a href="#开放的leanote" class="headerlink" title="开放的leanote"></a>开放的leanote</h3><p>今天我看到leanote，感觉它可以成为我一直想做的东西，为写作者提供一个简单的工具平台。因为：</p>
+<ol>
+<li>它可以一键发布到博客，这很酷。只是它没有rss导出功能让我很纠结。</li>
+<li>可以跟别人分享，这可以用在投稿上。</li>
+</ol>
+<h3 id="如何与其它工具整合。"><a href="#如何与其它工具整合。" class="headerlink" title="如何与其它工具整合。"></a>如何与其它工具整合。</h3><p>另外，我又在考虑如何与nvALT, The Archive, DayOne, Vim这些东西整合在一起。我现在习惯了把东西变成txt，把所有的东西放在一个地方，好方便搜索什么。现在如果再用leanote，我希望能把文章转成txt存档。看起来这个当做markdown编辑器挺不错的。</p>
+<h3 id="我的写作流程"><a href="#我的写作流程" class="headerlink" title="我的写作流程"></a>我的写作流程</h3><p>我想了想，决定这么来写作：</p>
+<ol>
+<li>用markdown写一切的东西，使用byword、nvALT、The Archive或者vim、DayOne写东西，存成md格式的文档。</li>
+<li>如果有想发布的个人笔记什么，或者已经发布在的，就转到leanote来与别人分享。<a id="more"></a>
+这样，就把leanote变成一个以博客为模型的分享平台和个人知识管理平台。我不想再去折腾博客了。已经跟他们发了邮件提了建议，希望以后能增加rss支持。</li>
+</ol>
+<h3 id="几个应用的不同"><a href="#几个应用的不同" class="headerlink" title="几个应用的不同"></a>几个应用的不同</h3><p>byword是标准的写作工具<br>The Archive目前做研究型写作工具<br>nvALT随时做一些记录，随想什么的<br>DayOne写些心灵感想，什么的。它的日记呈现特别好。DayOne的日记定期导出，存入nvALT。</p>
+<hr>
+<p>8/4/17这几天折腾hexo静态博客之后，决定主要精力放在hexo博客，而leanote以后再考虑。<br>写作工具则会从byword转向mweb这个更强大的markdown编辑软件。这里有个很好介绍：</p>
+<ul>
+<li><a href="https://sspai.com/post/30489" target="_blank" rel="external">集大成的markdown应用</a></li>
+<li>整合<a href="http://hongchenxi.me/2016/07/18/mweb-hexo/" target="_blank" rel="external">mweb，hexo和七牛</a>，正是我要走的方向</li>
+</ul>
 
       
+    </div>
+    
+    
+    
+
+
+    <div>
+      
         
+<div class="my_post_copyright">
+  <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  <!-- JS库 sweetalert 可修改路径 -->
+  <script type="text/javascript" src="http://jslibs.wuxubj.cn/sweetalert_mini/jquery-1.7.1.min.js"></script>
+  <script src="http://jslibs.wuxubj.cn/sweetalert_mini/sweetalert.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="http://jslibs.wuxubj.cn/sweetalert_mini/sweetalert.mini.css">
+  <p><span>文章作者:</span><a href="/" title="访问 耶书仑Jeshurun 的个人博客">耶书仑Jeshurun</a></p>
+<p><span>原始链接:</span><a href="/2017-07-31/我是工具控，我到底要做什么？" title="我是工具控，我到底要做什么？.md">http://igencong.com/2017-07-31/我是工具控，我到底要做什么？</a>
+    <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="http://igencong.com/2017-07-31/我是工具控，我到底要做什么？"  aria-label="复制成功！"></i></span>
+  </p>
 
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2016-11-16/president_not_faithful" itemprop="url">
-              
-                <span itemprop="name">总统是靠不住的！</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-11-16T00:00:00-05:00"
-              content="2016-11-16" >
-          11-16
-        </time>
-      </div>
-
-    </header>
-  </article>
+<p><span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">署名-非商业性使用-禁止演绎 4.0 国际</a> 转载请保留原文链接及作者。</p>
+</div>
+<script>
+    var clipboard = new Clipboard('.fa-clipboard');
+    clipboard.on('success', $(function(){
+      $(".fa-clipboard").click(function(){
+        swal({
+          title: "",
+          text: '复制成功',
+          html: false,
+          timer: 500,
+          showConfirmButton: false
+        });
+      });
+    }));
+</script>
 
 
       
     </div>
 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/leanote/" rel="tag"># leanote</a>
+          
+            <a href="/tags/工具/" rel="tag"># 工具</a>
+          
+            <a href="/tags/博客/" rel="tag"># 博客</a>
+          
+            <a href="/tags/协作/" rel="tag"># 协作</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017-07-22/鼓浪屿的骄傲：吕振中和他的中文圣经" rel="next" title="鼓浪屿的骄傲：吕振中和他翻译的中文圣经">
+                <i class="fa fa-chevron-left"></i> 鼓浪屿的骄傲：吕振中和他翻译的中文圣经
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017-08-01/向写作者推荐leanote蚂蚁笔记" rel="prev" title="向写作者推荐leanote蚂蚁笔记">
+                向写作者推荐leanote蚂蚁笔记 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -443,6 +541,12 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div id="lv-container" data-id="city" data-uid="MTAyMC8yOTk4OC82NTUz"></div>
+    
+  </div>
+
 
 
 
@@ -465,8 +569,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.gif"
@@ -535,6 +648,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#开放的leanote"><span class="nav-number">1.</span> <span class="nav-text">开放的leanote</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#如何与其它工具整合。"><span class="nav-number">2.</span> <span class="nav-text">如何与其它工具整合。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#我的写作流程"><span class="nav-number">3.</span> <span class="nav-text">我的写作流程</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#几个应用的不同"><span class="nav-number">4.</span> <span class="nav-text">几个应用的不同</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -648,10 +777,10 @@
   
 
   
-    <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
 <script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
 
-  
+
 
   
 
@@ -680,6 +809,17 @@
 
 
 
+  
+    <script type="text/javascript">
+      (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+      })(document, 'script');
+    </script>
   
 
 

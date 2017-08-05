@@ -4,9 +4,9 @@
   <subtitle>信仰 生命 生活</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://myjeshurun.github.io/"/>
+  <link href="http://igencong.com/"/>
   <updated>2017-08-04T16:57:00.000Z</updated>
-  <id>http://myjeshurun.github.io/</id>
+  <id>http://igencong.com/</id>
   
   <author>
     <name>耶书仑Jeshurun</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>当神拥有我们，我们就是完全的</title>
-    <link href="http://myjeshurun.github.io/2017/08/03/2017-08-03/"/>
-    <id>http://myjeshurun.github.io/2017/08/03/2017-08-03/</id>
+    <link href="http://igencong.com/2017-08-03/2017-08-03"/>
+    <id>http://igencong.com/2017-08-03/2017-08-03</id>
     <published>2017-08-03T17:16:56.000Z</published>
     <updated>2017-08-04T16:57:00.000Z</updated>
     
@@ -29,19 +29,19 @@
     
     </summary>
     
-      <category term="灵修笔记" scheme="http://myjeshurun.github.io/categories/%E7%81%B5%E4%BF%AE%E7%AC%94%E8%AE%B0/"/>
+      <category term="灵修笔记" scheme="http://igencong.com/categories/%E7%81%B5%E4%BF%AE%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="灵修" scheme="http://myjeshurun.github.io/tags/%E7%81%B5%E4%BF%AE/"/>
+      <category term="灵修" scheme="http://igencong.com/tags/%E7%81%B5%E4%BF%AE/"/>
     
-      <category term="梅顿" scheme="http://myjeshurun.github.io/tags/%E6%A2%85%E9%A1%BF/"/>
+      <category term="梅顿" scheme="http://igencong.com/tags/%E6%A2%85%E9%A1%BF/"/>
     
   </entry>
   
   <entry>
     <title>灾难来临，亲人朋友第一时间当如何陪伴</title>
-    <link href="http://myjeshurun.github.io/2017/08/03/%E5%99%A9%E8%80%97%E8%A2%AD%E6%9D%A5%EF%BC%8C%E4%BA%B2%E4%BA%BA%E6%9C%8B%E5%8F%8B%E5%BD%93%E6%80%8E%E4%B9%88%E9%99%AA%E4%BC%B4%EF%BC%9F/"/>
-    <id>http://myjeshurun.github.io/2017/08/03/噩耗袭来，亲人朋友当怎么陪伴？/</id>
+    <link href="http://igencong.com/2017-08-03/%E5%99%A9%E8%80%97%E8%A2%AD%E6%9D%A5%EF%BC%8C%E4%BA%B2%E4%BA%BA%E6%9C%8B%E5%8F%8B%E5%BD%93%E6%80%8E%E4%B9%88%E9%99%AA%E4%BC%B4%EF%BC%9F"/>
+    <id>http://igencong.com/2017-08-03/噩耗袭来，亲人朋友当怎么陪伴？</id>
     <published>2017-08-03T17:16:56.000Z</published>
     <updated>2017-08-04T16:54:04.000Z</updated>
     
@@ -54,19 +54,139 @@
     
     </summary>
     
-      <category term="微信文章" scheme="http://myjeshurun.github.io/categories/%E5%BE%AE%E4%BF%A1%E6%96%87%E7%AB%A0/"/>
+      <category term="微信文章" scheme="http://igencong.com/categories/%E5%BE%AE%E4%BF%A1%E6%96%87%E7%AB%A0/"/>
     
     
-      <category term="灾难" scheme="http://myjeshurun.github.io/tags/%E7%81%BE%E9%9A%BE/"/>
+      <category term="灾难" scheme="http://igencong.com/tags/%E7%81%BE%E9%9A%BE/"/>
     
-      <category term="陪伴" scheme="http://myjeshurun.github.io/tags/%E9%99%AA%E4%BC%B4/"/>
+      <category term="陪伴" scheme="http://igencong.com/tags/%E9%99%AA%E4%BC%B4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>继续blog，继续成长</title>
+    <link href="http://igencong.com/2017-08-03/%E8%BF%98%E6%98%AF%E5%86%B3%E5%AE%9A%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99"/>
+    <id>http://igencong.com/2017-08-03/还是决定搭建一个自己的博客网站</id>
+    <published>2017-08-03T06:51:44.000Z</published>
+    <updated>2017-08-05T07:42:05.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;这篇记录自己学习hexo这个新东西的过程，很零碎。&lt;/p&gt;
+&lt;h3 id=&quot;决定用hexo和gitpages再搭建自己的博客网站&quot;&gt;&lt;a href=&quot;#决定用hexo和gitpages再搭建自己的博客网站&quot; class=&quot;headerlink&quot; title=&quot;决定用hexo和gitpages再搭建自己的博客网站&quot;&gt;&lt;/a&gt;决定用hexo和gitpages再搭建自己的博客网站&lt;/h3&gt;&lt;/blockquote&gt;
+&lt;p&gt;很喜欢blog，有很长时间的历史了。估计在2002年开始比较多上网的时候，就了解到blog，就有了blogger，后来折腾过blogcn，blogbus，ccblogs等&lt;/p&gt;
+&lt;p&gt;后来用wordpress，iyublog到后来自己用wordpress搭建igencong.com&lt;/p&gt;
+&lt;p&gt;后来因为牧会的忙碌，出国读神学的压力，沉寂了一段时间。今年开始自己开始写原创评论，让我一直有想法做个blog把自己写的东西再整理一下。&lt;/p&gt;
+&lt;p&gt;这几天对技术突然又开始感兴趣了，先是整了vim和git，后来研究了leanote，还买了旗舰版，信誓旦旦的想大干一场，整出个平台。但leanote有个问题让我很不爽，不能导入md文件，我现在的文档都用markdown写，在nvALT或者Archive中可以很便捷的搜索，使用pandoc我可以变成任何一个格式的文档。leanote的一键发布blog很酷，但我发现它的blog系统没有rss导出，而且定制化也不强。我还是不太满意，刚才我申请退款了。&lt;/p&gt;
+&lt;h3 id=&quot;误打误撞&quot;&gt;&lt;a href=&quot;#误打误撞&quot; class=&quot;headerlink&quot; title=&quot;误打误撞&quot;&gt;&lt;/a&gt;误打误撞&lt;/h3&gt;&lt;p&gt;今天用leanote编辑新媒体教会的书稿，看到TOC的功能，才知道这是Table of Contents的缩写，查了一下，查到了&lt;a href=&quot;http://mazhuang.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;码志&lt;/a&gt;的插件，然后查到了Jekyll，搜索找到了&lt;a href=&quot;https://www.zhihu.com/question/20659873&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;知乎&lt;/a&gt;上的谈论的博客系统，了解了以前耳闻的hexo，知道hexo和JekyII的不同。&lt;a href=&quot;http://www.cnblogs.com/mo-wang/p/5119967.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;将博客从jekyll迁移到了hexo&lt;/a&gt;这篇文章详细评论了几个静态页面的博客系统，最后决定使用hexo搭建自己的博客平台，原因如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;考虑过Farbox，自称是最好的博客系统，能用dropbox发布博客。但比较贵，按我的情况要用标准版65/年。&lt;/li&gt;
+&lt;li&gt;JekyII 据说技术难度比较大&lt;/li&gt;
+&lt;li&gt;hexo是台湾人开发的，中文支持应该没有问题；中文文档很好。&lt;/li&gt;
+&lt;li&gt;貌似hexo可以使用插件跟Google Drive同步，如果这样的话，我就可以建个md，透过hexo发布了。（还得测试）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a href=&quot;http://kuanghy.github.io/2017/03/24/now-everything-is-the-best&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;现在的一切便是最好的&lt;/a&gt;这一篇提到，github pages不能被百度搜索到，这的确是个缺点，不过，需要的话，我可以像他一样自己在国内弄一个。&lt;/p&gt;
+&lt;p&gt;除了以上提到的，以下几个博客对我做这个决定帮助比较大：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://shikieiki.github.io/2017/02/23/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8gitHub%E5%92%8CHexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;如何使用github和Hexo搭建个人博客&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://thief.one/2017/03/03/Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo搭建博客教程&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.freehao123.com/hexo-jianzhan/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo建站从入门到精通-Hexo博客本地环境配置,初始化,写作与部署&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/35e17fa3bbe2&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo(1)-生成本地静态博客-Mac&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://linghucong.js.org/2016/04/15/2016-04-15-hexo-github-pages-blog/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;手把手教你使用Hexo + Github Pages搭建个人独立博客&lt;/a&gt;, 这里面有些高级技巧，很酷。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;每个人安装hexo可能都会碰到这样那样的问题，我一直是装不上，后来就一直想办法卸载node, 貌似用了这个办法管用：&lt;a href=&quot;https://gist.github.com/nicerobot/2697848&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://gist.github.com/nicerobot/2697848&lt;/a&gt;&lt;br&gt;卸载之后，执行sudo npm install -g hexo-cli，说找不到npm&lt;br&gt;然后，nvm install 4, 就换成node 4,才装上了hexo。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;我的结论&lt;/strong&gt;：改变一下node的版本可能就解决问题：使用以下这条命令使用版本6.&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;nvm install 6&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;终于搞定了，后来又碰到各种问题：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;没有config，原来yml的格式很严格：&lt;a href=&quot;https://github.com/hexojs/hexo/issues/1263&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/hexojs/hexo/issues/1263&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;repo不能用ssh，因为我还没有设置；而只能用https：&lt;a href=&quot;https://stackoverflow.com/questions/12940626/github-error-message-permission-denied-publickey&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://stackoverflow.com/questions/12940626/github-error-message-permission-denied-publickey&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;（8/3/17）早上把igencong.com的域名弄过来，设置好了。屡次测试还是不行，后来才知道需要24-48个小时，才能转换过来。&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;8-3折腾手记：&quot;&gt;&lt;a href=&quot;#8-3折腾手记：&quot; class=&quot;headerlink&quot; title=&quot;8/3折腾手记：&quot;&gt;&lt;/a&gt;8/3折腾手记：&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;加上Rss订阅：使用插件&lt;a href=&quot;https://github.com/hexojs/hexo-generator-feed&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo-generator-feed&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;加上了腾讯公益的404页面：&lt;a href=&quot;http://www.cnblogs.com/mo-wang/p/5119967.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;【五】将博客从jekyll迁移到了hexo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;装插件的时候，要用上 –save&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;后来决定重新装一个全新的hexo：&quot;&gt;&lt;a href=&quot;#后来决定重新装一个全新的hexo：&quot; class=&quot;headerlink&quot; title=&quot;后来决定重新装一个全新的hexo：&quot;&gt;&lt;/a&gt;后来决定重新装一个全新的hexo：&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;我已经装了git。&lt;/li&gt;
+&lt;li&gt;装一个node的版本：nvm install 6。&lt;/li&gt;
+&lt;li&gt;sudo npm install -g hexo-cli。搞定。&lt;/li&gt;
+&lt;li&gt;建立docs/hexo&lt;/li&gt;
+&lt;li&gt;terminal, cd docs/hexo。&lt;/li&gt;
+&lt;li&gt;hexo init&lt;/li&gt;
+&lt;li&gt;测试：&lt;blockquote&gt;
+&lt;p&gt;hexo g&lt;br&gt;hexo s&lt;br&gt;&lt;a href=&quot;http://localhost:4000&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://localhost:4000&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;关联： myjeshurun.github.io （特别注意yml的语法）&lt;br&gt;deploy:&lt;br&gt;type: git&lt;br&gt;repository: &lt;a href=&quot;https://github.com/tengzhangchao/tengzhangchao.github.io.git&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/tengzhangchao/tengzhangchao.github.io.git&lt;/a&gt;&lt;br&gt;branch: master&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;修改主题：&lt;a href=&quot;http://theme-next.iissnan.com/getting-started.html#description-setting&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;next&lt;/a&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ cd your-hexo-site       &lt;/div&gt;&lt;div class=&quot;line&quot;&gt;$ git clone https://github.com/iissnan/hexo-theme-next themes/next&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;在站点config.yml，修改theme: next&lt;br&gt;在theme，config，修改各个参数。scheme改成：mist&lt;br&gt;hexo clean&lt;br&gt;hexo s -debug&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;使用插件：(注意使用 –save)&lt;ul&gt;
+&lt;li&gt;npm install hexo-generator-feed –save&lt;/li&gt;
+&lt;li&gt;npm install hexo-generator-sitemap –save&lt;br&gt;然后在config.yml添加：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;8&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;9&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;10&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;11&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;12&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;13&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;14&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;15&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;16&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;17&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;18&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;19&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;# Extensions&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;plugins:&lt;/div&gt;&lt;div class=&quot;line&quot;&gt; hexo-generator-feed&lt;/div&gt;&lt;div class=&quot;line&quot;&gt; hexo-generator-sitemap&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;# 自动生成xml&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;feed:&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  type: atom&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  path: atom.xml&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  limit: 20&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  hub:&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  content:&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;# 自动生成sitemap&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;sitemap:&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;path: sitemap.xml&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;baidusitemap:&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;path: baidusitemap.xml&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;提交sitemap到百度：~我还没有做~。&lt;br&gt;&lt;a href=&quot;https://jingyan.baidu.com/article/c85b7a641109e3003bac95aa.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;如何提交sitemap到百度&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;创建标签云页面。done&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;作者署名和版权声明。done&lt;/li&gt;
+&lt;li&gt;加上本地搜索和swifty搜索。done. 但不能搜索不知道为何？&lt;/li&gt;
+&lt;li&gt;图片问题：基本上解决了。相同的目录下，建立一个文件夹。使用绝对路径，但是不好用。简易的方案是使用七牛云或者cloudary。最后使用七牛云，学习了&lt;a href=&quot;https://www.instapaper.com/read/938856105&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;qshell 同步图片&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;plugin 卸载：npm uninstall &lt;plugin-name&gt;&lt;/plugin-name&gt;&lt;/li&gt;
+&lt;li&gt;评论：使用来比力。done.&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&quot;一些体会&quot;&gt;&lt;a href=&quot;#一些体会&quot; class=&quot;headerlink&quot; title=&quot;一些体会&quot;&gt;&lt;/a&gt;一些体会&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;写博文tips：&lt;br&gt;设置：Front-Matter, 使用快捷键frmt[空格]来输出  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;title:&lt;br&gt;date:&lt;br&gt;update:&lt;br&gt;tags: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;comments:&lt;br&gt;categories: &lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li&gt;yml格式是非常严格的，有以下几点：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;英文冒号之后一定要有空格；&lt;/li&gt;
+&lt;li&gt;有些是要一个TAB，有些是要两个TAB。（貌似这一点还行。）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;不要随便整plugin, 不好弄，很容易出问题。&lt;/li&gt;
+&lt;li&gt;CNAME文件丢失，当我使用g -d的时候，因为会自动覆盖github上面的文件。解决办法：从我github站上先fork（在右上角），然后下载到我的硬盘上，把CNAME文件拷贝到public目录即可。&lt;br&gt;这一次我学习了github的fork功能，就是把别人的程序随时拷贝走！哇哦，真实了不起。&lt;/li&gt;
+&lt;li&gt;使用
+    
+    </summary>
+    
+      <category term="工具控" scheme="http://igencong.com/categories/%E5%B7%A5%E5%85%B7%E6%8E%A7/"/>
+    
+    
+      <category term="博客" scheme="http://igencong.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+      <category term="hexo" scheme="http://igencong.com/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>向写作者推荐leanote蚂蚁笔记</title>
-    <link href="http://myjeshurun.github.io/2017/08/01/%E5%90%91%E5%86%99%E4%BD%9C%E8%80%85%E6%8E%A8%E8%8D%90leanote%E8%9A%82%E8%9A%81%E7%AC%94%E8%AE%B0/"/>
-    <id>http://myjeshurun.github.io/2017/08/01/向写作者推荐leanote蚂蚁笔记/</id>
+    <link href="http://igencong.com/2017-08-01/%E5%90%91%E5%86%99%E4%BD%9C%E8%80%85%E6%8E%A8%E8%8D%90leanote%E8%9A%82%E8%9A%81%E7%AC%94%E8%AE%B0"/>
+    <id>http://igencong.com/2017-08-01/向写作者推荐leanote蚂蚁笔记</id>
     <published>2017-08-01T04:00:00.000Z</published>
     <updated>2017-08-04T18:36:22.000Z</updated>
     
@@ -87,21 +207,21 @@
     
     </summary>
     
-      <category term="工具控" scheme="http://myjeshurun.github.io/categories/%E5%B7%A5%E5%85%B7%E6%8E%A7/"/>
+      <category term="工具控" scheme="http://igencong.com/categories/%E5%B7%A5%E5%85%B7%E6%8E%A7/"/>
     
     
-      <category term="leanote" scheme="http://myjeshurun.github.io/tags/leanote/"/>
+      <category term="leanote" scheme="http://igencong.com/tags/leanote/"/>
     
-      <category term="工具" scheme="http://myjeshurun.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
+      <category term="工具" scheme="http://igencong.com/tags/%E5%B7%A5%E5%85%B7/"/>
     
-      <category term="写作" scheme="http://myjeshurun.github.io/tags/%E5%86%99%E4%BD%9C/"/>
+      <category term="写作" scheme="http://igencong.com/tags/%E5%86%99%E4%BD%9C/"/>
     
   </entry>
   
   <entry>
     <title>我是工具控，我到底要做什么？.md</title>
-    <link href="http://myjeshurun.github.io/2017/07/31/%E6%88%91%E6%98%AF%E5%B7%A5%E5%85%B7%E6%8E%A7%EF%BC%8C%E6%88%91%E5%88%B0%E5%BA%95%E8%A6%81%E5%81%9A%E4%BB%80%E4%B9%88%EF%BC%9F/"/>
-    <id>http://myjeshurun.github.io/2017/07/31/我是工具控，我到底要做什么？/</id>
+    <link href="http://igencong.com/2017-07-31/%E6%88%91%E6%98%AF%E5%B7%A5%E5%85%B7%E6%8E%A7%EF%BC%8C%E6%88%91%E5%88%B0%E5%BA%95%E8%A6%81%E5%81%9A%E4%BB%80%E4%B9%88%EF%BC%9F"/>
+    <id>http://igencong.com/2017-07-31/我是工具控，我到底要做什么？</id>
     <published>2017-07-31T04:00:00.000Z</published>
     <updated>2017-08-05T03:32:36.000Z</updated>
     
@@ -121,23 +241,23 @@
     
     </summary>
     
-      <category term="工具控" scheme="http://myjeshurun.github.io/categories/%E5%B7%A5%E5%85%B7%E6%8E%A7/"/>
+      <category term="工具控" scheme="http://igencong.com/categories/%E5%B7%A5%E5%85%B7%E6%8E%A7/"/>
     
     
-      <category term="leanote" scheme="http://myjeshurun.github.io/tags/leanote/"/>
+      <category term="leanote" scheme="http://igencong.com/tags/leanote/"/>
     
-      <category term="工具" scheme="http://myjeshurun.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
+      <category term="工具" scheme="http://igencong.com/tags/%E5%B7%A5%E5%85%B7/"/>
     
-      <category term="博客" scheme="http://myjeshurun.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+      <category term="博客" scheme="http://igencong.com/tags/%E5%8D%9A%E5%AE%A2/"/>
     
-      <category term="协作" scheme="http://myjeshurun.github.io/tags/%E5%8D%8F%E4%BD%9C/"/>
+      <category term="协作" scheme="http://igencong.com/tags/%E5%8D%8F%E4%BD%9C/"/>
     
   </entry>
   
   <entry>
     <title>鼓浪屿的骄傲：吕振中和他翻译的中文圣经</title>
-    <link href="http://myjeshurun.github.io/2017/07/22/%E9%BC%93%E6%B5%AA%E5%B1%BF%E7%9A%84%E9%AA%84%E5%82%B2%EF%BC%9A%E5%90%95%E6%8C%AF%E4%B8%AD%E5%92%8C%E4%BB%96%E7%9A%84%E4%B8%AD%E6%96%87%E5%9C%A3%E7%BB%8F/"/>
-    <id>http://myjeshurun.github.io/2017/07/22/鼓浪屿的骄傲：吕振中和他的中文圣经/</id>
+    <link href="http://igencong.com/2017-07-22/%E9%BC%93%E6%B5%AA%E5%B1%BF%E7%9A%84%E9%AA%84%E5%82%B2%EF%BC%9A%E5%90%95%E6%8C%AF%E4%B8%AD%E5%92%8C%E4%BB%96%E7%9A%84%E4%B8%AD%E6%96%87%E5%9C%A3%E7%BB%8F"/>
+    <id>http://igencong.com/2017-07-22/鼓浪屿的骄傲：吕振中和他的中文圣经</id>
     <published>2017-07-22T11:12:07.000Z</published>
     <updated>2017-08-05T04:09:43.000Z</updated>
     
@@ -152,25 +272,25 @@
     
     </summary>
     
-      <category term="微信文章" scheme="http://myjeshurun.github.io/categories/%E5%BE%AE%E4%BF%A1%E6%96%87%E7%AB%A0/"/>
+      <category term="微信文章" scheme="http://igencong.com/categories/%E5%BE%AE%E4%BF%A1%E6%96%87%E7%AB%A0/"/>
     
     
-      <category term="鼓浪屿" scheme="http://myjeshurun.github.io/tags/%E9%BC%93%E6%B5%AA%E5%B1%BF/"/>
+      <category term="鼓浪屿" scheme="http://igencong.com/tags/%E9%BC%93%E6%B5%AA%E5%B1%BF/"/>
     
-      <category term="圣经" scheme="http://myjeshurun.github.io/tags/%E5%9C%A3%E7%BB%8F/"/>
+      <category term="圣经" scheme="http://igencong.com/tags/%E5%9C%A3%E7%BB%8F/"/>
     
-      <category term="圣经翻译" scheme="http://myjeshurun.github.io/tags/%E5%9C%A3%E7%BB%8F%E7%BF%BB%E8%AF%91/"/>
+      <category term="圣经翻译" scheme="http://igencong.com/tags/%E5%9C%A3%E7%BB%8F%E7%BF%BB%E8%AF%91/"/>
     
-      <category term="闽南" scheme="http://myjeshurun.github.io/tags/%E9%97%BD%E5%8D%97/"/>
+      <category term="闽南" scheme="http://igencong.com/tags/%E9%97%BD%E5%8D%97/"/>
     
-      <category term="见证" scheme="http://myjeshurun.github.io/tags/%E8%A7%81%E8%AF%81/"/>
+      <category term="见证" scheme="http://igencong.com/tags/%E8%A7%81%E8%AF%81/"/>
     
   </entry>
   
   <entry>
     <title>他，住在我们中间</title>
-    <link href="http://myjeshurun.github.io/2017/07/15/%E4%BB%96%EF%BC%8C%E4%BD%8F%E5%9C%A8%E6%88%91%E4%BB%AC%E4%B8%AD%E9%97%B4/"/>
-    <id>http://myjeshurun.github.io/2017/07/15/他，住在我们中间/</id>
+    <link href="http://igencong.com/2017-07-15/%E4%BB%96%EF%BC%8C%E4%BD%8F%E5%9C%A8%E6%88%91%E4%BB%AC%E4%B8%AD%E9%97%B4"/>
+    <id>http://igencong.com/2017-07-15/他，住在我们中间</id>
     <published>2017-07-15T04:00:00.000Z</published>
     <updated>2017-08-05T03:18:49.000Z</updated>
     
@@ -181,21 +301,21 @@
     
     </summary>
     
-      <category term="微信文章" scheme="http://myjeshurun.github.io/categories/%E5%BE%AE%E4%BF%A1%E6%96%87%E7%AB%A0/"/>
+      <category term="微信文章" scheme="http://igencong.com/categories/%E5%BE%AE%E4%BF%A1%E6%96%87%E7%AB%A0/"/>
     
     
-      <category term="道成肉身" scheme="http://myjeshurun.github.io/tags/%E9%81%93%E6%88%90%E8%82%89%E8%BA%AB/"/>
+      <category term="道成肉身" scheme="http://igencong.com/tags/%E9%81%93%E6%88%90%E8%82%89%E8%BA%AB/"/>
     
-      <category term="同在" scheme="http://myjeshurun.github.io/tags/%E5%90%8C%E5%9C%A8/"/>
+      <category term="同在" scheme="http://igencong.com/tags/%E5%90%8C%E5%9C%A8/"/>
     
-      <category term="公义" scheme="http://myjeshurun.github.io/tags/%E5%85%AC%E4%B9%89/"/>
+      <category term="公义" scheme="http://igencong.com/tags/%E5%85%AC%E4%B9%89/"/>
     
   </entry>
   
   <entry>
     <title>总统是靠不住的！</title>
-    <link href="http://myjeshurun.github.io/2016/11/16/president_not_faithful/"/>
-    <id>http://myjeshurun.github.io/2016/11/16/president_not_faithful/</id>
+    <link href="http://igencong.com/2016-11-16/president_not_faithful"/>
+    <id>http://igencong.com/2016-11-16/president_not_faithful</id>
     <published>2016-11-16T05:00:00.000Z</published>
     <updated>2017-08-05T03:19:05.000Z</updated>
     
@@ -206,10 +326,10 @@
     
     </summary>
     
-      <category term="微信文章" scheme="http://myjeshurun.github.io/categories/%E5%BE%AE%E4%BF%A1%E6%96%87%E7%AB%A0/"/>
+      <category term="微信文章" scheme="http://igencong.com/categories/%E5%BE%AE%E4%BF%A1%E6%96%87%E7%AB%A0/"/>
     
     
-      <category term="灵修" scheme="http://myjeshurun.github.io/tags/%E7%81%B5%E4%BF%AE/"/>
+      <category term="灵修" scheme="http://igencong.com/tags/%E7%81%B5%E4%BF%AE/"/>
     
   </entry>
   

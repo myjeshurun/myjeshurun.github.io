@@ -4,7 +4,7 @@
     
     <entry>
       <title><![CDATA[当神拥有我们，我们就是完全的]]></title>
-      <url>/2017/08/03/2017-08-03/</url>
+      <url>/2017-08-03/2017-08-03</url>
       <content type="html"><![CDATA[<p>梅顿说：当神拥有我们，我们就是完全的……一切就已蒙福成为“属灵的”，甚至包括那些属物质的事。<br>这几天，我又陷入一种危机之中，我以为是危机，但真的是危机吗？我害怕自己自欺，明明不对，还要为自己找到一个借口；另外，我又不想变成一个无趣的人，一个没有激情梦想，失去追求的人。<br>这个危机是我又喜欢折腾工具和博客了，我说自己是一个工具控，看上一个大家都说好的工具，就很想把它摸透。从Sleeping Bear Dunes回来，先是心血来潮折腾git，github和vim；然后是leanote，还梦想着把这个开源项目做成基督徒的原创写作平台。我觉得 #工具 和 #内容 是互相促进的，就如读者和作者是互相促进的一样，很少有作者完全不顾读者的感受而写作的。感叹在美国有那么多好的工具可以使用，比如我现在用的这个DayOne写日记应用，就再次激起了我写日记的热诚。</p>
 <p>昨天决定用hexo和github pages搭建一个静态博客，我最后放弃了leanote，因为它的博客还是不够美观，不够geek。因为下载、安装的过程出现了好多问题，我就一直折腾到快5点才去睡觉。我心里有些不安，但还好，我不确定是自己的灵性麻木了？</p>
 <a id="more"></a>
@@ -44,7 +44,7 @@
     
     <entry>
       <title><![CDATA[灾难来临，亲人朋友第一时间当如何陪伴]]></title>
-      <url>/2017/08/03/%E5%99%A9%E8%80%97%E8%A2%AD%E6%9D%A5%EF%BC%8C%E4%BA%B2%E4%BA%BA%E6%9C%8B%E5%8F%8B%E5%BD%93%E6%80%8E%E4%B9%88%E9%99%AA%E4%BC%B4%EF%BC%9F/</url>
+      <url>/2017-08-03/%E5%99%A9%E8%80%97%E8%A2%AD%E6%9D%A5%EF%BC%8C%E4%BA%B2%E4%BA%BA%E6%9C%8B%E5%8F%8B%E5%BD%93%E6%80%8E%E4%B9%88%E9%99%AA%E4%BC%B4%EF%BC%9F</url>
       <content type="html"><![CDATA[<p>当身边有人遭遇重大变故，作为亲人朋友第一时间该怎么陪伴他们？首先，要知道，对经历患难的人来说，这个时候，最需要的是陪伴，陪伴，再陪伴。无声的陪伴，哭泣的陪伴，无力的陪伴。你可能会感觉自己什么都不能做，什么都帮不上忙。是的，这是很正常的，因为生命的沉重是我们无法承受的。但你这微小的、真诚的陪伴，会让他们感受到一种更大的同在，这种同在能超越一切的患难托住他们。</p>
 <ol>
 <li>要和他们在一起，身体和他们在一起。让他们知道：我们在这里，和你在一起。</li>
@@ -82,8 +82,135 @@
     </entry>
     
     <entry>
+      <title><![CDATA[继续blog，继续成长]]></title>
+      <url>/2017-08-03/%E8%BF%98%E6%98%AF%E5%86%B3%E5%AE%9A%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99</url>
+      <content type="html"><![CDATA[<blockquote>
+<p>这篇记录自己学习hexo这个新东西的过程，很零碎。</p>
+<h3 id="决定用hexo和gitpages再搭建自己的博客网站"><a href="#决定用hexo和gitpages再搭建自己的博客网站" class="headerlink" title="决定用hexo和gitpages再搭建自己的博客网站"></a>决定用hexo和gitpages再搭建自己的博客网站</h3></blockquote>
+<p>很喜欢blog，有很长时间的历史了。估计在2002年开始比较多上网的时候，就了解到blog，就有了blogger，后来折腾过blogcn，blogbus，ccblogs等</p>
+<p>后来用wordpress，iyublog到后来自己用wordpress搭建igencong.com</p>
+<p>后来因为牧会的忙碌，出国读神学的压力，沉寂了一段时间。今年开始自己开始写原创评论，让我一直有想法做个blog把自己写的东西再整理一下。</p>
+<p>这几天对技术突然又开始感兴趣了，先是整了vim和git，后来研究了leanote，还买了旗舰版，信誓旦旦的想大干一场，整出个平台。但leanote有个问题让我很不爽，不能导入md文件，我现在的文档都用markdown写，在nvALT或者Archive中可以很便捷的搜索，使用pandoc我可以变成任何一个格式的文档。leanote的一键发布blog很酷，但我发现它的blog系统没有rss导出，而且定制化也不强。我还是不太满意，刚才我申请退款了。</p>
+<h3 id="误打误撞"><a href="#误打误撞" class="headerlink" title="误打误撞"></a>误打误撞</h3><p>今天用leanote编辑新媒体教会的书稿，看到TOC的功能，才知道这是Table of Contents的缩写，查了一下，查到了<a href="http://mazhuang.org/" target="_blank" rel="external">码志</a>的插件，然后查到了Jekyll，搜索找到了<a href="https://www.zhihu.com/question/20659873" target="_blank" rel="external">知乎</a>上的谈论的博客系统，了解了以前耳闻的hexo，知道hexo和JekyII的不同。<a href="http://www.cnblogs.com/mo-wang/p/5119967.html" target="_blank" rel="external">将博客从jekyll迁移到了hexo</a>这篇文章详细评论了几个静态页面的博客系统，最后决定使用hexo搭建自己的博客平台，原因如下：</p>
+<ol>
+<li>考虑过Farbox，自称是最好的博客系统，能用dropbox发布博客。但比较贵，按我的情况要用标准版65/年。</li>
+<li>JekyII 据说技术难度比较大</li>
+<li>hexo是台湾人开发的，中文支持应该没有问题；中文文档很好。</li>
+<li>貌似hexo可以使用插件跟Google Drive同步，如果这样的话，我就可以建个md，透过hexo发布了。（还得测试）</li>
+</ol>
+<p><a href="http://kuanghy.github.io/2017/03/24/now-everything-is-the-best" target="_blank" rel="external">现在的一切便是最好的</a>这一篇提到，github pages不能被百度搜索到，这的确是个缺点，不过，需要的话，我可以像他一样自己在国内弄一个。</p>
+<p>除了以上提到的，以下几个博客对我做这个决定帮助比较大：</p>
+<ol>
+<li><a href="https://shikieiki.github.io/2017/02/23/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8gitHub%E5%92%8CHexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" target="_blank" rel="external">如何使用github和Hexo搭建个人博客</a></li>
+<li><a href="https://thief.one/2017/03/03/Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/" target="_blank" rel="external">Hexo搭建博客教程</a></li>
+<li><a href="https://www.freehao123.com/hexo-jianzhan/" target="_blank" rel="external">Hexo建站从入门到精通-Hexo博客本地环境配置,初始化,写作与部署</a></li>
+<li><a href="http://www.jianshu.com/p/35e17fa3bbe2" target="_blank" rel="external">Hexo(1)-生成本地静态博客-Mac</a></li>
+<li><a href="https://linghucong.js.org/2016/04/15/2016-04-15-hexo-github-pages-blog/" target="_blank" rel="external">手把手教你使用Hexo + Github Pages搭建个人独立博客</a>, 这里面有些高级技巧，很酷。</li>
+</ol>
+<hr>
+<p>每个人安装hexo可能都会碰到这样那样的问题，我一直是装不上，后来就一直想办法卸载node, 貌似用了这个办法管用：<a href="https://gist.github.com/nicerobot/2697848" target="_blank" rel="external">https://gist.github.com/nicerobot/2697848</a><br>卸载之后，执行sudo npm install -g hexo-cli，说找不到npm<br>然后，nvm install 4, 就换成node 4,才装上了hexo。</p>
+<p><strong>我的结论</strong>：改变一下node的版本可能就解决问题：使用以下这条命令使用版本6.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">nvm install 6</div></pre></td></tr></table></figure></p>
+<hr>
+<p>终于搞定了，后来又碰到各种问题：</p>
+<ol>
+<li>没有config，原来yml的格式很严格：<a href="https://github.com/hexojs/hexo/issues/1263" target="_blank" rel="external">https://github.com/hexojs/hexo/issues/1263</a></li>
+<li>repo不能用ssh，因为我还没有设置；而只能用https：<a href="https://stackoverflow.com/questions/12940626/github-error-message-permission-denied-publickey" target="_blank" rel="external">https://stackoverflow.com/questions/12940626/github-error-message-permission-denied-publickey</a></li>
+<li>（8/3/17）早上把igencong.com的域名弄过来，设置好了。屡次测试还是不行，后来才知道需要24-48个小时，才能转换过来。</li>
+<li></li>
+</ol>
+<h3 id="8-3折腾手记："><a href="#8-3折腾手记：" class="headerlink" title="8/3折腾手记："></a>8/3折腾手记：</h3><ol>
+<li>加上Rss订阅：使用插件<a href="https://github.com/hexojs/hexo-generator-feed" target="_blank" rel="external">hexo-generator-feed</a></li>
+<li>加上了腾讯公益的404页面：<a href="http://www.cnblogs.com/mo-wang/p/5119967.html" target="_blank" rel="external">【五】将博客从jekyll迁移到了hexo</a></li>
+<li>装插件的时候，要用上 –save</li>
+</ol>
+<h3 id="后来决定重新装一个全新的hexo："><a href="#后来决定重新装一个全新的hexo：" class="headerlink" title="后来决定重新装一个全新的hexo："></a>后来决定重新装一个全新的hexo：</h3><ol>
+<li>我已经装了git。</li>
+<li>装一个node的版本：nvm install 6。</li>
+<li>sudo npm install -g hexo-cli。搞定。</li>
+<li>建立docs/hexo</li>
+<li>terminal, cd docs/hexo。</li>
+<li>hexo init</li>
+<li>测试：<blockquote>
+<p>hexo g<br>hexo s<br><a href="http://localhost:4000" target="_blank" rel="external">http://localhost:4000</a></p>
+<ol>
+<li>关联： myjeshurun.github.io （特别注意yml的语法）<br>deploy:<br>type: git<br>repository: <a href="https://github.com/tengzhangchao/tengzhangchao.github.io.git" target="_blank" rel="external">https://github.com/tengzhangchao/tengzhangchao.github.io.git</a><br>branch: master</li>
+</ol>
+</blockquote>
+</li>
+<li>修改主题：<a href="http://theme-next.iissnan.com/getting-started.html#description-setting" target="_blank" rel="external">next</a><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ cd your-hexo-site       </div><div class="line">$ git clone https://github.com/iissnan/hexo-theme-next themes/next</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>在站点config.yml，修改theme: next<br>在theme，config，修改各个参数。scheme改成：mist<br>hexo clean<br>hexo s -debug</p>
+<ol>
+<li>使用插件：(注意使用 –save)<ul>
+<li>npm install hexo-generator-feed –save</li>
+<li>npm install hexo-generator-sitemap –save<br>然后在config.yml添加：</li>
+</ul>
+</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line"># Extensions</div><div class="line">plugins:</div><div class="line"> hexo-generator-feed</div><div class="line"> hexo-generator-sitemap</div><div class="line"># 自动生成xml</div><div class="line">feed:</div><div class="line">  type: atom</div><div class="line">  path: atom.xml</div><div class="line">  limit: 20</div><div class="line">  hub:</div><div class="line">  content:</div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"># 自动生成sitemap</div><div class="line">sitemap:</div><div class="line">path: sitemap.xml</div><div class="line">baidusitemap:</div><div class="line">path: baidusitemap.xml</div></pre></td></tr></table></figure>
+<ol>
+<li><p>提交sitemap到百度：~我还没有做~。<br><a href="https://jingyan.baidu.com/article/c85b7a641109e3003bac95aa.html" target="_blank" rel="external">如何提交sitemap到百度</a></p>
+</li>
+<li><p>创建标签云页面。done</p>
+</li>
+<li>作者署名和版权声明。done</li>
+<li>加上本地搜索和swifty搜索。done. 但不能搜索不知道为何？</li>
+<li>图片问题：基本上解决了。相同的目录下，建立一个文件夹。使用绝对路径，但是不好用。简易的方案是使用七牛云或者cloudary。最后使用七牛云，学习了<a href="https://www.instapaper.com/read/938856105" target="_blank" rel="external">qshell 同步图片</a></li>
+<li>plugin 卸载：npm uninstall <plugin-name></plugin-name></li>
+<li>评论：使用来比力。done.</li>
+<li></li>
+</ol>
+<hr>
+<h3 id="一些体会"><a href="#一些体会" class="headerlink" title="一些体会"></a>一些体会</h3><ol>
+<li>写博文tips：<br>设置：Front-Matter, 使用快捷键frmt[空格]来输出  </li>
+</ol>
+<hr>
+<p>title:<br>date:<br>update:<br>tags: </p>
+<ul>
+<li>comments:<br>categories: </li>
+<li></li>
+</ul>
+<hr>
+<ol>
+<li>yml格式是非常严格的，有以下几点：</li>
+</ol>
+<ul>
+<li>英文冒号之后一定要有空格；</li>
+<li>有些是要一个TAB，有些是要两个TAB。（貌似这一点还行。）</li>
+</ul>
+<ol>
+<li>不要随便整plugin, 不好弄，很容易出问题。</li>
+<li>CNAME文件丢失，当我使用g -d的时候，因为会自动覆盖github上面的文件。解决办法：从我github站上先fork（在右上角），然后下载到我的硬盘上，把CNAME文件拷贝到public目录即可。<br>这一次我学习了github的fork功能，就是把别人的程序随时拷贝走！哇哦，真实了不起。</li>
+<li>使用 <a id="more"></a>
+进行“阅读全文”的演示。</li>
+</ol>
+<hr>
+<h3 id="不能忘记的事：备份！"><a href="#不能忘记的事：备份！" class="headerlink" title="不能忘记的事：备份！"></a>不能忘记的事：<strong>备份</strong>！</h3><p>最后一件重要的事，就是备份了。<br>把本地的hexo文件夹备份，我可以使用mac的定期备份；但似乎不太好用。因为github的私有云收费，<a href="http://qiuqingyu.cn/2017/03/16/Hexo%E5%8D%9A%E5%AE%A2%E8%87%AA%E5%8A%A8%E5%A4%87%E4%BB%BD%E5%88%B0Coding/" target="_blank" rel="external">备份到coding上</a><br>~ 吴林er写的这个，用到hexo-backup这个插件，看起来不错。~ 该插件不能用了。折腾了我好久。<br>我不想要每次都备份，只是想看状态不错的时候，<br>以后就用这些代码：</p>
+<p>这个人超级牛，这个备份的问题，我就靠他解决了：<br><a href="http://masikkk.com/article/hexo-10-coding-pages-deploy/" target="_blank" rel="external">http://masikkk.com/article/hexo-10-coding-pages-deploy/</a><br>这个人写的<a href="http://ricky.moe/2017/01/13/hexo-perfect-synchronize/index.html" target="_blank" rel="external">多电脑同步方法</a>，是最好的，很简洁，跟上面那个人一样。只是没有能解决我的问题。我之前估计是用hexo backup插件，把一些东西弄坏了，需要整一下。Masikkk刚好也碰到同样的问题，帮我处理了。这个人就hexo博客谢了14篇blog，是我看到的最全的了。</p>
+<p>同时搭建国内coding上的博客，同步更新以及多台电脑使用。<br>masikkk篇在这个问题上写的最全面了。<a href="http://masikkk.com/article/hexo-3-source-backup-and-sync-between-diff-computer/" target="_blank" rel="external">Hexo博客(3)源码备份及不同电脑上的同步问题</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> 工具控 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 博客 </tag>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[向写作者推荐leanote蚂蚁笔记]]></title>
-      <url>/2017/08/01/%E5%90%91%E5%86%99%E4%BD%9C%E8%80%85%E6%8E%A8%E8%8D%90leanote%E8%9A%82%E8%9A%81%E7%AC%94%E8%AE%B0/</url>
+      <url>/2017-08-01/%E5%90%91%E5%86%99%E4%BD%9C%E8%80%85%E6%8E%A8%E8%8D%90leanote%E8%9A%82%E8%9A%81%E7%AC%94%E8%AE%B0</url>
       <content type="html"><![CDATA[<p>Leanote蚂蚁笔记说自己是有极客范的笔记，被别人说成是功能最强悍的笔记软件。我觉得这些名号都不过分，尤其它一开始就开源，为未来开创了一个非常广阔的前景。要知道，苹果系统MacOS的原身是unix，安卓系统，chrome浏览器都是开源项目。我个人非常看好它。</p>
 <p>对于一个写作者来说，我一直希望有这样的工具/网站：</p>
 <blockquote>
@@ -132,7 +259,7 @@
     
     <entry>
       <title><![CDATA[我是工具控，我到底要做什么？.md]]></title>
-      <url>/2017/07/31/%E6%88%91%E6%98%AF%E5%B7%A5%E5%85%B7%E6%8E%A7%EF%BC%8C%E6%88%91%E5%88%B0%E5%BA%95%E8%A6%81%E5%81%9A%E4%BB%80%E4%B9%88%EF%BC%9F/</url>
+      <url>/2017-07-31/%E6%88%91%E6%98%AF%E5%B7%A5%E5%85%B7%E6%8E%A7%EF%BC%8C%E6%88%91%E5%88%B0%E5%BA%95%E8%A6%81%E5%81%9A%E4%BB%80%E4%B9%88%EF%BC%9F</url>
       <content type="html"><![CDATA[<p>这些花了我好多时间，我是工具控，我到底要做什么？</p>
 <h3 id="开放的leanote"><a href="#开放的leanote" class="headerlink" title="开放的leanote"></a>开放的leanote</h3><p>今天我看到leanote，感觉它可以成为我一直想做的东西，为写作者提供一个简单的工具平台。因为：</p>
 <ol>
@@ -178,7 +305,7 @@
     
     <entry>
       <title><![CDATA[鼓浪屿的骄傲：吕振中和他翻译的中文圣经]]></title>
-      <url>/2017/07/22/%E9%BC%93%E6%B5%AA%E5%B1%BF%E7%9A%84%E9%AA%84%E5%82%B2%EF%BC%9A%E5%90%95%E6%8C%AF%E4%B8%AD%E5%92%8C%E4%BB%96%E7%9A%84%E4%B8%AD%E6%96%87%E5%9C%A3%E7%BB%8F/</url>
+      <url>/2017-07-22/%E9%BC%93%E6%B5%AA%E5%B1%BF%E7%9A%84%E9%AA%84%E5%82%B2%EF%BC%9A%E5%90%95%E6%8C%AF%E4%B8%AD%E5%92%8C%E4%BB%96%E7%9A%84%E4%B8%AD%E6%96%87%E5%9C%A3%E7%BB%8F</url>
       <content type="html"><![CDATA[<p>今年7月8日，鼓浪屿申遗成功，成为中国第52个世界文化遗产。</p>
 <p>申遗成功，让世人有机会领略鼓浪屿这个小岛的美丽：首先是她得天独厚的美丽景观，然后是她闻名遐迩的优雅琴声，再者就是她的历史底蕴：那一片土地的人和事。我想这就是鼓浪屿令人着迷的关键所在：美景、琴声、故事，自然、艺术、历史三者合一。她成为世界文化遗产，当之无愧！</p>
 <h4 id="鼓浪屿与基督教"><a href="#鼓浪屿与基督教" class="headerlink" title="鼓浪屿与基督教"></a>鼓浪屿与基督教</h4><p>外面的自然和音乐是显然的，历史却是隐藏的；即使留下许多的历史文物，还需要有心人去探究。这次申遗成功，许多人挖掘出了鼓浪屿这一两百年与西方文化碰撞的历史，特别是与西方宣教士把一个传了2000年的古老福音传入中国这个东方古老国度的往事。其实，说反映东西方文化碰撞也不太对，因为这古老的福音本身就是从东方起源的，它是从中东的耶路撒冷那里开始的。</p>
@@ -223,7 +350,7 @@
     
     <entry>
       <title><![CDATA[他，住在我们中间]]></title>
-      <url>/2017/07/15/%E4%BB%96%EF%BC%8C%E4%BD%8F%E5%9C%A8%E6%88%91%E4%BB%AC%E4%B8%AD%E9%97%B4/</url>
+      <url>/2017-07-15/%E4%BB%96%EF%BC%8C%E4%BD%8F%E5%9C%A8%E6%88%91%E4%BB%AC%E4%B8%AD%E9%97%B4</url>
       <content type="html"><![CDATA[<p>道成了肉身，住在我们中间，充充满满的有恩典有真理。</p>
 <p>读着这富有诗意的句子，我们的脑海中可能会产生一个很浪漫的画面：一片美丽沙漠绿洲，夕阳正尽情的挥洒它最后的灿烂；耶稣来到这个宁静的村庄，支起帐篷，周围的人慕名而来，祂开始为他们讲述天国的真理，祂的眼神里充满了怜悯和慈爱。</p>
 <p>不，圣经为我们刻画的耶稣道成肉身的场景并不是这样的。他不是来到一个充满友好和热情的光明国度，是来到一个充满敌意的黑暗世界：他到自己的地方来，自己的人却不接待他（约翰福音1：11）；光照在黑暗中，黑暗却不接受光（约翰福音1：5）。</p>
@@ -264,7 +391,7 @@
     
     <entry>
       <title><![CDATA[总统是靠不住的！]]></title>
-      <url>/2016/11/16/president_not_faithful/</url>
+      <url>/2016-11-16/president_not_faithful</url>
       <content type="html"><![CDATA[<p>著名的旅美作家林达以此为名写了一本书，让人了解美国的政治是怎么一回事。在这本书里，他说到：“把“克林顿政府”读成“克林 顿行政分支”，而且知道什么时候要把“美国政府”也读成“美国政府行政分支”，这是理解美国政治制度和权力结构的入门之课。”（总统是靠不住的，01章）<br>了解内幕的人，知道美国的政治不是靠一个人能左右的，进入了这个圈子，就自然的会被里面的体系和规则所左右，轻易想要呼风唤雨，左右时局并不容易。或许这正是美国民主政治的益处，在权力制衡中最大限度的防止人心的罪恶。从这个角度看，所有的人，对总统的选举结果都不应该又太高的期望，也不需要过于失望。在一个民主国家里，人民是国家的主人，</p>
 <h3 id="不要对总统寄予厚望"><a href="#不要对总统寄予厚望" class="headerlink" title="不要对总统寄予厚望"></a>不要对总统寄予厚望</h3><p>其实，不用了解内幕，一个重生得救、明白圣经的基督徒很清楚：所有人都是犯了罪，亏缺了上帝的荣耀。所有人都是罪人，一个义人也没有。人的盼望，民族的盼望，国家的盼望不是在哪个有限又有罪的人身上，而是在永活的上帝身上。<br><a id="more"></a><br>因此，既然总统是靠不住的，基督徒/教会就不应该对总统会为美国基督徒做什么寄予厚望。基督徒不应该指望川普能为同性恋婚姻法案翻案或者出台反堕胎政策，即使同性恋婚姻、堕胎真的又变得非法了，教会因此打了美好的仗，社会真的得到翻转改变，神的名就因此得荣耀了吗？未必！！对基督徒来说，比一条“圣洁”的律法更高的是：爱上帝和爱你的邻舍；是怜悯（雅各说：怜悯是向审判夸胜的）。在我看来，同性恋婚姻的合法化不是说明罪恶的势力多么强大，而是说明美国基督徒整体对社会、对邻舍多么失去见证和影响力。再说了，什么时候教会开始把神托付给祂百姓转化社会的神圣使命授权给政治家、国会政府、法院来完成了？<br>因此，基督徒可能寄托在川普身上的上帝国度梦终究不会实现，因为就如Hunter 博士在他的书，To Change the World所指出的，美国基督徒/教会有一种迷思，以为美国是神的国度；因此把自己做为神子民的身份定位与美国这个国家的神圣性深深的绑架一起。但这错了，教会当把自己的身份认同深深的扎根在主基督耶稣道成肉身，死而复活的根基上。正如九标志教会的狄马克牧师（ Rev. Mark Dever）说：”Before and after America, there was and will be the church. The nation is an experiment. The church is a certainty.”在美国存在之前，就有教会；在美国没有以后，还将有教会。国家是一个实验。而教会是确定的事实。Hunter提醒说：如果美国基督徒在参与社会的过程中，如果不改变这种预设心态，最终能对社会带来的改变很是有限（p.131）。<br>如果基督徒不对总统Trump以及副总统Pence寄予太多的厚望，而是更多仰望为我们死而复活的信实的主耶稣；当然终究也不用太失望，甚至还可能有惊喜。</p>
 <h3 id="不要把总统当做替罪羊或者泄愤对象"><a href="#不要把总统当做替罪羊或者泄愤对象" class="headerlink" title="不要把总统当做替罪羊或者泄愤对象"></a>不要把总统当做替罪羊或者泄愤对象</h3><p>基督徒不仅不应该依靠总统，而且也不应该把总统当做替罪羊，当做泄愤的对象，说问题都是他（们）造成的。Hunter说，这种把社会问题归结于别人的罪身上的心态，比如：同性恋者、政治家等等，是（隐秘的）仇富心理的体现。在法国大革命中，被送上断头台的领袖、王室成员就是被控诉成社会问题的根源而一个个被除掉的。许多时候，基督徒/教会在打那所谓“真理”的仗的时候，存的就是这样一种隐秘的心态：都是你们的罪才导致了我们的国家受咒诅被审判，得不到祝福；只要除掉你们的罪，我们的国家就能重新蒙受神的祝福。美名其曰，是为了圣洁，其实是仇富心里在作怪。我们要警惕！<br>爱家的创始人杜布森在2012年奥巴马总统上台前就猜测未来的美国说，左派将会主宰最高法院，同性婚姻会合法化，枪支管制，不限制堕胎等等。但这些问题不是奥巴马总统上台造成的（他没有那么大的威力），Hunter 博士在他的书，To Change the World里清楚的提到，不只是世俗社会，还有各类的群体、组织要为此负责，这些包括新闻媒体、左派阵营、美国妇女组织、堕胎权力协会以及各类堕胎组织等等。下一代的堕落开放也不仅因为是好莱坞的影响，更有教科书和自由派教育官僚的政治议程，甚至国家教育协会都扮演了相当的角色（p. 116）。当然，我想也包括基督徒在社会中失去光和盐的作用的原因。<br>在一个健康的社会中，每一个个体都应该对这个社会有贡献。基督徒作为未来世代初熟的果子，是光，是盐，更应该勇敢承担起光和盐的角色，不逃避责任，也不推卸责任。</p>
