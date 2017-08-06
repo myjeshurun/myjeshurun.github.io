@@ -128,11 +128,11 @@
       <category term="工具控" scheme="http://igencong.com/categories/%E5%B7%A5%E5%85%B7%E6%8E%A7/"/>
     
     
-      <category term="博客" scheme="http://igencong.com/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
       <category term="leanote" scheme="http://igencong.com/tags/leanote/"/>
     
       <category term="工具" scheme="http://igencong.com/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+      <category term="博客" scheme="http://igencong.com/tags/%E5%8D%9A%E5%AE%A2/"/>
     
       <category term="协作" scheme="http://igencong.com/tags/%E5%8D%8F%E4%BD%9C/"/>
     
@@ -159,6 +159,8 @@
       <category term="微信文章" scheme="http://igencong.com/categories/%E5%BE%AE%E4%BF%A1%E6%96%87%E7%AB%A0/"/>
     
     
+      <category term="见证" scheme="http://igencong.com/tags/%E8%A7%81%E8%AF%81/"/>
+    
       <category term="鼓浪屿" scheme="http://igencong.com/tags/%E9%BC%93%E6%B5%AA%E5%B1%BF/"/>
     
       <category term="圣经" scheme="http://igencong.com/tags/%E5%9C%A3%E7%BB%8F/"/>
@@ -166,8 +168,6 @@
       <category term="圣经翻译" scheme="http://igencong.com/tags/%E5%9C%A3%E7%BB%8F%E7%BF%BB%E8%AF%91/"/>
     
       <category term="闽南" scheme="http://igencong.com/tags/%E9%97%BD%E5%8D%97/"/>
-    
-      <category term="见证" scheme="http://igencong.com/tags/%E8%A7%81%E8%AF%81/"/>
     
   </entry>
   
