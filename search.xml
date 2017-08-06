@@ -81,7 +81,8 @@
 <li>plugin 卸载：npm uninstall <plugin-name></plugin-name></li>
 <li>评论：使用来比力。后来为了能在主页显示评论数量，选择了disqus。done.</li>
 <li>增加了微信、支付宝打赏功能，与时俱进！done</li>
-<li>增加文章阅读量显示。</li>
+<li>增加文章阅读量显示，见NexT文档。已经整合leancloud,很方便。done。</li>
+<li>文章置顶：找了几个设置了不行。</li>
 </ol>
 <hr>
 <h3 id="一些体会"><a href="#一些体会" class="headerlink" title="一些体会"></a>一些体会</h3><ol>
