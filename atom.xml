@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://igencong.com/"/>
-  <updated>2017-08-07T03:43:48.000Z</updated>
+  <updated>2017-08-07T20:51:16.000Z</updated>
   <id>http://igencong.com/</id>
   
   <author>
@@ -14,6 +14,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>怀念Tom：追思礼拜有感.md</title>
+    <link href="http://igencong.com/2017-08-07/%E6%80%80%E5%BF%B5Tom%EF%BC%9A%E8%BF%BD%E6%80%9D%E7%A4%BC%E6%8B%9C%E6%9C%89%E6%84%9F/"/>
+    <id>http://igencong.com/2017-08-07/怀念Tom：追思礼拜有感/</id>
+    <published>2017-08-07T20:44:10.000Z</published>
+    <updated>2017-08-07T20:51:16.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;上周二神学院IT部门的弟兄Tom 发现死在自己的车中，明显是因为吞食过量的药物自杀身亡。&lt;br&gt;&lt;img src=&quot;http://ou5zkeopz.bkt.clouddn.com/VanKeulen-Tom.jpg&quot; alt=&quot;Tom Van Keulen&quot;&gt;&lt;/p&gt;
+&lt;
+    
+    </summary>
+    
+      <category term="生活日记" scheme="http://igencong.com/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E8%AE%B0/"/>
+    
+    
+      <category term="自杀" scheme="http://igencong.com/tags/%E8%87%AA%E6%9D%80/"/>
+    
+      <category term="葬礼" scheme="http://igencong.com/tags/%E8%91%AC%E7%A4%BC/"/>
+    
+  </entry>
   
   <entry>
     <title>blog建成，记念一下</title>
@@ -39,13 +62,16 @@
     <link href="http://igencong.com/2017-08-06/%E9%80%89%E6%8B%A9%E5%90%88%E9%80%82%E7%9A%84blog%E5%B9%B3%E5%8F%B0/"/>
     <id>http://igencong.com/2017-08-06/选择合适的blog平台/</id>
     <published>2017-08-06T20:56:14.000Z</published>
-    <updated>2017-08-07T03:44:10.000Z</updated>
+    <updated>2017-08-07T20:12:21.000Z</updated>
     
     <summary type="html">
     
       &lt;p&gt;&lt;strong&gt;精彩摘录&lt;/strong&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;我希望我写的blog可以在其它地方被管理和使用，也就是说blog不能成为一个自我封闭的体系，它需要能与其他的文档进行交流、互动，再使用（比如出版成书）。leanote作为一个笔记系统具备这样
+&lt;p&gt;我希望我写的blog可以在其它地方被管理和使用，也就是说blog不能成为一个自我封闭的体系，它需要能与其他的文档进行交流、互动，再使用（比如出版成书）。leanote作为一个笔记系统具备这样的潜质，但问题在于它的笔记管理系统是否是我想要的工具。我是否要把我的知识管理系统迁移到leanote，不然其实没有意义！目前的答案是否定的，它的开放性还不够。但开源给了它潜力，同时也可能成为软肋。我现在觉得以nvALT为代表的(markdown) txt管理系统，是最快捷的。加上The Archive的开发，我觉得用Zettle来管理我的知识，特别是学术研究非常有效。&lt;br&gt;我已经非常习惯用markdown写作，它把内容和格式分离，非常灵活；加上pandoc工具，我可以用它进行纯文本写作，并且编译出好看的论文文档。我的整个神学硕士就是用markdown写成的。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;文章正文&lt;/strong&gt;&lt;br&gt;就如我在另外一篇文章&lt;a href=&quot;http://igencong.com/2017-08-04/%E7%BB%A7%E7%BB%ADblog%EF%BC%8C%E7%BB%A7%E7%BB%AD%E6%88%90%E9%95%BF/&quot;&gt;继续blog，继续成长&lt;/a&gt;提到的，我换了好多个博客，其中一个原因是：我不断的学习如何使用最新的技术更有效的学习和分享我所学习的。好多的博客系统作为工具，不再更新他们的功能。这也能理解，因为当一个东西积累了一定的用户之后，用户的习惯就是关键的决定因素了。我就听说这样的故事，说可口可乐要更新他们的新配方，结果，招来消费者的大量投诉、抗议，最后只好又回到原来的配方上，只是在包装上做出改变。当用户习惯了，用户的口味就是一切。&lt;br&gt;
     
     </summary>
     
@@ -90,7 +116,7 @@
     <link href="http://igencong.com/2017-08-04/%E7%BB%A7%E7%BB%ADblog%EF%BC%8C%E7%BB%A7%E7%BB%AD%E6%88%90%E9%95%BF/"/>
     <id>http://igencong.com/2017-08-04/继续blog，继续成长/</id>
     <published>2017-08-04T04:00:00.000Z</published>
-    <updated>2017-08-06T03:03:33.000Z</updated>
+    <updated>2017-08-07T06:05:09.000Z</updated>
     
     <summary type="html">
     
@@ -146,7 +172,7 @@
     <link href="http://igencong.com/2017-08-01/%E5%90%91%E5%86%99%E4%BD%9C%E8%80%85%E6%8E%A8%E8%8D%90leanote%E8%9A%82%E8%9A%81%E7%AC%94%E8%AE%B0/"/>
     <id>http://igencong.com/2017-08-01/向写作者推荐leanote蚂蚁笔记/</id>
     <published>2017-08-01T04:00:00.000Z</published>
-    <updated>2017-08-04T18:36:22.000Z</updated>
+    <updated>2017-08-07T20:13:20.000Z</updated>
     
     <summary type="html">
     
@@ -158,21 +184,18 @@
 &lt;li&gt;为有写作的欲望（不是写作的恩赐），但又很难Handle个人公号的人提供平台，类似简书。他们的文章可以被主内的机构公号收录，或者他们可以主动向他们投稿。&lt;/li&gt;
 &lt;li&gt;保险起见，在主页上不公开。首页只有一个登录入口. 登录后，可以看到别人的帐号，可以选择关注。&lt;/li&gt;
 &lt;li&gt;整合wordpress和markdown，前者提供rss订阅，而且是blog领域最优秀的代表，有N多的插件可以配合；后者是让作者可以专注写作，而不是呈现。&lt;/li&gt;
-&lt;li&gt;有相应的桌面端工具可以让他们去使用，方便他们使用。&lt;br&gt;–摘自：&lt;a href=&quot;http://leanote.com/s/597f3f34ab644168d300272a&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;给写作者的工具&lt;/a&gt;一文&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&quot;Leanote是最好的选择&quot;&gt;&lt;a href=&quot;#Leanote是最好的选择&quot; class=&quot;headerlink&quot; title=&quot;Leanote是最好的选择&quot;&gt;&lt;/a&gt;Leanote是最好的选择&lt;/h3&gt;&lt;p&gt;我觉得leanote是目前最好的选择，原因如下：&lt;br&gt;
+&lt;li&gt;有相应的桌面端工具可以让他们去使用，方便他们使用。&lt;br&gt;–摘自：&lt;a href=&quot;http://leanote.com/s/597f3f34ab644168d300272a&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;给写作者的工具&lt;/a&gt;一文
     
     </summary>
     
       <category term="工具控" scheme="http://igencong.com/categories/%E5%B7%A5%E5%85%B7%E6%8E%A7/"/>
     
     
+      <category term="工具" scheme="http://igencong.com/tags/%E5%B7%A5%E5%85%B7/"/>
+    
       <category term="写作" scheme="http://igencong.com/tags/%E5%86%99%E4%BD%9C/"/>
     
       <category term="leanote" scheme="http://igencong.com/tags/leanote/"/>
-    
-      <category term="工具" scheme="http://igencong.com/tags/%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
@@ -202,9 +225,9 @@
       <category term="工具控" scheme="http://igencong.com/categories/%E5%B7%A5%E5%85%B7%E6%8E%A7/"/>
     
     
-      <category term="leanote" scheme="http://igencong.com/tags/leanote/"/>
-    
       <category term="工具" scheme="http://igencong.com/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+      <category term="leanote" scheme="http://igencong.com/tags/leanote/"/>
     
       <category term="博客" scheme="http://igencong.com/tags/%E5%8D%9A%E5%AE%A2/"/>
     

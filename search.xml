@@ -3,6 +3,38 @@
   
     
     <entry>
+      <title><![CDATA[怀念Tom：追思礼拜有感.md]]></title>
+      <url>/2017-08-07/%E6%80%80%E5%BF%B5Tom%EF%BC%9A%E8%BF%BD%E6%80%9D%E7%A4%BC%E6%8B%9C%E6%9C%89%E6%84%9F/</url>
+      <content type="html"><![CDATA[<p>上周二神学院IT部门的弟兄Tom 发现死在自己的车中，明显是因为吞食过量的药物自杀身亡。<br><img src="http://ou5zkeopz.bkt.clouddn.com/VanKeulen-Tom.jpg" alt="Tom Van Keulen"></p>
+<p>这个消息在神学院中引发强烈的震惊，所有的回应都是：Oh, No. 没有人会想到，Tom弟兄会自杀。他平时在人们眼中，是那么友善、热情，乐于助人；别人看来，他的脸上总是带着微笑。他是个好同工，技术能力强，非常善于解决问题。<br>我跟他接触不多，去IT寻求帮助，也就是寻求帮助，也没有时间聊多少。每次在神学院碰到他，他总是微笑，很亲切的弟兄。</p>
+<p>没有人知道他经历了什么挑战和难处，看起来他一切都Ok。就在他自杀前一周的周末，他还来神学院上班，大家都看到他了，没有感觉有什么异样。他的微笑和他的自杀是那么的不协调，让人无法理解。国际学生部的负责人Sarah说：It doesn’t make any sense. 是啊，How？</p>
+<p>来美国快5年，第一次参加追思礼拜，没有想到，是神学院这么年轻的，这么熟悉的弟兄的。整个追思礼拜谈了3件事情：</p>
+<ol>
+<li>上帝透过Tom美善的生命带给我们的祝福；特别由我们院长Jul.分享。</li>
+<li>这个世界堕落、破碎和死亡是这么的真实，使得这样一个美丽的生命陨落。</li>
+<li>我们在神里面有永恒的盼望。<br>而包裹这3个信息的是：我们的悲伤和上帝的安慰。 </li>
+</ol>
+<p>我本来期待，有人会提及Tom为什么会自杀，好帮助我们理解这件事情。但是没有，唯一有的就是，清楚的指出：面对这件事情，我们每一个人都会困惑和不借。仅此而已，没有任何的解释。我不知道这是好，还是不好。或许追思礼拜的目的，不在于提供答案，而在于追思和悼念。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 生活日记 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 自杀 </tag>
+            
+            <tag> 葬礼 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[blog建成，记念一下]]></title>
       <url>/2017-08-06/blog%E5%BB%BA%E6%88%90%EF%BC%8C%E8%AE%B0%E5%BF%B5%E4%B8%80%E4%B8%8B/</url>
       <content type="html"><![CDATA[<p><blockquote class="blockquote-center">大功告成！</blockquote><br>到现在为止，基本上算是把我这个blog建起来，基本上该有的都有了，希望以此来督促自己坚持记录和写作。</p>
@@ -25,8 +57,7 @@
 <p>我希望我写的blog可以在其它地方被管理和使用，也就是说blog不能成为一个自我封闭的体系，它需要能与其他的文档进行交流、互动，再使用（比如出版成书）。leanote作为一个笔记系统具备这样的潜质，但问题在于它的笔记管理系统是否是我想要的工具。我是否要把我的知识管理系统迁移到leanote，不然其实没有意义！目前的答案是否定的，它的开放性还不够。但开源给了它潜力，同时也可能成为软肋。我现在觉得以nvALT为代表的(markdown) txt管理系统，是最快捷的。加上The Archive的开发，我觉得用Zettle来管理我的知识，特别是学术研究非常有效。<br>我已经非常习惯用markdown写作，它把内容和格式分离，非常灵活；加上pandoc工具，我可以用它进行纯文本写作，并且编译出好看的论文文档。我的整个神学硕士就是用markdown写成的。</p>
 </blockquote>
 <hr>
-<p><strong>文章正文</strong><br>就如我在另外一篇文章<a href="http://igencong.com/2017-08-04/%E7%BB%A7%E7%BB%ADblog%EF%BC%8C%E7%BB%A7%E7%BB%AD%E6%88%90%E9%95%BF/">继续blog，继续成长</a>提到的，我换了好多个博客，其中一个原因是：我不断的学习如何使用最新的技术更有效的学习和分享我所学习的。好多的博客系统作为工具，不再更新他们的功能。这也能理解，因为当一个东西积累了一定的用户之后，用户的习惯就是关键的决定因素了。我就听说这样的故事，说可口可乐要更新他们的新配方，结果，招来消费者的大量投诉、抗议，最后只好又回到原来的配方上，只是在包装上做出改变。当用户习惯了，用户的口味就是一切。</p>
-<p>而对于我这种不断想尝新的人来说，那就只好从一个平台跳到另外一个平台。另外，我相信一个<strong>好的工具是促进写作</strong>的。就目前来说，我觉得有2-3个博客系统是我很欣赏的，各有千秋，我在这里就简单做个点评。我不是IT专家，只是从一个使用者的角度来考虑。</p>
+<p><strong>文章正文</strong><br>就如我在另外一篇文章<a href="http://igencong.com/2017-08-04/%E7%BB%A7%E7%BB%ADblog%EF%BC%8C%E7%BB%A7%E7%BB%AD%E6%88%90%E9%95%BF/">继续blog，继续成长</a>提到的，我换了好多个博客，其中一个原因是：我不断的学习如何使用最新的技术更有效的学习和分享我所学习的。好多的博客系统作为工具，不再更新他们的功能。这也能理解，因为当一个东西积累了一定的用户之后，用户的习惯就是关键的决定因素了。我就听说这样的故事，说可口可乐要更新他们的新配方，结果，招来消费者的大量投诉、抗议，最后只好又回到原来的配方上，只是在包装上做出改变。当用户习惯了，用户的口味就是一切。<br><a id="more"></a><br>而对于我这种不断想尝新的人来说，那就只好从一个平台跳到另外一个平台。另外，我相信一个<strong>好的工具是促进写作</strong>的。就目前来说，我觉得有2-3个博客系统是我很欣赏的，各有千秋，我在这里就简单做个点评。我不是IT专家，只是从一个使用者的角度来考虑。</p>
 <h3 id="1-wordpress"><a href="#1-wordpress" class="headerlink" title="1. wordpress"></a>1. wordpress</h3><p>这应该是最受欢迎的博客系统，有网站wordpress.com(国内被屏蔽)，可以使用wordpress.org自主搭建一个个人网站。<br>优点：很成熟。主题、插件都相当丰富。<br>缺点：只能在线更新，但也有一些工具可以在客户端写作发布。</p>
 <h3 id="2-leanote"><a href="#2-leanote" class="headerlink" title="2. leanote"></a>2. leanote</h3><p>我最近才发现的一个笔记工具，国内作者开发的开源项目，我觉得它非常有前景。<br>优点：笔记和博客一体，一键发布博客；全平台客户端；开源，可以二次开发；<br>缺点：博客网站的可定制性比较弱。</p>
 <blockquote>
@@ -168,6 +199,7 @@
 <li>增加了微信、支付宝打赏功能，与时俱进！done</li>
 <li>增加文章阅读量显示，见NexT文档。已经整合leancloud,很方便。done。</li>
 <li>文章置顶：找了几个设置了不行。这篇文章的代码可以：<a href="http://hongyitong.github.io/2017/01/06/Hexo%E6%96%87%E7%AB%A0%E7%BD%AE%E9%A1%B6/" rel="external nofollow noopener noreferrer" target="_blank">文章置顶</a></li>
+<li>增加了友情链接和社交网络。</li>
 </ol>
 <hr>
 <h3 id="一些体会"><a href="#一些体会" class="headerlink" title="一些体会"></a>一些体会</h3><ol>
@@ -274,11 +306,8 @@
 <li>为有写作的欲望（不是写作的恩赐），但又很难Handle个人公号的人提供平台，类似简书。他们的文章可以被主内的机构公号收录，或者他们可以主动向他们投稿。</li>
 <li>保险起见，在主页上不公开。首页只有一个登录入口. 登录后，可以看到别人的帐号，可以选择关注。</li>
 <li>整合wordpress和markdown，前者提供rss订阅，而且是blog领域最优秀的代表，有N多的插件可以配合；后者是让作者可以专注写作，而不是呈现。</li>
-<li>有相应的桌面端工具可以让他们去使用，方便他们使用。<br>–摘自：<a href="http://leanote.com/s/597f3f34ab644168d300272a" rel="external nofollow noopener noreferrer" target="_blank">给写作者的工具</a>一文</li>
-</ol>
-</blockquote>
-<h3 id="Leanote是最好的选择"><a href="#Leanote是最好的选择" class="headerlink" title="Leanote是最好的选择"></a>Leanote是最好的选择</h3><p>我觉得leanote是目前最好的选择，原因如下：<br><a id="more"></a></p>
-<ol>
+<li>有相应的桌面端工具可以让他们去使用，方便他们使用。<br>–摘自：<a href="http://leanote.com/s/597f3f34ab644168d300272a" rel="external nofollow noopener noreferrer" target="_blank">给写作者的工具</a>一文<a id="more"></a>
+<h3 id="Leanote是最好的选择"><a href="#Leanote是最好的选择" class="headerlink" title="Leanote是最好的选择"></a>Leanote是最好的选择</h3>我觉得leanote是目前最好的选择，原因如下：<!--more--></li>
 <li>开源，可以扩展、再开发；</li>
 <li>支持markdown写作。</li>
 <li>一键发布博客；而且笔记端修改同步后，博客自动更新。</li>
@@ -286,6 +315,7 @@
 <li>可以透过分享笔记，投稿给专业的机构或者公号。</li>
 <li>数据备份很容易，不会丢失；随时还原。<a href="http://leanote.leanote.com/post/Leanote-desktop-backup" rel="external nofollow noopener noreferrer" target="_blank">如何备份桌面端数据</a><br>这样，leanote基本上完全可以满足我上面提到的需要，虽然我不能rss导出，但这个也不是最重要的。而且因为开源未来肯定还可以被开发出来的。</li>
 </ol>
+</blockquote>
 <h3 id="我希望leanote还有这些功能"><a href="#我希望leanote还有这些功能" class="headerlink" title="我希望leanote还有这些功能"></a>我希望leanote还有这些功能</h3><ol>
 <li>可以导入md文档；这样方便那些用其它markdow工具写作的人。</li>
 <li>rss支持；</li>
@@ -302,11 +332,11 @@
         
         <tags>
             
+            <tag> 工具 </tag>
+            
             <tag> 写作 </tag>
             
             <tag> leanote </tag>
-            
-            <tag> 工具 </tag>
             
         </tags>
         
@@ -346,9 +376,9 @@
         
         <tags>
             
-            <tag> leanote </tag>
-            
             <tag> 工具 </tag>
+            
+            <tag> leanote </tag>
             
             <tag> 博客 </tag>
             
