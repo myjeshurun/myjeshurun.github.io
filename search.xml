@@ -252,11 +252,11 @@
 <li>文章置顶：找了几个设置了不行。这篇文章的代码可以：<a href="http://hongyitong.github.io/2017/01/06/Hexo%E6%96%87%E7%AB%A0%E7%BD%AE%E9%A1%B6/" rel="external nofollow noopener noreferrer" target="_blank">文章置顶</a></li>
 <li>增加了友情链接和社交网络。done</li>
 <li>增加了相关文章。这个弄了好久，主要是网上的教材主要是针对ejs，通过在论坛里问，才最终搞定。有两个方法：1）使用插件：tea3/hexo-related-popular-posts，我跟他联系，他增加了对next主题的支持。2）写个related-post.js使用这里的文章：<a href="http://wingjay.com/2017/06/08/rebuild-personal-blog/" rel="external nofollow noopener noreferrer" target="_blank">自己动手改造个人博客</a></li>
-<li></li>
+<li>增加了为文章添加密码的功能。</li>
 </ol>
 <hr>
 <h3 id="一些体会"><a href="#一些体会" class="headerlink" title="一些体会"></a>一些体会</h3><ol>
-<li>写博文tips：<br>设置：Front-Matter, 使用快捷键frmt[空格]来输出  </li>
+<li>写博文tips：<br>使用Keyboard Maetro设置：Front-Matter, 使用快捷键frmt[空格]来输出  </li>
 </ol>
 <hr>
 <p>title:<br>date:<br>update:<br>tags: </p>
