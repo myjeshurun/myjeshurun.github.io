@@ -3,6 +3,30 @@
   
     
     <entry>
+      <title><![CDATA[每日读经与灵修]]></title>
+      <url>/2017-08-08/%E6%81%A9%E5%85%B8%E6%98%AF%E8%A6%81%E6%B0%B8%E8%BF%9C%E4%B8%BA%E4%B9%8B%E5%8A%AA%E5%8A%9B%E7%9A%84%E7%9C%9F%E7%9B%B8/</url>
+      <content type="html"><![CDATA[<script src="/crypto-js.js"></script><script src="/mcommon.js"></script><h3 id="encrypt-message">Welcome to my blog, enter password to read.</h3><link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css"> <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script> <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> <div id="security"> <div> <div class="input-group"> <input type="text" class="form-control" aria-label="Enter the password." id="pass"/> <div class="input-group-btn"> <button type="button" class="btn btn-default" onclick="decryptAES()">Decrypt</button> </div> </div> </div> </div> <div id="encrypt-blog" style="display:none"> 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 </div>]]></content>
+      
+        <categories>
+            
+            <category> 灵修笔记 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 灵修 </tag>
+            
+            <tag> 属灵操练 </tag>
+            
+            <tag> 读经 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[怀念Tom：追思礼拜有感]]></title>
       <url>/2017-08-07/%E6%80%80%E5%BF%B5Tom%EF%BC%9A%E8%BF%BD%E6%80%9D%E7%A4%BC%E6%8B%9C%E6%9C%89%E6%84%9F/</url>
       <content type="html"><![CDATA[<p>上周二神学院IT部门的弟兄Tom 发现死在自己的车中，明显是因为吞食过量的药物自杀身亡。<br><img src="http://ou5zkeopz.bkt.clouddn.com/VanKeulen-Tom.jpg" alt="Tom Van Keulen"></p>
@@ -30,6 +54,17 @@
             <tag> 葬礼 </tag>
             
         </tags>
+        
+    </entry>
+    
+    <entry>
+      <title></title>
+      <url>/2017-08-07/media/%E6%96%B0%E5%AA%92%E4%BD%93%E6%95%99%E4%BC%9A%E6%98%AF%E8%BF%99%E6%A0%B7%E7%82%BC%E6%88%90%E7%9A%84/</url>
+      <content type="html"><![CDATA[<p></p><h1 id="新媒体教会是这样炼成的">新媒体教会是这样炼成的！</h1><p></p>
+<p></p><h2 id="序">序</h2><p></p>
+<h3 id="许基康">许基康</h3><br><h2 id="理念篇新媒体网络宣教">理念篇：新媒体网络宣教</h2><br><h3 id="安平">安平</h3><br><h3 id="杰瑞">杰瑞</h3><br><h2 id="实战篇两个案例分析">实战篇：两个案例分析</h2><br><h3 id="life.church">Life.Church</h3><br><ul><br><li>简介<br><br></li><br><li>林伟清：为什么是传奇教会？<br><br></li><br><li>实地考察记录<br><ul><br><li>芝华宣道<br><br></li><br><li>范学德<br><br></li><br></ul></li><br><li>教会在线平台<br><ul><br><li>介绍<br><br></li><br><li>学习报告(待定)</li><br></ul></li><br></ul><br><h3 id="新生命教会">新生命教会</h3><br><ul><br><li>简介<br><br></li><br><li>事工介绍<br><br></li><br><li>案例研究</li><br></ul><br><h2 id="附录">附录</h2><br><h3 id="十大价值信念">十大价值信念</h3>
+]]></content>
+      
         
     </entry>
     
@@ -95,9 +130,10 @@
 <p>本文是我在使用markdown写作、编辑的时候使用的一些技巧，我发现有些时候就忘记了，记下来以提醒。<br>所以，本文会随时补充、更新。</p>
 </blockquote>
 <ol>
-<li>使用vim快速获取文章的内容列表/概览toc（Table of Contents）。参考码志的这篇文章：<a href="http://mazhuang.org/2015/12/19/vim-markdown-toc/" rel="external nofollow noopener noreferrer" target="_blank">为 Markdown 生成 TOC 的 Vim 插件</a></li>
-<li></li>
+<li><del>使用vim快速获取文章的内容列表/概览toc（Table of Contents）。参考码志的这篇文章：<a href="http://mazhuang.org/2015/12/19/vim-markdown-toc/" rel="external nofollow noopener noreferrer" target="_blank">为 Markdown 生成 TOC 的 Vim 插件</a></del><br>没有必要这么复杂，直接在MWeb下，输入[TOC]就能直接输出Toc了。</li>
+<li>使用hexo的时候，用tag plugin显示很多参数很方便，比如：image改变大小，具体参考这里：<a href="https://hexo.io/docs/tag-plugins.html" rel="external nofollow noopener noreferrer" target="_blank">Tag Plugins | Hexo</a></li>
 </ol>
+<p><a href="/media/%E6%96%B0%E5%AA%92%E4%BD%93%E6%95%99%E4%BC%9A%E6%98%AF%E8%BF%99%E6%A0%B7%E7%82%BC%E6%88%90%E7%9A%84.md">新媒体教会是这样炼成的</a></p>
 ]]></content>
       
         <categories>
@@ -229,7 +265,8 @@
 </ol>
 <hr>
 <h3 id="不能忘记的事：备份！"><a href="#不能忘记的事：备份！" class="headerlink" title="不能忘记的事：备份！"></a>不能忘记的事：<strong>备份</strong>！</h3><p>最后一件重要的事，就是备份了。<br>把本地的hexo文件夹备份，我可以使用mac的定期备份；但似乎不太好用。因为github的私有云收费，<a href="http://qiuqingyu.cn/2017/03/16/Hexo%E5%8D%9A%E5%AE%A2%E8%87%AA%E5%8A%A8%E5%A4%87%E4%BB%BD%E5%88%B0Coding/" rel="external nofollow noopener noreferrer" target="_blank">备份到coding上</a><br>~ 吴林er写的这个，用到hexo-backup这个插件，看起来不错。~ 该插件不能用了。折腾了我好久。<br>我不想要每次都备份，只是想看状态不错的时候，<br>以后就用这些代码：</p>
-<p>这个人超级牛，这个备份的问题，我就靠他解决了：<br><a href="http://masikkk.com/article/hexo-10-coding-pages-deploy/" rel="external nofollow noopener noreferrer" target="_blank">http://masikkk.com/article/hexo-10-coding-pages-deploy/</a><br>这个人写的<a href="http://ricky.moe/2017/01/13/hexo-perfect-synchronize/index.html" rel="external nofollow noopener noreferrer" target="_blank">多电脑同步方法</a>，是最好的，很简洁，跟上面那个人一样。只是没有能解决我的问题。我之前估计是用hexo backup插件，把一些东西弄坏了，需要整一下。Masikkk刚好也碰到同样的问题，帮我处理了。这个人就hexo博客谢了14篇blog，是我看到的最全的了。</p>
+<p>这个人超级牛，这个备份的问题，我就靠他解决了：<br><a href="http://masikkk.com/article/hexo-10-coding-pages-deploy/" rel="external nofollow noopener noreferrer" target="_blank">Hexo博客(10)部署到Coding.net</a></p>
+<p>这个人写的<a href="http://ricky.moe/2017/01/13/hexo-perfect-synchronize/index.html" rel="external nofollow noopener noreferrer" target="_blank">多电脑同步方法</a>，是最好的，很简洁，跟上面那个人一样。只是没有能解决我的问题。我之前估计是用hexo backup插件，把一些东西弄坏了，需要整一下。Masikkk刚好也碰到同样的问题，帮我处理了。这个人就hexo博客谢了14篇blog，是我看到的最全的了。</p>
 <p>同时搭建国内coding上的博客，同步更新以及多台电脑使用。<br>masikkk篇在这个问题上写的最全面了。<a href="http://masikkk.com/article/hexo-3-source-backup-and-sync-between-diff-computer/" rel="external nofollow noopener noreferrer" target="_blank">Hexo博客(3)源码备份及不同电脑上的同步问题</a></p>
 ]]></content>
       

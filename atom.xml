@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://igencong.com/"/>
-  <updated>2017-08-07T20:54:43.000Z</updated>
+  <updated>2017-08-08T14:26:07.000Z</updated>
   <id>http://igencong.com/</id>
   
   <author>
@@ -14,6 +14,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>每日读经与灵修</title>
+    <link href="http://igencong.com/2017-08-08/%E6%81%A9%E5%85%B8%E6%98%AF%E8%A6%81%E6%B0%B8%E8%BF%9C%E4%B8%BA%E4%B9%8B%E5%8A%AA%E5%8A%9B%E7%9A%84%E7%9C%9F%E7%9B%B8/"/>
+    <id>http://igencong.com/2017-08-08/恩典是要永远为之努力的真相/</id>
+    <published>2017-08-08T13:45:53.000Z</published>
+    <updated>2017-08-08T14:26:07.000Z</updated>
+    
+    <summary type="html">
+    
+      Welcome to my blog, enter password to read.
+    
+    </summary>
+    
+      <category term="灵修笔记" scheme="http://igencong.com/categories/%E7%81%B5%E4%BF%AE%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="灵修" scheme="http://igencong.com/tags/%E7%81%B5%E4%BF%AE/"/>
+    
+      <category term="属灵操练" scheme="http://igencong.com/tags/%E5%B1%9E%E7%81%B5%E6%93%8D%E7%BB%83/"/>
+    
+      <category term="读经" scheme="http://igencong.com/tags/%E8%AF%BB%E7%BB%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>怀念Tom：追思礼拜有感</title>
@@ -36,6 +60,24 @@
       <category term="自杀" scheme="http://igencong.com/tags/%E8%87%AA%E6%9D%80/"/>
     
       <category term="葬礼" scheme="http://igencong.com/tags/%E8%91%AC%E7%A4%BC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://igencong.com/2017-08-07/media/%E6%96%B0%E5%AA%92%E4%BD%93%E6%95%99%E4%BC%9A%E6%98%AF%E8%BF%99%E6%A0%B7%E7%82%BC%E6%88%90%E7%9A%84/"/>
+    <id>http://igencong.com/2017-08-07/media/新媒体教会是这样炼成的/</id>
+    <published>2017-08-07T07:17:01.000Z</published>
+    <updated>2017-08-07T07:17:01.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;/p&gt;&lt;h1 id=&quot;新媒体教会是这样炼成的&quot;&gt;新媒体教会是这样炼成的！&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;h2 id=&quot;序&quot;&gt;序&lt;/h2&gt;&lt;p&gt;&lt;/p&gt;
+&lt;h3 id=&quot;许基康&quot;&gt;许基康&lt;/h3&gt;&lt;br&gt;&lt;h2 id=&quot;理念篇新媒体网络宣教&quot;&gt;理念篇：新媒体网络宣
+    
+    </summary>
+    
     
   </entry>
   
@@ -90,7 +132,7 @@
     <link href="http://igencong.com/2017-08-06/Markdown%20tips/"/>
     <id>http://igencong.com/2017-08-06/Markdown tips/</id>
     <published>2017-08-06T20:33:56.000Z</published>
-    <updated>2017-08-07T01:21:14.000Z</updated>
+    <updated>2017-08-07T21:43:42.000Z</updated>
     
     <summary type="html">
     
@@ -99,7 +141,7 @@
 &lt;p&gt;本文是我在使用markdown写作、编辑的时候使用的一些技巧，我发现有些时候就忘记了，记下来以提醒。&lt;br&gt;所以，本文会随时补充、更新。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ol&gt;
-&lt;li&gt;使用vim快速获取文章的内容列
+&lt;li&gt;&lt;del&gt;使用vim快速获取文
     
     </summary>
     
@@ -117,7 +159,7 @@
     <link href="http://igencong.com/2017-08-04/%E7%BB%A7%E7%BB%ADblog%EF%BC%8C%E7%BB%A7%E7%BB%AD%E6%88%90%E9%95%BF/"/>
     <id>http://igencong.com/2017-08-04/继续blog，继续成长/</id>
     <published>2017-08-04T04:00:00.000Z</published>
-    <updated>2017-08-07T06:05:09.000Z</updated>
+    <updated>2017-08-07T21:01:09.000Z</updated>
     
     <summary type="html">
     
