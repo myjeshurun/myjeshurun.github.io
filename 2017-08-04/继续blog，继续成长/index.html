@@ -104,7 +104,7 @@
 <meta property="og:site_name" content="耶书仑的生命志">
 <meta property="og:description" content="这篇记录自己学习hexo这个新东西的过程，很零碎。  决定用hexo和gitpages再搭建自己的博客网站很喜欢blog，有很长时间的历史了。估计在2002年开始比较多上网的时候，就了解到blog，就有了blogger，后来折腾过blogcn，blogbus，ccblogs等 后来用wordpress，iyublog到后来自己用wordpress搭建igencong.com 后来因为牧会的忙碌，">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-08-08T15:13:19.000Z">
+<meta property="og:updated_time" content="2017-08-08T19:03:51.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="继续blog，继续成长">
 <meta name="twitter:description" content="这篇记录自己学习hexo这个新东西的过程，很零碎。  决定用hexo和gitpages再搭建自己的博客网站很喜欢blog，有很长时间的历史了。估计在2002年开始比较多上网的时候，就了解到blog，就有了blogger，后来折腾过blogcn，blogbus，ccblogs等 后来用wordpress，iyublog到后来自己用wordpress搭建igencong.com 后来因为牧会的忙碌，">
@@ -507,7 +507,7 @@
 <li>文章置顶：找了几个设置了不行。这篇文章的代码可以：<a href="http://hongyitong.github.io/2017/01/06/Hexo%E6%96%87%E7%AB%A0%E7%BD%AE%E9%A1%B6/" rel="external nofollow noopener noreferrer" target="_blank">文章置顶</a></li>
 <li>增加了友情链接和社交网络。done</li>
 <li>增加了相关文章。这个弄了好久，主要是网上的教材主要是针对ejs，通过在论坛里问，才最终搞定。有两个方法：1）使用插件：tea3/hexo-related-popular-posts，我跟他联系，他增加了对next主题的支持。2）写个related-post.js使用这里的文章：<a href="http://wingjay.com/2017/06/08/rebuild-personal-blog/" rel="external nofollow noopener noreferrer" target="_blank">自己动手改造个人博客</a></li>
-<li>增加了为文章添加密码的功能。</li>
+<li>增加了为文章添加密码的功能。用了<a href="https://github.com/MikeCoder/hexo-blog-encrypt/blob/master/ReadMe.zh.md" rel="external nofollow noopener noreferrer" target="_blank">hexo-blog-encrypt</a></li>
 </ol>
 <hr>
 <h3 id="一些体会"><a href="#一些体会" class="headerlink" title="一些体会"></a>一些体会</h3><ol>
@@ -537,7 +537,7 @@
 <li></li>
 </ol>
 <hr>
-<h3 id="不能忘记的事：备份！"><a href="#不能忘记的事：备份！" class="headerlink" title="不能忘记的事：备份！"></a>不能忘记的事：<strong>备份</strong>！</h3><p>最后一件重要的事，就是备份了。<br>把本地的hexo文件夹备份，我可以使用mac的定期备份；但似乎不太好用。因为github的私有云收费，<a href="http://qiuqingyu.cn/2017/03/16/Hexo%E5%8D%9A%E5%AE%A2%E8%87%AA%E5%8A%A8%E5%A4%87%E4%BB%BD%E5%88%B0Coding/" rel="external nofollow noopener noreferrer" target="_blank">备份到coding上</a><br>~ 吴林er写的这个，用到hexo-backup这个插件，看起来不错。~ 该插件不能用了。折腾了我好久。<br>我不想要每次都备份，只是想看状态不错的时候，<br>以后就用这些代码：</p>
+<h3 id="不能忘记的事：备份！"><a href="#不能忘记的事：备份！" class="headerlink" title="不能忘记的事：备份！"></a>不能忘记的事：<strong>备份</strong>！</h3><p>最后一件重要的事，就是备份了。<br>把本地的hexo文件夹备份，我可以使用mac的定期备份；但似乎不太好用。因为github的私有云收费，<a href="http://qiuqingyu.cn/2017/03/16/Hexo%E5%8D%9A%E5%AE%A2%E8%87%AA%E5%8A%A8%E5%A4%87%E4%BB%BD%E5%88%B0Coding/" rel="external nofollow noopener noreferrer" target="_blank">备份到coding上</a><br>~ 吴林er写的这个，用到hexo-backup这个插件，看起来不错。~ 该插件不能用了。折腾了我好久。<br>我不想要每次都备份，只是想看一切都正常的时候，<br>以后就用这些代码：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">git remote add origin https://git.coding.net/jeshurun/hexoblog.git \\这一行一般不用。</div><div class="line">git add .</div><div class="line">git commit -m &quot;my first hexo backup&quot;</div><div class="line">git push -u origin master</div></pre></td></tr></table></figure></p>
 <p>这个人超级牛，这个备份的问题，我就靠他解决了：<br><a href="http://masikkk.com/article/hexo-10-coding-pages-deploy/" rel="external nofollow noopener noreferrer" target="_blank">Hexo博客(10)部署到Coding.net</a></p>
 <p>这个人写的<a href="http://ricky.moe/2017/01/13/hexo-perfect-synchronize/index.html" rel="external nofollow noopener noreferrer" target="_blank">多电脑同步方法</a>，是最好的，很简洁，跟上面那个人一样。只是没有能解决我的问题。我之前估计是用hexo backup插件，把一些东西弄坏了，需要整一下。Masikkk刚好也碰到同样的问题，帮我处理了。这个人就hexo博客谢了14篇blog，是我看到的最全的了。</p>
 <p>同时搭建国内coding上的博客，同步更新以及多台电脑使用。<br>masikkk篇在这个问题上写的最全面了。<a href="http://masikkk.com/article/hexo-3-source-backup-and-sync-between-diff-computer/" rel="external nofollow noopener noreferrer" target="_blank">Hexo博客(3)源码备份及不同电脑上的同步问题</a></p>
