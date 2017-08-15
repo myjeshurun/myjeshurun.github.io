@@ -1,239 +1,38 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  
-  <title>工具与新媒体的关系 | 耶书仑的生命志</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="The article has been encrypted, please enter your password to view.">
-<meta name="keywords" content="工具,新媒体">
-<meta property="og:type" content="article">
-<meta property="og:title" content="工具与新媒体的关系">
-<meta property="og:url" content="http://igencong.com/2017-08-06/工具与媒体的思考/index.html">
-<meta property="og:site_name" content="耶书仑的生命志">
-<meta property="og:description" content="The article has been encrypted, please enter your password to view.">
-<meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-08-08T15:00:31.000Z">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="工具与新媒体的关系">
-<meta name="twitter:description" content="The article has been encrypted, please enter your password to view.">
-  
-    <link rel="alternate" href="/atom.xml" title="耶书仑的生命志" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  <link rel="stylesheet" href="/css/style.css">
-  
+{% extends '_layout.swig' %}
+{% import '_macro/post.swig' as post_template %}
+{% import '_macro/sidebar.swig' as sidebar_template %}
 
-</head>
-</html>
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">耶书仑的生命志</a>
-      </h1>
-      
-        <h2 id="subtitle-wrap">
-          <a href="/" id="subtitle">信仰 生命 生活</a>
-        </h2>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://igencong.com"></form>
-      </div>
-    </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main"><article id="post-工具与媒体的思考" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017-08-06/工具与媒体的思考/" class="article-date">
-  <time datetime="2017-08-07T01:27:59.000Z" itemprop="datePublished">2017-08-06</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/工具控/">工具控</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 class="article-title" itemprop="name">
-      工具与新媒体的关系
-    </h1>
-  
+{% block title %}{{ page.title }} | {{ config.title }}{% endblock %}
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <script src="/crypto-js.js"></script><script src="/mcommon.js"></script><h3 id="encrypt-message">这是一篇私密文章，请输入密码访问，谢谢^_^</h3><link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css"> <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script> <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> <div id="security"> <div> <div class="input-group"> <input type="text" class="form-control" aria-label="Enter the password." id="pass"> <div class="input-group-btn"> <button type="button" class="btn btn-default" onclick="decryptAES()">Decrypt</button> </div> </div> </div> </div> <div id="encrypt-blog" style="display:none"> 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 </div>
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://igencong.com/2017-08-06/工具与媒体的思考/" data-id="cj6d3ypsk001g2oeokzrwch55" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/工具/">工具</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/新媒体/">新媒体</a></li></ul>
+{% block page_class %}page-post-detail{% endblock %}
 
-    </footer>
-  </div>
-  
-    
-<nav id="article-nav">
-  
-    <a href="/2017-08-06/blog建成，记念一下/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          blog建成，记念一下
-        
-      </div>
-    </a>
-  
-  
-    <a href="/2017-08-06/选择合适的blog平台/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">好的工具激发灵感：选择合适的blog平台</div>
-    </a>
-  
-</nav>
 
-  
-</article>
+{% block content %}
 
-</section>
-        
-          <aside id="sidebar">
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Categories</h3>
-    <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/奇妙·故事/">奇妙·故事</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/工具控/">工具控</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/微信文章/">微信文章</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/无题·随笔/">无题·随笔</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/灵修笔记/">灵修笔记</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/生活日记/">生活日记</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/见证如云/">见证如云</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/领导力资源/">领导力资源</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/领导力资源/见证如云/">见证如云</a></li></ul></li></ul>
+  <div id="posts" class="posts-expand">
+    {{ post_template.render(page) }}
+
+    <div class="post-spread">
+      {% if theme.jiathis %}
+        {% include '_partials/share/jiathis.swig' %}
+      {% elseif theme.baidushare %}
+        {% include '_partials/share/baidushare.swig' %}
+      {% elseif theme.add_this_id %}
+        {% include '_partials/share/add-this.swig' %}
+      {% elseif theme.duoshuo_shortname and theme.duoshuo_share %}
+        {% include '_partials/share/duoshuo_share.swig' %}
+      {% endif %}
     </div>
   </div>
 
+{% endblock %}
 
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tags</h3>
-    <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/GLS/">GLS</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/blog/">blog</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/">hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/leanote/">leanote</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/markdown/">markdown</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/信实/">信实</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/全球领袖峰会/">全球领袖峰会</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/公义/">公义</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/内在生命/">内在生命</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/写作/">写作</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/协作/">协作</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/博客/">博客</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/卢旺达/">卢旺达</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/司徒雷登/">司徒雷登</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/同在/">同在</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/吕振中/">吕振中</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/圣灵/">圣灵</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/圣经/">圣经</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/圣经翻译/">圣经翻译</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/宣教士/">宣教士</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/导师/">导师</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/尊重/">尊重</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/属灵操练/">属灵操练</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/工具/">工具</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/幸存者/">幸存者</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/惧怕/">惧怕</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/新媒体/">新媒体</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/梅顿/">梅顿</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/灵修/">灵修</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/灾难/">灾难</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/肯定/">肯定</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/自杀/">自杀</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/葬礼/">葬礼</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/见证/">见证</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/读经/">读经</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/道成肉身/">道成肉身</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/闽南/">闽南</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/陪伴/">陪伴</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/顺服/">顺服</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/领导力/">领导力</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/饶恕/">饶恕</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/鼓浪屿/">鼓浪屿</a></li></ul>
-    </div>
-  </div>
+{% block sidebar %}
+  {{ sidebar_template.render(true) }}
+{% endblock %}
 
 
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tag Cloud</h3>
-    <div class="widget tagcloud">
-      <a href="/tags/GLS/" style="font-size: 10px;">GLS</a> <a href="/tags/blog/" style="font-size: 10px;">blog</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/leanote/" style="font-size: 12.5px;">leanote</a> <a href="/tags/markdown/" style="font-size: 10px;">markdown</a> <a href="/tags/信实/" style="font-size: 10px;">信实</a> <a href="/tags/全球领袖峰会/" style="font-size: 20px;">全球领袖峰会</a> <a href="/tags/公义/" style="font-size: 10px;">公义</a> <a href="/tags/内在生命/" style="font-size: 10px;">内在生命</a> <a href="/tags/写作/" style="font-size: 15px;">写作</a> <a href="/tags/协作/" style="font-size: 10px;">协作</a> <a href="/tags/博客/" style="font-size: 12.5px;">博客</a> <a href="/tags/卢旺达/" style="font-size: 10px;">卢旺达</a> <a href="/tags/司徒雷登/" style="font-size: 10px;">司徒雷登</a> <a href="/tags/同在/" style="font-size: 10px;">同在</a> <a href="/tags/吕振中/" style="font-size: 10px;">吕振中</a> <a href="/tags/圣灵/" style="font-size: 10px;">圣灵</a> <a href="/tags/圣经/" style="font-size: 10px;">圣经</a> <a href="/tags/圣经翻译/" style="font-size: 12.5px;">圣经翻译</a> <a href="/tags/宣教士/" style="font-size: 10px;">宣教士</a> <a href="/tags/导师/" style="font-size: 10px;">导师</a> <a href="/tags/尊重/" style="font-size: 10px;">尊重</a> <a href="/tags/属灵操练/" style="font-size: 10px;">属灵操练</a> <a href="/tags/工具/" style="font-size: 15px;">工具</a> <a href="/tags/幸存者/" style="font-size: 10px;">幸存者</a> <a href="/tags/惧怕/" style="font-size: 10px;">惧怕</a> <a href="/tags/新媒体/" style="font-size: 10px;">新媒体</a> <a href="/tags/梅顿/" style="font-size: 10px;">梅顿</a> <a href="/tags/灵修/" style="font-size: 15px;">灵修</a> <a href="/tags/灾难/" style="font-size: 10px;">灾难</a> <a href="/tags/肯定/" style="font-size: 10px;">肯定</a> <a href="/tags/自杀/" style="font-size: 10px;">自杀</a> <a href="/tags/葬礼/" style="font-size: 10px;">葬礼</a> <a href="/tags/见证/" style="font-size: 15px;">见证</a> <a href="/tags/读经/" style="font-size: 10px;">读经</a> <a href="/tags/道成肉身/" style="font-size: 10px;">道成肉身</a> <a href="/tags/闽南/" style="font-size: 10px;">闽南</a> <a href="/tags/陪伴/" style="font-size: 10px;">陪伴</a> <a href="/tags/顺服/" style="font-size: 10px;">顺服</a> <a href="/tags/领导力/" style="font-size: 17.5px;">领导力</a> <a href="/tags/饶恕/" style="font-size: 10px;">饶恕</a> <a href="/tags/鼓浪屿/" style="font-size: 10px;">鼓浪屿</a>
-    </div>
-  </div>
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/08/">August 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/07/">July 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/06/">June 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/01/">January 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">November 2016</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2017-08-15/2017-08-15/">just a test</a>
-          </li>
-        
-          <li>
-            <a href="/2017-08-13/the art of forgiveness/">【GLS17】卢旺达大屠杀幸存者：如果我能饶恕，你也一定能！</a>
-          </li>
-        
-          <li>
-            <a href="/2017-08-12/Leadership is everything/">【GLS17】Bill Hybels——领导力就是你的一切</a>
-          </li>
-        
-          <li>
-            <a href="/2017-08-12/世界在呼唤正直的领导力/">【GLS17】世界在呼唤正直的领袖</a>
-          </li>
-        
-          <li>
-            <a href="/2017-08-11/7-2, Gary Haugen, Overcome the fear/">【GLS17】真正的领袖，直面内心的惧怕</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2017 耶书仑Jeshurun<br>
-      Powered by <a href="http://hexo.io/" target="_blank" rel="external nofollow noopener noreferrer">Hexo</a>
-    </div>
-  </div>
-</footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  <script src="/fancybox/jquery.fancybox.pack.js"></script>
-
-
-<script src="/js/script.js"></script>
-
-  </div>
-</body>
+{% block script_extra %}
+  {% include '_scripts/pages/post-details.swig' %}
+{% endblock %}
