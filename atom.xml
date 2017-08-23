@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://igencong.com/"/>
-  <updated>2017-08-22T19:42:34.000Z</updated>
+  <updated>2017-08-23T14:29:32.000Z</updated>
   <id>http://igencong.com/</id>
   
   <author>
@@ -14,6 +14,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>利未记对现代基督徒的意义</title>
+    <link href="http://igencong.com/2017-08-23/%E5%88%A9%E6%9C%AA%E8%AE%B0%E5%AF%B9%E7%8E%B0%E4%BB%A3%E5%9F%BA%E7%9D%A3%E5%BE%92%E7%9A%84%E6%84%8F%E4%B9%89/"/>
+    <id>http://igencong.com/2017-08-23/利未记对现代基督徒的意义/</id>
+    <published>2017-08-23T12:37:44.000Z</published>
+    <updated>2017-08-23T14:29:32.000Z</updated>
+    
+    <summary type="html">
+    
+      The article has been encrypted, please enter your password to view.&lt;br&gt;
+    
+    </summary>
+    
+      <category term="圣经解读" scheme="http://igencong.com/categories/%E5%9C%A3%E7%BB%8F%E8%A7%A3%E8%AF%BB/"/>
+    
+    
+      <category term="利未记" scheme="http://igencong.com/tags/%E5%88%A9%E6%9C%AA%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>一次普通的谈话，一个开启未来的异象</title>
@@ -40,11 +60,11 @@
   </entry>
   
   <entry>
-    <title>终于有了第一个圣经小程序</title>
+    <title>第一个圣经小程序诞生了</title>
     <link href="http://igencong.com/2017-08-22/%E7%BB%88%E4%BA%8E%E6%9C%89%E4%BA%86%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%9C%A3%E7%BB%8F%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
     <id>http://igencong.com/2017-08-22/终于有了第一个圣经小程序/</id>
     <published>2017-08-22T13:29:35.000Z</published>
-    <updated>2017-08-23T01:34:32.000Z</updated>
+    <updated>2017-08-23T01:51:08.000Z</updated>
     
     <summary type="html">
     
@@ -447,7 +467,7 @@
     <link href="http://igencong.com/2017-08-04/%E7%BB%A7%E7%BB%ADblog%EF%BC%8C%E7%BB%A7%E7%BB%AD%E6%88%90%E9%95%BF/"/>
     <id>http://igencong.com/2017-08-04/继续blog，继续成长/</id>
     <published>2017-08-04T04:00:00.000Z</published>
-    <updated>2017-08-15T14:28:14.000Z</updated>
+    <updated>2017-08-23T01:50:04.000Z</updated>
     
     <summary type="html">
     
@@ -527,42 +547,6 @@
       <category term="leanote" scheme="http://igencong.com/tags/leanote/"/>
     
       <category term="工具" scheme="http://igencong.com/tags/%E5%B7%A5%E5%85%B7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>我是工具控，我到底要做什么？</title>
-    <link href="http://igencong.com/2017-07-31/%E6%88%91%E6%98%AF%E5%B7%A5%E5%85%B7%E6%8E%A7%EF%BC%8C%E6%88%91%E5%88%B0%E5%BA%95%E8%A6%81%E5%81%9A%E4%BB%80%E4%B9%88%EF%BC%9F/"/>
-    <id>http://igencong.com/2017-07-31/我是工具控，我到底要做什么？/</id>
-    <published>2017-07-31T04:00:00.000Z</published>
-    <updated>2017-08-07T01:20:05.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;这些花了我好多时间，我是工具控，我到底要做什么？&lt;/p&gt;
-&lt;h3 id=&quot;开放的leanote&quot;&gt;&lt;a href=&quot;#开放的leanote&quot; class=&quot;headerlink&quot; title=&quot;开放的leanote&quot;&gt;&lt;/a&gt;开放的leanote&lt;/h3&gt;&lt;p&gt;今天我看到leanote，感觉它可以成为我一直想做的东西，为写作者提供一个简单的工具平台。因为：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;它可以一键发布到博客，这很酷。只是它没有rss导出功能让我很纠结。&lt;/li&gt;
-&lt;li&gt;可以跟别人分享，这可以用在投稿上。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&quot;如何与其它工具整合。&quot;&gt;&lt;a href=&quot;#如何与其它工具整合。&quot; class=&quot;headerlink&quot; title=&quot;如何与其它工具整合。&quot;&gt;&lt;/a&gt;如何与其它工具整合。&lt;/h3&gt;&lt;p&gt;另外，我又在考虑如何与nvALT, The Archive, DayOne, Vim这些东西整合在一起。我现在习惯了把东西变成txt，把所有的东西放在一个地方，好方便搜索什么。现在如果再用leanote，我希望能把文章转成txt存档。看起来这个当做markdown编辑器挺不错的。&lt;/p&gt;
-&lt;h3 id=&quot;我的写作流程&quot;&gt;&lt;a href=&quot;#我的写作流程&quot; class=&quot;headerlink&quot; title=&quot;我的写作流程&quot;&gt;&lt;/a&gt;我的写作流程&lt;/h3&gt;&lt;p&gt;我想了想，决定这么来写作：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;用markdown写一切的东西，使用byword、nvALT、The Archive或者vim、DayOne写东西，存成md格式的文档。&lt;/li&gt;
-&lt;li&gt;如果有想发布的个人笔记什么，或者已经发布在的，就转到leanote来与别人分享。
-    
-    </summary>
-    
-      <category term="工具控" scheme="http://igencong.com/categories/%E5%B7%A5%E5%85%B7%E6%8E%A7/"/>
-    
-    
-      <category term="leanote" scheme="http://igencong.com/tags/leanote/"/>
-    
-      <category term="工具" scheme="http://igencong.com/tags/%E5%B7%A5%E5%85%B7/"/>
-    
-      <category term="博客" scheme="http://igencong.com/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
-      <category term="协作" scheme="http://igencong.com/tags/%E5%8D%8F%E4%BD%9C/"/>
     
   </entry>
   
