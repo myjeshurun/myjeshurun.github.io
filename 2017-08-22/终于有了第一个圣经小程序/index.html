@@ -1,38 +1,1439 @@
-{% extends '_layout.swig' %}
-{% import '_macro/post.swig' as post_template %}
-{% import '_macro/sidebar.swig' as sidebar_template %}
+<!DOCTYPE html>
 
 
-{% block title %}{{ page.title }} | {{ config.title }}{% endblock %}
 
-{% block page_class %}page-post-detail{% endblock %}
+  
 
 
-{% block content %}
+<html class="theme-next mist use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css">
+
+
+  <meta name="keywords" content="新媒体,今日圣经,教程,">
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="耶书仑的生命志" type="application/atom+xml">
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.2">
+
+
+
+
+
+
+<meta name="description" content="今日圣经小程序近日，今日佳音的细心粉丝会在我们的公号上看到一个消息说，公众号关联小程序通知。如果你点进去，就会眼前一亮，看到一个神奇的新东西：今日圣经。惊艳的那一刻，你会问，这是什么东东？ 这是个小程序，可能有很多小伙伴们，还不知道小程序是什么，请看文后小编的介绍和短评1。 作为一个基督徒媒体机构，我们常常很努力的开动小脑筋，想如何使用新媒体把耶稣的宝贵福音更好的传扬出去，好和其他伙伴们一起完成大">
+<meta name="keywords" content="新媒体,今日圣经,教程">
+<meta property="og:type" content="article">
+<meta property="og:title" content="今日圣经小程序背后的故事（附攻略）">
+<meta property="og:url" content="http://igencong.com/2017-08-22/终于有了第一个圣经小程序/index.html">
+<meta property="og:site_name" content="耶书仑的生命志">
+<meta property="og:description" content="今日圣经小程序近日，今日佳音的细心粉丝会在我们的公号上看到一个消息说，公众号关联小程序通知。如果你点进去，就会眼前一亮，看到一个神奇的新东西：今日圣经。惊艳的那一刻，你会问，这是什么东东？ 这是个小程序，可能有很多小伙伴们，还不知道小程序是什么，请看文后小编的介绍和短评1。 作为一个基督徒媒体机构，我们常常很努力的开动小脑筋，想如何使用新媒体把耶稣的宝贵福音更好的传扬出去，好和其他伙伴们一起完成大">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://ou5zkeopz.bkt.clouddn.com/bibletoday.jpg">
+<meta property="og:image" content="http://ou5zkeopz.bkt.clouddn.com/display.jpg">
+<meta property="og:image" content="http://ou5zkeopz.bkt.clouddn.com/on-top.jpg">
+<meta property="og:image" content="http://ou5zkeopz.bkt.clouddn.com/desktop.jpg">
+<meta property="og:updated_time" content="2017-08-24T19:13:59.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="今日圣经小程序背后的故事（附攻略）">
+<meta name="twitter:description" content="今日圣经小程序近日，今日佳音的细心粉丝会在我们的公号上看到一个消息说，公众号关联小程序通知。如果你点进去，就会眼前一亮，看到一个神奇的新东西：今日圣经。惊艳的那一刻，你会问，这是什么东东？ 这是个小程序，可能有很多小伙伴们，还不知道小程序是什么，请看文后小编的介绍和短评1。 作为一个基督徒媒体机构，我们常常很努力的开动小脑筋，想如何使用新媒体把耶稣的宝贵福音更好的传扬出去，好和其他伙伴们一起完成大">
+<meta name="twitter:image" content="http://ou5zkeopz.bkt.clouddn.com/bibletoday.jpg">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://igencong.com/2017-08-22/终于有了第一个圣经小程序/">
+
+
+
+
+
+  <title>今日圣经小程序背后的故事（附攻略） | 耶书仑的生命志</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope="" itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">耶书仑的生命志</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">信仰 生命 生活</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off" placeholder="搜索..." spellcheck="false" type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
 
   <div id="posts" class="posts-expand">
-    {{ post_template.render(page) }}
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://igencong.com/2017-08-22/终于有了第一个圣经小程序/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="耶书仑Jeshurun">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="耶书仑的生命志">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">今日圣经小程序背后的故事（附攻略）</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-22T09:29:35-04:00">
+                2017-08-22
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/工具控/" itemprop="url" rel="index">
+                    <span itemprop="name">工具控</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017-08-22/终于有了第一个圣经小程序/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017-08-22/终于有了第一个圣经小程序/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2017-08-22/终于有了第一个圣经小程序/" class="leancloud_visitors" data-flag-title="今日圣经小程序背后的故事（附攻略）">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h3 id="今日圣经小程序"><a href="#今日圣经小程序" class="headerlink" title="今日圣经小程序"></a>今日圣经小程序</h3><p>近日，今日佳音的细心粉丝会在我们的公号上看到一个消息说，公众号关联小程序通知。如果你点进去，就会眼前一亮，看到一个神奇的新东西：今日圣经。<br><img src="http://ou5zkeopz.bkt.clouddn.com/bibletoday.jpg" class="class1" width="800"><br>惊艳的那一刻，你会问，这是什么东东？</p>
+<p>这是个小程序，可能有很多小伙伴们，还不知道小程序是什么，请看文后小编的介绍和短评<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>。</p>
+<p>作为一个基督徒媒体机构，我们常常很努力的开动小脑筋，想如何使用新媒体把耶稣的宝贵福音更好的传扬出去，好和其他伙伴们一起完成大使命。这是我们最最开心的事！于是，我们一开始做广播，接着做网站；后来微博火了，我们就去做微博；智能手机很多人用，我们开发手机应用；大家都用微信，我们就经营微信公号：今日佳音wxbible；现在，小程序有人用，于是就有了：今日圣经小程序。哒哒哒…</p>
+<p>所以啊，今日圣经小程序对很多人来说，貌似横空出世，其实并不是一个偶然。这是我们用心体会上帝爱世人，希望“人人得救，不愿一人沉沦”的心肠，并一直努力回应上帝在这个时代给我们呼召的结果。<br><a id="more"></a></p>
+<h3 id="小程序“怀孕”的那一刻"><a href="#小程序“怀孕”的那一刻" class="headerlink" title="小程序“怀孕”的那一刻"></a>小程序“怀孕”的那一刻</h3><p>有一次跟安大（他是我们的老大，哈哈）一起出差，回来的时候，在飞机上他跟我倒起他对未来的忧虑。他诉苦说：某某机构做的非常优秀，我跟他们谈合作的事。我本想和他们一起鼓励信徒活出信仰，关注周遭的社会，并努力在现实生活中做好见证；但他们似乎不是感兴趣。神给了他们很大的祝福，为了获得他们的支持，我宁愿什么名分都不要，就把我们做的东西白白给他，不知道他们愿不愿意。我准备下次再找他们谈，但心里实在没底。</p>
+<p>我呢，不小心也了解该他谈的这机构，就直接开导他说：哎呀，你也别难过。我看这个合作本来就很难成，因为神给他们的异象和托付跟我们很不一样。他们最看重的是神的圣言对信徒生命的重要意义，我们则比较理解现代人的习惯和节奏，看重信徒生命的更新，以及在现实社会中活出信仰，做好见证。我们本质上还是个媒体机构，跟他们不一样。你就别打这门子心思了，我觉得最好是我们想办法自己做。</p>
+<p>不知道是我的话刺激了他，还是启迪了他，他突然瞪大了眼睛，对我说：“对了，小程序，就做一个圣经小程序，就叫“今日圣经”。然后，把我们现在所有的东西放在一起：每日灵修和佳音文章。小程序刚出来，会用的人少，但以后肯定会火起来。我们有王弟兄（我们团队中的技术牛人），他研究小程序有大半年了，他可以做。这是腾讯的野心布局，恰好给了我们机会。就这么办，哈哈…”</p>
+<p>对对，可不能忘了，为我们做美工设计的春花姊妹，没有她，这小程序肯定不能长的这么漂亮…</p>
+<p>说干就干，大家看到的小程序就是这样被造出来的，凝聚了一个团队的智慧和心血。愿荣耀归给我们在天上的神！</p>
+<h3 id="今日圣经的特点"><a href="#今日圣经的特点" class="headerlink" title="今日圣经的特点"></a>今日圣经的特点</h3><ol>
+<li><p>功能简单，一站到位<br>今日圣经小程序提供三个方面的功能和服务：阅读圣经、每日灵修和今日佳音，后两者的内容对应普世佳音做的两个公号：每日箴言和今日佳音wxbible。我们期待的是，这个小程序是大家平日喜欢用的，所以各方面都做得尽可能简洁，让大家用起来方便。<br>圣经在线，就是提供给信徒一个在微信上读圣经的工具，加上搜索经文的功能；<br>每日灵修，就是每日的灵修文章推送；<br>今日佳音，每日一篇从信仰的角度回应时下的热点事件。<br>我们想一个基督徒在忙碌的生活中，如果每天能做到读经、灵修，再了解一下当下的社会，就可以了。这就是我们做这个小程序一开始的初衷：为广大的基督徒提供<strong>圣经、灵修、生活三位一体，一站到位的服事</strong>。针对这三个功能，我们编了一个顺口溜：圣经就像手机在线一样时刻在我们心里，灵修是准时的赴上帝的邀约，佳音让我们关怀社会时事。<br>我们期待，当弟兄姊妹的生命得到充实的喂养之后，他/她可以在他所生活的周遭世界中，为神做美好的见证。</p>
+</li>
+<li><p>界面简洁，专注阅读<br>简单实用的功能，配上有简洁的页面排版，希望可以营造一种氛围，让大家可以享受阅读的过程。我们的期待是：不让微信公号上那些花哨的排版分散了我们的注意力，让我们可以更多体验去文字的神奇力量。</p>
+</li>
+<li><p>有声朗读，用心聆听<br>声音，声音！我们为每一部分都提供了有声朗读，这样可以释放你的双手和眼睛，让你用耳朵用心来聆听神借着圣经、灵修小文和热点评析文章对你所要说的话。当你整天盯着电脑屏幕感觉眼睛很累，在地铁上、公交上不方便看手机或者开车在路上，相信这个有声的功能会让你很喜欢。</p>
+</li>
+</ol>
+<h3 id="使用今日圣经的贴心小技巧"><a href="#使用今日圣经的贴心小技巧" class="headerlink" title="使用今日圣经的贴心小技巧"></a>使用今日圣经的贴心小技巧</h3><ol>
+<li><p>如何找到今日圣经小程序？<br>打开微信，点击右上角的搜索，输入“今日圣经”，点击下方的“搜一搜 今日圣经”，在出来的搜索界面，你应该就会在最上方看到“今日圣经”小程序的图标，点击进入即可。<br>或者呢，你可以打开微信直接扫描一下的二维码，直接进入小程序：<br><del>（请其它小编在这里放上小程序的二维码）</del><br>你点进去之后，建议你做两件事情，帮助你下一次快捷的找到今日圣经小程序：</p>
+<ul>
+<li><p><strong>把今日圣经小程序放到微信聊天的顶部</strong>。同样的，在今日圣经小程序首页界面右上角点击“┇”，选择：“显示在聊天顶部”；这样下一次，你就打开微信跟朋友聊天的时候，或许想起还没有读经、灵修，就可以直接从聊天顶部点击进入今日圣经的小程序了。<em>或许上帝知道我们的软弱，很难离开微信，因此就借着今日圣经在微信上遇见我们，对我们说话</em>。</p>
+<img src="http://ou5zkeopz.bkt.clouddn.com/display.jpg" class="class1" width="800">
+<img src="http://ou5zkeopz.bkt.clouddn.com/on-top.jpg" class="class1" width="800" title="微信聊天顶部">
+</li>
+<li><p><strong>把今日圣经小程序放到你的桌面上</strong>。在今日圣经小程序首页界面右上角点击“┇”，选择：“添加到桌面”；这样下一次，你就可以直接从你的手机桌面，点击进入今日圣经的小程序了。</p>
+<img src="http://ou5zkeopz.bkt.clouddn.com/desktop.jpg" class="class1" width="800" title="手机桌面上">
+<p>如果你上面两步都没有做，也不用慌；你只要在微信界面点击“发现”，找到下方的“小程序”，点击进入，你就会看到“今日圣经”小程序在那里等着你~~</p>
+</li>
+</ul>
+</li>
+<li>如何推荐今日圣经给你的小伙伴？<br>好东西要一起分享嘛，这是小时候爸爸妈妈教给小朋友的道理。<ul>
+<li>分享这个小程序给别人，在小程序首页界面，右上角点击“┇”，选择“转发”，选择你要转发的人或者群就可以了。很遗憾，目前小程序还不能发布在朋友圈。</li>
+<li>分享小程序的文章给别人，在文章界面，右上角点击“┇”，选择“转发”，选择你要转发的人或者群就可以了。用这种方式不能分享到朋友圈。但下面介绍的另一种方式可以，请继续往下看。</li>
+</ul>
+</li>
+<li>【亮点】读（灵修）文章时随时回到圣经查阅。<br>特别当你读每日灵修的时候，都会读到相关的经文。一般在文章中只会显示一节，但很多时候，我们想去查看圣经看其它的经节。一般情况下，你就只能退出灵修的文章，然后打开另一个圣经软件，比如微读什么的，然后找到经节出处，开始阅读。<br>今日圣经在这一点上，提供了无与伦比的体验。当你点开一篇灵修文章，会看到开头的当日经文（只显示一节，底色灰色），<em>你点一下经文，就会看到全部的经文；而你点击一下经文出处，就会带你到经文搜索，然后再一点击，就会看到一整章的经文</em>。这样，会节省大家的时间，也让大家的灵修阅读更加流畅。怎么样，很酷吧~~</li>
+<li>首页界面显示你最近的读经记录，当日的灵修文章，和当日的佳音头条文章。你可以点击进去阅读，也可以直接点击播放键收听。</li>
+<li>点开声音后，可退到在微信聊天界面，会继续播放，不妨碍同时查看其它信息。这时，你在聊天顶部会看到一个播放信息，点击一下，你会有惊喜，或许还会惊艳哦:-) 还有更大的惊喜是，在这个界面，点击右上角的“┇”，不仅可以把这个有声文章分享给个人或者群组，<strong>还可以分享到朋友圈</strong>！</li>
+</ol>
+<p>这只是一个开始，未来还有后续的功能更新，敬请祷告关注。若有想法、建议或者鼓励什么的，当然发现了什么Bug了，请在后台留言啊^_^</p>
+<hr>
+<p>本文已经由我们的小编重新整理，做成一篇更加精彩的文章，感兴趣的请移步：<a href="http://mp.weixin.qq.com/s/sxK9ZQTQyL4AzK9LUlNDeQ" rel="external nofollow noopener noreferrer" target="_blank">【重磅！】#今日圣经#小程序上线啦！附使用说明全解</a></p>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;">小程序是今年年初1月9日腾讯在手机应用微信上刚刚推出的一个开发平台，目的是让微信可以运行一些小程序。以前，大家都是在手机系统上，安卓Android或者苹果iOS下载运行需要的应用程序以实现需要的功能，比如想听歌，就有一个听歌的软件；想跟别人联系，以前就发个手机短信；现在大家都用微信了。微信就是一个应用程序，但现在微信上也可以运行程序的话，它的功能就更强大了。由此可见，腾讯的微信大有一统天下的野心。  姑且不论腾讯怎么想的，<strong>作为基督徒，我们最大的使命就是分享圣经的真理，传扬耶稣的福音，让更多更多的人可以认识并爱那位爱我们的神，伟大的创造主！</strong>上帝呼召每个祂的百姓在不同的地方，使用不同的方式去完成这个大使命。因为上帝命定，只要有人的地方，就要有人分享福音。</span><a href="#fnref:1" rev="footnote"> ↩</a></li></ol></div></div>
+      
+    </div>
+
+
+    
+    
+    
+
+ 
+      <h3>相关文章：</h3><ul class="related-posts"><li><a href="/2017-08-22/一次普通的聊天，一个未来的异象/">一次普通的谈话，一个开启未来的异象</a></li><li><a href="/2017-08-22/工具与媒体的思考/">工具与新媒体的关系</a></li></ul> 
+
+
+    <div>
+      
+        
+<div class="my_post_copyright">
+  <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
+
+  <!-- JS库 sweetalert 可修改路径 -->
+  <script type="text/javascript" src="http://jslibs.wuxubj.cn/sweetalert_mini/jquery-1.7.1.min.js"></script>
+  <script src="http://jslibs.wuxubj.cn/sweetalert_mini/sweetalert.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="http://jslibs.wuxubj.cn/sweetalert_mini/sweetalert.mini.css">
+  <p><span>文章作者:</span><a href="/" title="访问 耶书仑Jeshurun 的个人博客">耶书仑Jeshurun</a></p>
+<p><span>原始链接:</span><a href="/2017-08-22/终于有了第一个圣经小程序/" title="今日圣经小程序背后的故事（附攻略）">http://igencong.com/2017-08-22/终于有了第一个圣经小程序/</a>
+    <span class="copy-path" title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="http://igencong.com/2017-08-22/终于有了第一个圣经小程序/" aria-label="复制成功！"></i></span>
+  </p>
+
+<p><span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">署名-非商业性使用-禁止演绎 4.0 国际</a> 转载请保留原文链接及作者。</p>
+</div>
+<script>
+    var clipboard = new Clipboard('.fa-clipboard');
+    clipboard.on('success', $(function(){
+      $(".fa-clipboard").click(function(){
+        swal({
+          title: "",
+          text: '复制成功',
+          html: false,
+          timer: 500,
+          showConfirmButton: false
+        });
+      });
+    }));
+</script>
+
+
+      
+    </div>
+
+
+
+    
+      <div>
+        <div id="wechat_subscriber" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
+    <img id="wechat_subscriber_qcode" src="/images/wxbible-qcode.jpg" alt="耶书仑Jeshurun wechat" style="width: 200px; max-width: 100%;">
+    <div></div>
+</div>
+
+
+      </div>
+    
+
+
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>坚持原创信仰·生活分享，您的支持将鼓励我继续创作！</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>Donate</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechat-donate.jpeg" alt="耶书仑Jeshurun WeChat Pay">
+        <p>WeChat Pay</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/alipay-donate.jpeg" alt="耶书仑Jeshurun Alipay">
+        <p>Alipay</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+
+
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/新媒体/" rel="tag"># 新媒体</a>
+          
+            <a href="/tags/今日圣经/" rel="tag"># 今日圣经</a>
+          
+            <a href="/tags/教程/" rel="tag"># 教程</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017-08-22/工具与媒体的思考/" rel="next" title="工具与新媒体的关系">
+                <i class="fa fa-chevron-left"></i> 工具与新媒体的关系
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017-08-22/一次普通的聊天，一个未来的异象/" rel="prev" title="一次普通的谈话，一个开启未来的异象">
+                一次普通的谈话，一个开启未来的异象 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
 
     <div class="post-spread">
-      {% if theme.jiathis %}
-        {% include '_partials/share/jiathis.swig' %}
-      {% elseif theme.baidushare %}
-        {% include '_partials/share/baidushare.swig' %}
-      {% elseif theme.add_this_id %}
-        {% include '_partials/share/add-this.swig' %}
-      {% elseif theme.duoshuo_shortname and theme.duoshuo_share %}
-        {% include '_partials/share/duoshuo_share.swig' %}
-      {% endif %}
+      
     </div>
   </div>
 
-{% endblock %}
 
-{% block sidebar %}
-  {{ sidebar_template.render(true) }}
-{% endblock %}
+          </div>
+          
 
 
-{% block script_extra %}
-  {% include '_scripts/pages/post-details.swig' %}
-{% endblock %}
+          
+  <div class="comments" id="comments">
+    
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript" rel="external nofollow noopener noreferrer" target="_blank">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image" src="/images/avatar.jpg" alt="耶书仑Jeshurun">
+          <p class="site-author-name" itemprop="name">耶书仑Jeshurun</p>
+           
+              <p class="site-description motion-element" itemprop="description">信仰，一种有热度的生活方式！</p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives/">
+                <span class="site-state-item-count">26</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">9</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">55</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://twitter.com/qingxin" target="_blank" title="Twitter" rel="external nofollow noopener noreferrer">
+                  
+                    <i class="fa fa-fw fa-twitter"></i>
+                  
+                    
+                      Twitter
+                    
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://douban.com/people/qingxin" target="_blank" title="豆瓣" rel="external nofollow noopener noreferrer">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                    
+                      豆瓣
+                    
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+          <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              Links
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://jeshurun.coding.net" title="国内镜像" target="_blank" rel="external nofollow noopener noreferrer">国内镜像</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://levifish.com" title="未鱼居" target="_blank" rel="external nofollow noopener noreferrer">未鱼居</a>
+                </li>
+              
+            </ul>
+          </div>
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#今日圣经小程序"><span class="nav-number">1.</span> <span class="nav-text">今日圣经小程序</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#小程序“怀孕”的那一刻"><span class="nav-number">2.</span> <span class="nav-text">小程序“怀孕”的那一刻</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#今日圣经的特点"><span class="nav-number">3.</span> <span class="nav-text">今日圣经的特点</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#使用今日圣经的贴心小技巧"><span class="nav-number">4.</span> <span class="nav-text">使用今日圣经的贴心小技巧</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">耶书仑Jeshurun</span>
+<span id="busuanzi_container_site_pv">
+    本站总访问量<span id="busuanzi_value_site_pv"></span>次
+</span>
+
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io" rel="external nofollow noopener noreferrer" target="_blank">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next" rel="external nofollow noopener noreferrer" target="_blank">
+    NexT.Mist
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.2"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.2"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.2"></script>
+
+
+
+  
+
+
+  
+
+    
+      <script id="dsq-count-scr" src="https://qingxin.disqus.com/count.js" async></script>
+    
+
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'http://igencong.com/2017-08-22/终于有了第一个圣经小程序/';
+          this.page.identifier = '2017-08-22/终于有了第一个圣经小程序/';
+          this.page.title = '今日圣经小程序背后的故事（附攻略）';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://qingxin.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
+    
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script>AV.initialize("ToRiPOJGKIWMAoYm56Nrw6Cj-gzGzoHsz", "IAUyQHvrCT4BUb5eDcAiiBbn");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+  
+
+  
+
+  
+
+  
+
+
+
+</body>
+</html>
