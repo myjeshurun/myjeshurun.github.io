@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://igencong.com/"/>
-  <updated>2017-09-13T18:16:30.000Z</updated>
+  <updated>2017-09-13T20:34:00.000Z</updated>
   <id>http://igencong.com/</id>
   
   <author>
@@ -14,6 +14,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>微信时代的名片是什么？</title>
+    <link href="http://igencong.com/2017-09-13/%E5%BE%AE%E4%BF%A1%E6%97%B6%E4%BB%A3%E7%9A%84%E5%90%8D%E7%89%87/"/>
+    <id>http://igencong.com/2017-09-13/微信时代的名片/</id>
+    <published>2017-09-13T19:36:22.000Z</published>
+    <updated>2017-09-13T20:34:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;十年前应该是个人&lt;strong&gt;blog&lt;/strong&gt; 最大的问题在于很少的流量，不容易被搜索引擎所搜到。好处自然是可以最大程度的呈现自己的一切。 &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;简书&lt;/strong&gt;，又是一个比较封闭的系统，没有
+    
+    </summary>
+    
+      <category term="工具控" scheme="http://igencong.com/categories/%E5%B7%A5%E5%85%B7%E6%8E%A7/"/>
+    
+    
+      <category term="blog" scheme="http://igencong.com/tags/blog/"/>
+    
+      <category term="简书" scheme="http://igencong.com/tags/%E7%AE%80%E4%B9%A6/"/>
+    
+      <category term="个人公号" scheme="http://igencong.com/tags/%E4%B8%AA%E4%BA%BA%E5%85%AC%E5%8F%B7/"/>
+    
+      <category term="搜狐号" scheme="http://igencong.com/tags/%E6%90%9C%E7%8B%90%E5%8F%B7/"/>
+    
+      <category term="知乎专栏" scheme="http://igencong.com/tags/%E7%9F%A5%E4%B9%8E%E4%B8%93%E6%A0%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>80后天才程序员自杀：每一场成功的骗局，都有“内奸”在呼应</title>
@@ -242,8 +273,6 @@
       <category term="领导力资源" scheme="http://igencong.com/categories/%E9%A2%86%E5%AF%BC%E5%8A%9B%E8%B5%84%E6%BA%90/"/>
     
     
-      <category term="见证" scheme="http://igencong.com/tags/%E8%A7%81%E8%AF%81/"/>
-    
       <category term="全球领袖峰会" scheme="http://igencong.com/tags/%E5%85%A8%E7%90%83%E9%A2%86%E8%A2%96%E5%B3%B0%E4%BC%9A/"/>
     
       <category term="饶恕" scheme="http://igencong.com/tags/%E9%A5%B6%E6%81%95/"/>
@@ -251,6 +280,8 @@
       <category term="卢旺达" scheme="http://igencong.com/tags/%E5%8D%A2%E6%97%BA%E8%BE%BE/"/>
     
       <category term="幸存者" scheme="http://igencong.com/tags/%E5%B9%B8%E5%AD%98%E8%80%85/"/>
+    
+      <category term="见证" scheme="http://igencong.com/tags/%E8%A7%81%E8%AF%81/"/>
     
   </entry>
   
@@ -309,11 +340,11 @@
       <category term="领导力资源" scheme="http://igencong.com/categories/%E9%A2%86%E5%AF%BC%E5%8A%9B%E8%B5%84%E6%BA%90/"/>
     
     
-      <category term="见证" scheme="http://igencong.com/tags/%E8%A7%81%E8%AF%81/"/>
-    
       <category term="全球领袖峰会" scheme="http://igencong.com/tags/%E5%85%A8%E7%90%83%E9%A2%86%E8%A2%96%E5%B3%B0%E4%BC%9A/"/>
     
       <category term="领导力" scheme="http://igencong.com/tags/%E9%A2%86%E5%AF%BC%E5%8A%9B/"/>
+    
+      <category term="见证" scheme="http://igencong.com/tags/%E8%A7%81%E8%AF%81/"/>
     
       <category term="顺服" scheme="http://igencong.com/tags/%E9%A1%BA%E6%9C%8D/"/>
     
@@ -529,35 +560,6 @@
       <category term="markdown" scheme="http://igencong.com/tags/markdown/"/>
     
       <category term="写作" scheme="http://igencong.com/tags/%E5%86%99%E4%BD%9C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>继续blog，继续成长</title>
-    <link href="http://igencong.com/2017-08-04/%E7%BB%A7%E7%BB%ADblog%EF%BC%8C%E7%BB%A7%E7%BB%AD%E6%88%90%E9%95%BF/"/>
-    <id>http://igencong.com/2017-08-04/继续blog，继续成长/</id>
-    <published>2017-08-04T04:00:00.000Z</published>
-    <updated>2017-08-23T01:50:04.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;p&gt;这篇记录自己学习hexo这个新东西的过程，很零碎。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&quot;决定用hexo和gitpages再搭建自己的博客网站&quot;&gt;&lt;a href=&quot;#决定用hexo和gitpages再搭建自己的博客网站&quot; class=&quot;headerlink&quot; title=&quot;决定用hexo和gitpages再搭建自己的博客网站&quot;&gt;&lt;/a&gt;决定用hexo和gitpages再搭建自己的博客网站&lt;/h3&gt;&lt;p&gt;很喜欢blog，有很长时间的历史了。估计在2002年开始比较多上网的时候，就了解到blog，就有了blogger，后来折腾过blogcn，blogbus，ccblogs等&lt;/p&gt;
-&lt;p&gt;后来用wordpress，iyublog到后来自己用wordpress搭建igencong.com&lt;/p&gt;
-&lt;p&gt;后来因为牧会的忙碌，出国读神学的压力，沉寂了一段时间。今年开始自己开始写原创评论，让我一直有想法做个blog把自己写的东西再整理一下。&lt;/p&gt;
-&lt;p&gt;这几天对技术突然又开始感兴趣了，先是整了vim和git，后来研究了leanote，还买了旗舰版，信誓旦旦的想大干一场，整出个平台。但leanote有个问题让我很不爽，不能导入md文件，我现在的文档都用markdown写，在nvALT或者Archive中可以很便捷的搜索，使用pandoc我可以变成任何一个格式的文档。leanote的一键发布blog很酷，但我发现它的blog系统没有rss导出，而且定制化也不强。我还是不太满意，刚才我申请退款了。（已经收到退款了）&lt;/p&gt;
-&lt;h3 id=&quot;误打误撞&quot;&gt;&lt;a href=&quot;#误打误撞&quot; class=&quot;headerlink&quot; title=&quot;误打误撞&quot;&gt;&lt;/a&gt;误打误撞&lt;/h3&gt;&lt;p&gt;今天用leanote编辑新媒体教会的书稿，看到TOC的功能，才知道这是Table of Contents的缩写，查了一下，查到了&lt;a href=&quot;http://mazhuang.org/&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;码志&lt;/a&gt;的插件，然后查到了Jekyll，搜索找到了&lt;a href=&quot;https://www.zhihu.com/question/20659873&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;知乎&lt;/a&gt;上的谈论的博客系统，了解了以前耳闻的hexo，知道hexo和JekyII的不同。&lt;a href=&quot;http://www.cnblogs.com/mo-wang/p/5119967.html&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;将博客从jekyll迁移到了hexo&lt;/a&gt;这篇文章详细评论了几个静态页面的博客系统，最后决定使用hexo搭建自己的博客平台，原因如下：&lt;br&gt;
-    
-    </summary>
-    
-      <category term="工具控" scheme="http://igencong.com/categories/%E5%B7%A5%E5%85%B7%E6%8E%A7/"/>
-    
-    
-      <category term="博客" scheme="http://igencong.com/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
-      <category term="hexo" scheme="http://igencong.com/tags/hexo/"/>
     
   </entry>
   
