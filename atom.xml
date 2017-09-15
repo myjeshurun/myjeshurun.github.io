@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://igencong.com/"/>
-  <updated>2017-09-15T19:59:44.000Z</updated>
+  <updated>2017-09-15T20:35:54.000Z</updated>
   <id>http://igencong.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://igencong.com/2017-09-15/remove%20ebooks%20DRM/"/>
     <id>http://igencong.com/2017-09-15/remove ebooks DRM/</id>
     <published>2017-09-15T18:12:09.000Z</published>
-    <updated>2017-09-15T19:59:44.000Z</updated>
+    <updated>2017-09-15T20:35:54.000Z</updated>
     
     <summary type="html">
     
@@ -299,9 +299,9 @@
       <category term="领导力资源" scheme="http://igencong.com/categories/%E9%A2%86%E5%AF%BC%E5%8A%9B%E8%B5%84%E6%BA%90/"/>
     
     
-      <category term="见证" scheme="http://igencong.com/tags/%E8%A7%81%E8%AF%81/"/>
-    
       <category term="全球领袖峰会" scheme="http://igencong.com/tags/%E5%85%A8%E7%90%83%E9%A2%86%E8%A2%96%E5%B3%B0%E4%BC%9A/"/>
+    
+      <category term="见证" scheme="http://igencong.com/tags/%E8%A7%81%E8%AF%81/"/>
     
       <category term="饶恕" scheme="http://igencong.com/tags/%E9%A5%B6%E6%81%95/"/>
     
@@ -366,11 +366,11 @@
       <category term="领导力资源" scheme="http://igencong.com/categories/%E9%A2%86%E5%AF%BC%E5%8A%9B%E8%B5%84%E6%BA%90/"/>
     
     
-      <category term="见证" scheme="http://igencong.com/tags/%E8%A7%81%E8%AF%81/"/>
-    
       <category term="全球领袖峰会" scheme="http://igencong.com/tags/%E5%85%A8%E7%90%83%E9%A2%86%E8%A2%96%E5%B3%B0%E4%BC%9A/"/>
     
       <category term="领导力" scheme="http://igencong.com/tags/%E9%A2%86%E5%AF%BC%E5%8A%9B/"/>
+    
+      <category term="见证" scheme="http://igencong.com/tags/%E8%A7%81%E8%AF%81/"/>
     
       <category term="顺服" scheme="http://igencong.com/tags/%E9%A1%BA%E6%9C%8D/"/>
     
