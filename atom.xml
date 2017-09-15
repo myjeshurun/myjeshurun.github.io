@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://igencong.com/"/>
-  <updated>2017-09-13T21:17:18.000Z</updated>
+  <updated>2017-09-15T19:59:44.000Z</updated>
   <id>http://igencong.com/</id>
   
   <author>
@@ -14,6 +14,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>快捷免费的方式去除电子书的版权保护</title>
+    <link href="http://igencong.com/2017-09-15/remove%20ebooks%20DRM/"/>
+    <id>http://igencong.com/2017-09-15/remove ebooks DRM/</id>
+    <published>2017-09-15T18:12:09.000Z</published>
+    <updated>2017-09-15T19:59:44.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;透过Google Play Store可以买到一些港台版的神学书籍，这对我查阅资料非常有帮助。比如说：我现在正在做一些关于倪柝声弟兄教会论的研究，大部分的著作都是港台的，在美国貌似除了google books之外，无法别的途径可以接触到这些书籍、文献。&lt;/p&gt;
+&lt;p&gt;在go
+    
+    </summary>
+    
+      <category term="工具控" scheme="http://igencong.com/categories/%E5%B7%A5%E5%85%B7%E6%8E%A7/"/>
+    
+    
+      <category term="电子书" scheme="http://igencong.com/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/"/>
+    
+      <category term="DRM" scheme="http://igencong.com/tags/DRM/"/>
+    
+      <category term="Kindle" scheme="http://igencong.com/tags/Kindle/"/>
+    
+      <category term="Calibre" scheme="http://igencong.com/tags/Calibre/"/>
+    
+  </entry>
   
   <entry>
     <title>微信时代的名片是什么？</title>
@@ -532,33 +559,6 @@
       <category term="写作" scheme="http://igencong.com/tags/%E5%86%99%E4%BD%9C/"/>
     
       <category term="blog" scheme="http://igencong.com/tags/blog/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Markdown写作的一些技巧</title>
-    <link href="http://igencong.com/2017-08-06/Markdown%20tips/"/>
-    <id>http://igencong.com/2017-08-06/Markdown tips/</id>
-    <published>2017-08-06T20:33:56.000Z</published>
-    <updated>2017-08-07T21:43:42.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;本文说明：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;本文是我在使用markdown写作、编辑的时候使用的一些技巧，我发现有些时候就忘记了，记下来以提醒。&lt;br&gt;所以，本文会随时补充、更新。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;del&gt;使用vim快速获取文
-    
-    </summary>
-    
-      <category term="工具控" scheme="http://igencong.com/categories/%E5%B7%A5%E5%85%B7%E6%8E%A7/"/>
-    
-    
-      <category term="markdown" scheme="http://igencong.com/tags/markdown/"/>
-    
-      <category term="写作" scheme="http://igencong.com/tags/%E5%86%99%E4%BD%9C/"/>
     
   </entry>
   

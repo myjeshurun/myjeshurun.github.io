@@ -3,6 +3,41 @@
   
     
     <entry>
+      <title><![CDATA[快捷免费的方式去除电子书的版权保护]]></title>
+      <url>/2017-09-15/remove%20ebooks%20DRM/</url>
+      <content type="html"><![CDATA[<p>透过Google Play Store可以买到一些港台版的神学书籍，这对我查阅资料非常有帮助。比如说：我现在正在做一些关于倪柝声弟兄教会论的研究，大部分的著作都是港台的，在美国貌似除了google books之外，无法别的途径可以接触到这些书籍、文献。</p>
+<p>在google books买了书之后，一般都是在Google Play book的应用上来阅读，做笔记，但发现这个阅读应用很不好用。我已经习惯用marginote了，所以希望把google books上的书转成pdf或者ePub格式，这样可以导入marginnote来阅读。其中最关键是如何去掉DRM。我在网上找到快捷免费的办法。</p>
+<ol>
+<li>到Google play book下载购买的书籍，PDF或者ePub，都是acsm格式的。</li>
+<li>使用ADE打开acsm文件，然后找到对应的PDF或ePub文件。这里：<a href="https://www.epubor.com/how-to-convert-google-acsm-files.html" rel="external nofollow noopener noreferrer" target="_blank">how to transfer google books</a></li>
+<li>使用Calibre打开上述的PDF或ePub文档，用DeDRM插件去除DRM。见这里：<a href="https://www.epubor.com/calibre-drm-removal-plugins.html" rel="external nofollow noopener noreferrer" target="_blank">use calibre to remove DRM</a>。</li>
+<li>稍微等一下，就可以在Calibre打开PDF或ePub了。</li>
+<li>需要的话，再使用FineReader进行ocr。</li>
+</ol>
+]]></content>
+      
+        <categories>
+            
+            <category> 工具控 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 电子书 </tag>
+            
+            <tag> DRM </tag>
+            
+            <tag> Kindle </tag>
+            
+            <tag> Calibre </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[微信时代的名片是什么？]]></title>
       <url>/2017-09-13/%E5%BE%AE%E4%BF%A1%E6%97%B6%E4%BB%A3%E7%9A%84%E5%90%8D%E7%89%87/</url>
       <content type="html"><![CDATA[<ol>
