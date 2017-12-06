@@ -1,25 +1,2428 @@
-{% extends '_layout.swig' %}
-{% import '_macro/post.swig' as post_template %}
-{% import '_macro/sidebar.swig' as sidebar_template %}
+<!DOCTYPE html>
 
-{% block title %}{{ config.title }}{% if theme.index_with_subtitle and config.subtitle %} - {{config.subtitle }}{% endif %}{% endblock %}
 
-{% block page_class %}
-  {% if is_home() %} page-home {% endif %}
-{% endblock %}
 
-{% block content %}
+  
+
+
+<html class="theme-next mist use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css">
+
+
+  <meta name="keywords" content="Hexo, Jesus, 耶稣, 福音, 信仰">
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="耶书仑的生命志" type="application/atom+xml">
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.2">
+
+
+
+
+
+
+<meta name="description" content="信仰，一种有热度的生活方式！">
+<meta property="og:type" content="website">
+<meta property="og:title" content="耶书仑的生命志">
+<meta property="og:url" content="http://igencong.com/index.html">
+<meta property="og:site_name" content="耶书仑的生命志">
+<meta property="og:description" content="信仰，一种有热度的生活方式！">
+<meta property="og:locale" content="zh-Hans">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="耶书仑的生命志">
+<meta name="twitter:description" content="信仰，一种有热度的生活方式！">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://igencong.com/">
+
+
+
+
+
+  <title>耶书仑的生命志</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope="" itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left 
+   page-home 
+ ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">耶书仑的生命志</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">信仰 生命 生活</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off" placeholder="搜索..." spellcheck="false" type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
   <section id="posts" class="posts-expand">
-    {% for post in page.posts %}
-      {% if post.visible !== 'hide' %}
-      {{ post_template.render(post, true) }}
-      {% endif %}   
-    {% endfor %}
+    
+      
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://igencong.com/2017-12-01/基督徒如何面对艾滋病基督徒/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="耶书仑Jeshurun">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="耶书仑的生命志">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017-12-01/基督徒如何面对艾滋病基督徒/" itemprop="url">基督徒如何面对艾滋病基督徒</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-12-01T00:00:00-05:00">
+                2017-12-01
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/教会牧养/" itemprop="url" rel="index">
+                    <span itemprop="name">教会牧养</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017-12-01/基督徒如何面对艾滋病基督徒/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017-12-01/基督徒如何面对艾滋病基督徒/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2017-12-01/基督徒如何面对艾滋病基督徒/" class="leancloud_visitors" data-flag-title="基督徒如何面对艾滋病基督徒">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <img src="http://ou5zkeopz.bkt.clouddn.com/church_aids.jpg" class="class1" width="800" title="艾滋病与教会">
+<p>今天是世界艾滋病日，目的在于提高人们对艾滋病的认识程度，从而有效预防和控制艾滋病病毒HIV 的扩散和传播。艾滋病曾被认为是不可治愈的绝症，一旦感染必死无疑。社会绝大多数人都会“谈艾色变”，对艾滋病患者各种远离、歧视甚至厌恶，觉得他们是遭了“天谴”。当有艾滋病患者成为基督徒并进到教会的时候，会给整个教会带来很大的张力，情节严重的，甚至会造成教会的分裂。</p>
+<p>教会中信心软弱的人，害怕自己会感染艾滋病，所以不容许艾滋病患者（包括基督徒）进入教会。而另外一些信心刚强的弟兄姐妹，相信神会保守，觉得应该接纳艾滋病患者（特别的，如果他是基督徒的话），因为教会是神的家，神接纳每一个渴慕寻求祂的人；教会不能把任何人挡在门外。于是，双方就起了争执，互相控诉对方没有爱心：信心软弱的控诉信心刚强的，不顾教会其他人的生命安危；刚强的控诉软弱的，对失丧的灵魂没有爱心，只顾自己。</p>
+<p>如果有艾滋病患者进入教会，引发教会弟兄姐妹之间关系紧张，教会的牧者该如何应对呢？一方面要保护软弱的羊，维护教会的合一；另一方面又要体贴基督的心肠说，我来是要寻找拯救失丧的人。笔者觉得有以下几个应对的策略：</p>
+<h3 id="1-普及有关艾滋病的常识"><a href="#1-普及有关艾滋病的常识" class="headerlink" title="1. 普及有关艾滋病的常识"></a>1. 普及有关艾滋病的常识</h3><p>无谓的恐惧往往起源于不了解或误解。了解关于艾滋病的科普常识，会极大的帮助人们降低他们的恐惧和焦虑。网上可以找到许多很好的权威资料，笔者发现“知乎”上一篇科普文章很受用：<a href="https://zhuanlan.zhihu.com/p/24106569" rel="external nofollow noopener noreferrer" target="_blank">HIV/AIDS 所有你需要知道的常识</a>。作者是HIV/SITs方面的硕士，也做过一些相关方面的的疾控工作，文章中的资料都有表明引用可考证。他提到几个关于艾滋病重要认识，我特别写在这里，目的是希望能帮助克服人里面的恐惧。</p>
+<ul>
+<li>进入到21世纪，国际上对于HIV的界定早已经不是所谓的绝症，因为联合抗病毒治疗的成功运用，艾滋病的本质已经变成了一种慢性病。</li>
+<li><p>尽管一旦感染人类还没有有效的办法，但是HIV在体外是一种非常脆弱的病毒：<strong>不能存活也不能复制</strong>。</p>
+</li>
+<li><p>艾滋病毒主要通过：性交和共用注射器传播；而<strong>蚊虫叮咬<br>，亲吻，拥抱，握手，共用厕所，共用餐具，等等不会传播艾滋病毒</strong>。</p>
+</li>
+</ul>
+<p>作者在文中多次指出基本认知对防控艾滋病的重要性：</p>
+<blockquote>
+<p>HIV之所以难防控，很大在于诊断与知识普及率。<br>缺乏知识产生恐惧，恐惧产生歧视，歧视让更多高危人群或进行高危行为的人不愿接受诊断治疗，越多的人不诊断不治疗就有更多的传播、更多的死亡，更多的传播和死亡会加重恐惧…</p>
+</blockquote>
+<h3 id="2-接纳人们的恐惧-小信"><a href="#2-接纳人们的恐惧-小信" class="headerlink" title="2. 接纳人们的恐惧/小信"></a>2. 接纳人们的恐惧/小信</h3><p>基本的认知或许能降低人们的恐惧，但并不能消除恐惧。即使了解了，人们还是会不接纳。这就好比有成年人害怕毛毛虫或者老鼠一样，人的情感并不总和理性认知协调一致。人对艾滋病的恐惧可能是他天生对疾病的恐惧造成的，我们不能把那些拒绝接触艾滋病的人简单说成是信心软弱或者没有爱心。</p>
+<p>对基督徒来说，相信神的保守，并不等于一定要相信自己不会感染艾滋病，然后毫无顾忌的去接触艾滋病人。面对潜在的危险，小心应对无可厚非。</p>
+<p>再者，神也俯就人的软弱。艾滋病如同过去的麻风病。在旧约时代，神让以色列人对待麻风病人的方式就是宣布他们为不洁的，然后把他们与众人隔离。但古代社会对麻风病人的接纳程度似乎要比今天的社会高。在旧约·列王记记载了亚兰的一个高官，叫乃缦，他长了大痲风。不论他长大痲风是在得了权势之前还是之后，大痲风似乎都没有太大影响他的地位。</p>
+<p>同时，我们要知道，神要以色列人隔离麻风病人并不是最终目的。神这么做的目的，并不是为了保护其他人而牺牲一小部分人，把他们边缘化；而是透过这种方式，让得麻风的人有机会得以洁净，有一天能重新回到群体中(利14:1-32)。无论是洁净的还是不洁净的，本质上都是属神的。所以，被神称作洁净的那些人，理当设法帮助那些不洁净的，好使他们能尽快重新回到群体中间。令人遗憾的是，因为人的罪，所谓外表洁净的人就冷落、歧视、拒绝那些”不洁净“麻风病人，使得他们很难有机会得到帮助回到神的群体中。这种从人心而来的歧视、偏见，往往比身体本身的”不洁净“更可怕；就如，现在许多人感叹的，”<strong>人们对艾滋病的妖魔化，对艾滋患者的歧视、偏见，比艾滋病毒本身更可怕。</strong>“</p>
+<p>而人心的这些罪这些在耶稣眼中是真正的不洁净，他说，外在的不洁净并不能污秽人，而从人心里出来的各种恶念才能污秽人(马可福音7:18-23)。所以，对基督徒来说，我们可以不去接触艾滋病人，但却不能在心里论断、拒绝、歧视他们；反而要在基督里在现实生活中以实际的行动显出对他们的爱来。这样，便叫世人看出基督徒是与他们不同的人，虽然我们也有同样的软弱。</p>
+<h3 id="3-肯定信心刚强的人。"><a href="#3-肯定信心刚强的人。" class="headerlink" title="3. 肯定信心刚强的人。"></a>3. 肯定信心刚强的人。</h3><p>信心刚强的人效法耶稣的榜样，像耶稣靠近、触摸麻风病人一样，这些勇敢的人靠近、拥抱艾滋病人，与他们交往，成为他们的朋友(马可福音8:3，26:6)。他们所做的，给艾滋病人带来真正的医治；甚至可以说，他们所做的，于艾滋病人来说就是福音。对艾滋病人来说，最深的恐惧就是别人的拒绝、远离和歧视；而最深的渴望，无疑就是与人恢复团契交往。艾滋病患者也是人，是和我们有一样性情的人。极端的处境，使他们比任何人更深渴望与人相交的渴望。</p>
+<p>对他们来说，即使是简单的身体接触也是意义非常。笔者刚蒙召的时候，曾经和另外一个弟兄去探访河南艾滋病村的弟兄姐妹。我是刚刚出道，壮着胆跟着去的。但面对他们的痛苦，又能说什么，能做什么呢？同行的那个弟兄已经去过多次，很有经验。他鼓励我，我们去看望他们就是服事；而简单的交谈，握手，拥抱会是对他们更大的服事。我见到那些淳朴的弟兄姐妹的时候，从他们的脸上，读出犹豫和不安。同行的弟兄大大方方的靠近他们，问候他们，向我介绍他们，拥抱他们。以前艾滋病人对我来说，是一个称号，一个听起来有些恐怖的称号；但在那一刻，我真切的感受到，他们是和我一样的人，面临现实生活真实的忧愁和喜乐，像我一样渴望被接纳，被拥抱得渴望。弟兄鼓励了我，我有些矜持的握手，甚至拥抱；但却让许多人感动，流下眼泪。对一般来说，我们所做的实在微不足道；对这些不幸得了艾滋的弟兄姐妹，我们的探访并不能丝毫减轻肉身的痛苦，但对他们心灵的帮助却是巨大的。他们能像一个正常人一样，有尊严的被对待，让他们真实的感受到神依然爱他们，并没有丢弃他们。</p>
+<p>毫无疑问，这些刚强的弟兄姐妹的信心和爱心是神特别给他们个人，也是给教会的恩赐。他们是那可见的光，透过他们的见证，世人可以清楚的看到神的爱和怜悯，从而被吸引而回转归向神。</p>
+<p>而其实信心刚强的人所做的，并没有什么可夸的；比起耶稣道成肉身从天上来到我们中间，还相距甚远。在道成肉身中，圣子以创造主的身份披上受造的肉身，其中所作的牺牲是我们人无法理解和想象的。某种程度上，信心刚强的人并没有真正牺牲什么，他们有的更多的是勇气，因信心和爱心而有的勇气。</p>
+<p>如果要数在这方面效法耶稣最彻底的，大概是达米盎神父Pater Damiaan。他于1873年，自愿被派往麻风病患者聚居的莫洛凯岛。那个时候，麻风病是没有治愈可能的；这一项使命是有去无回的。他和麻风病人住在岛上，向他们传讲福音，建立麻风病人的信仰；同时治疗护理和安慰麻风病人，安葬死者。他还在岛上建造和修缮房子，建立学校，推动岛上的法制建设。11 年后，他被传染上麻风病，然而他继续更加拼命的工作，完成整个莫洛凯岛的社区建设，直到1889年4月15日病死于岛上。1999 年电影《莫洛凯岛:戴梅恩神父的故事》（Molokai: The Story of Father Damien）讲述的就是他的故事。</p>
+<p>不过，信心刚强的人往往有强烈的感动说，这是神的心意；因此也比较容易忽略那些信心软弱之人的感受。软弱的人觉得被强迫有信心和爱心，他们反过来指责那些信心刚强的人。一不小心两者之间就会彼此论断，造成教会分裂，这是很令人痛心的。信心刚强的人在这一点上要顾虑那些软弱之人也是自己的弟兄姐妹，不能一味以神的旨意来强迫他们，要学习忍耐，要寻求神的智慧，要保守教会的合一；因为信心和爱心是无法强迫的。</p>
+<h3 id="4-在爱里面走向合一"><a href="#4-在爱里面走向合一" class="headerlink" title="4. 在爱里面走向合一"></a>4. 在爱里面走向合一</h3><p>一般认为神是要透过信心刚强的来改变那信心软弱的，但其实神是两种人都接纳。保罗在罗14:1-3 说，</p>
+<blockquote>
+<p>信心软弱的，你们要接纳，但不要辩论所疑惑的事。有人信百物都可吃；但那软弱的，只吃蔬菜。吃的人不可轻看不吃的人；不吃的人不可论断吃的人；因为　神已经收纳他了。</p>
+</blockquote>
+<p>保罗并没有要求那信心软弱的要增强信心，好变得跟信心刚强的一样。不是，保罗说，神在他们现在的生命状态中接纳他们，并且持续的接纳他们的状态。这种接纳没有一点取巧的成分，好像是为了好让他们可以改变一样。不，接纳就是接纳。如果信心软弱的弟兄姐妹一直不能靠近艾滋病人，他们是被接纳的。这并不意味着，他们不能爱他们，服事他们，他们可以以另外的方式服事他们，比如：祷告、奉献等。这好比，有些人一辈子都没去到宣教工场，但他们却可以以祷告、奉献的方式来支持其他宣教士在那里的服事。</p>
+<p>笔者想说，出于信心的某种行动，不能被高举为衡量信徒生命的唯一标准。衡量我们生命的是，我们在基督里的爱心。<strong>在任何的服事中，爱和合一要兼顾。</strong>上帝没有要求每个属祂的儿女都要去拥抱艾滋病患者，和他们一起吃饭交谈；但祂要我们所有的人，不管是刚强和软弱的：</p>
+<ul>
+<li>在基督耶稣里认同他们，理解其实我们和他们一样，是属灵的艾滋病患者，罪就像艾滋病毒一样，破坏我们的良心这个道德免疫系统，最后不治而亡。感谢耶稣为了我们的罪死在了十字架上，使我们脱离罪这艾滋病毒对我们的破坏；并且让我们在祂里面有一个全新的生命。</li>
+<li>在基督耶稣里爱他们，理解他们的痛苦和破碎，不仅是身体上的，还有心灵上的，那些被隔绝，被拒绝，被鄙视，被驱逐的痛苦。</li>
+<li>在基督耶稣里服事他们，以实际行动彰显教会的爱。无论用什么样的方式，让他们感觉到基督身体的爱。</li>
+</ul>
+<p>这些信仰的原则如何具体的实践出来，每个地方当地教会的处境很不一样，没有什么标准答案；这就需要教会的牧者与同工在神面前寻求属天的智慧来面对。</p>
+<hr>
+<p>备注：本文首发于微信公号：今日佳音wxbible, 12-1-2017.</p>
+
+          
+        
+      
+    </div>
+
+
+    
+    
+    
+
+
+
+    <div>
+      
+    </div>
+
+
+
+    
+
+
+
+    
+
+
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+         
+    
+      
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://igencong.com/2017-11-26/Wedding at Canan/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="耶书仑Jeshurun">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="耶书仑的生命志">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017-11-26/Wedding at Canan/" itemprop="url">You have saved the best till now</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-26T00:00:00-05:00">
+                2017-11-26
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/sermons/" itemprop="url" rel="index">
+                    <span itemprop="name">sermons</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017-11-26/Wedding at Canan/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017-11-26/Wedding at Canan/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2017-11-26/Wedding at Canan/" class="leancloud_visitors" data-flag-title="You have saved the best till now">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <h3 id="Came-to-Grand-Rapids"><a href="#Came-to-Grand-Rapids" class="headerlink" title="Came to Grand Rapids"></a>Came to Grand Rapids</h3><p>The story I present to you today is a story, I think, that is deeply loved by many of you. Me too. And it is also connected to my journey to Calvin seminary. At the time I was preparing to go to a seminary, all of my best friends who were also called into ministry had already come to US for their theological education. The schools they were attending were very good. I was the only one left, I wondered, “Is there a good place left for me, too?” I felt worried about the future. God comforted me with the words from John 2:10, “but you have save the best till now.” I trusted God that he would lead me to a place “best fit” me. Like Abraham, as he left his hometown, he did not know what God’s promised land looked like; I did not know what my “best fit” look like until I came here. After I came to know stories from other schools, I knew from the bottom of my heart that, Calvin Seminary is my “best fit.” We are blessed! God is faithful, he keeps his promise to his children. Amen! Alleluia. </p>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2017-11-26/Wedding at Canan/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+
+    
+    
+    
+
+
+
+    <div>
+      
+    </div>
+
+
+
+    
+
+
+
+    
+
+
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+         
+    
+      
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://igencong.com/2017-11-22/耶稣哭了/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="耶书仑Jeshurun">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="耶书仑的生命志">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017-11-22/耶稣哭了/" itemprop="url">耶稣哭了</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-22T10:37:11-05:00">
+                2017-11-22
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/时事评论/" itemprop="url" rel="index">
+                    <span itemprop="name">时事评论</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017-11-22/耶稣哭了/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017-11-22/耶稣哭了/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2017-11-22/耶稣哭了/" class="leancloud_visitors" data-flag-title="耶稣哭了">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>耶稣看见她在哭，和她一同来的犹太人也在哭，就心里激动，难过起来，说：“你们把他安放在哪里？”他们说：“主啊，请来看。”耶稣哭了。<br>(圣经·约翰福音 11:33-35 新译本)</p>
+<p>耶稣哭了！耶稣站在好朋友的坟墓外面，哭了。。。<br>祂哭了，不是因为祂无能为力，祂很快就可以叫祂的朋友从坟墓中走出来；<br>祂哭了，乃是因为祂所爱的人躺在坟墓里；<br>祂哭了，因为祂所爱的人也在哭；<br>祂哭了，因为祂所爱的人活在苦楚和无望之中。</p>
+<p>孩子哭了，妈妈哭了；<br>我仿佛听见<br>耶稣也哭了，<br>伴随着许多祈祷者的哭泣。<br>现在是哀哭的时候，<br>今天是悲痛的日子。<br>因为我们的孩子被欺负，被羞辱；<br>因为他们幼小美丽的心灵<br>被撕开了一个缺口；<br>因为我们被欺骗，被玩弄；<br>因为我们也发现了<br>自己良心的亏欠。。。</p>
+<p>祂哭了，那位大能者哭了。<br>祂为我们而来，<br>为我们而哭，<br>也为我们而死，<br>并且复活。</p>
+<p>在生命的主宰那里，<br>眼泪不是软弱者的专利，<br>眼泪乃是无能者的特权，<br>因为耶和华要从天上垂听困苦人的呼求。<br>我们不至断绝，<br>是因为耶和华诸般的慈爱！</p>
+<p>蛮有怜悯的主啊，<br>求你在天上垂听，<br>并侧耳垂顾我们的呼求！<br>所有你手所造之人的眼泪，<br>无论大小，年轻年老，<br>求你一并收藏！</p>
+<hr>
+<p>注：本文与其他内容，发于微信公号：今日佳音wxbible</p>
+
+          
+        
+      
+    </div>
+
+
+    
+    
+    
+
+
+
+    <div>
+      
+    </div>
+
+
+
+    
+
+
+
+    
+
+
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+         
+    
+      
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://igencong.com/2017-11-13/《叛教者》读后感/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="耶书仑Jeshurun">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="耶书仑的生命志">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017-11-13/《叛教者》读后感/" itemprop="url">你也会是叛教者吗？！</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-13T15:06:44-05:00">
+                2017-11-13
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/读书笔记/" itemprop="url" rel="index">
+                    <span itemprop="name">读书笔记</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017-11-13/《叛教者》读后感/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017-11-13/《叛教者》读后感/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2017-11-13/《叛教者》读后感/" class="leancloud_visitors" data-flag-title="你也会是叛教者吗？！">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <img src="http://ou5zkeopz.bkt.clouddn.com/panjiaozhe.jpg" class="class1" width="800" title="叛教者">
+<p>施玮的《叛教者》以小说的形式展现了中国20世纪上半叶最大的教会群体——地方教会成长的历史。正如小说的名字”叛教者“所预示的，小说主要讲述教会在经历外在的政权更替、社会动荡以及政府逼迫的环境下，面对教会的灵魂人物李夜声的个人私德问题时所表现出来的不同反应：有撕心裂肺的崩溃，也有至死不变的持守。 小说共有四部：叛教者，献身者，跟随者和掰饼者。</p>
+<p>第一部是徐闻音姐妹的故事，她是在那场运动中第一个起来控诉李夜声的人，也是第一个”叛教者“。她跟随奶奶在上海的文德里地方教会信主，并把自己完全献给了主，因其对信仰和教会的全然委身，被人称作”圣女“。但当她知道李夜声与她男朋友的姐姐有性关系后，觉得自己所执着追求的只不过是一个幻象，信仰一下子就完全崩溃，毅然决然的站起来批判李夜声，从而引发了整个地方教会的大崩溃。<br>第二部是全书的核心，聚焦在与李夜声关系最亲密的四个姐妹同工的爱恨纠葛。她们是李如是，王慕真，赵心洁和廖文君。</p>
+<p>李如是是一个天资聪明的才女，坚强克己，不计代价把自己完全献给了耶稣，从而跟从了李夜声的带领。李如是可以说李夜声在文字事工方面最得力的同工。李夜声很看重文字事工，他的影响力也透过文字事工影响全国甚至全世界。李夜声有3 辑，62 册，但其中只有两三本是他自己写的，大部分是李如是根据他所讲的整理成书的。从讲道到书籍出版还需要很多的加工，李如是就是这样把自己的生命才华倾注在李夜声的信息中，她隐藏在李夜声的背后，成全了他。某种程度上，他们很难分开。没有李如是，就没有李夜声。她的动机没有参杂着个人的感情私欲，而完全是出于对神的爱，而甘心倾倒自己的生命在一个神所重用的仆人身上。</p>
+<p>让人叹息的是，这两个共同缔造了中国教会历史上属灵辉煌的同工伙伴，最后却站在了对立面，成为仇敌。其中的原因是李夜声玷污了她最喜爱的两个学生：赵心洁和廖文君。李如是和王慕真因此就放弃信仰，在人生最后的十几年中在监狱中做的唯一的事就是控诉别人，以期能提前出狱。施玮在刻画这个人物的时候，探索了这样一个爱主完全奉献的姐妹放弃信仰的信仰根源：她对圣洁的错误认识。她的圣洁观是不沾染尘世七情六欲的；她信心坚定，完全摆上自己，但不流露自己的情感。她内心很欣赏李弟兄，但除了在行动上表达之外，纵使内心翻滚很是赞叹，她的外面也是平静如水。当她第一次知道李夜声与赵心洁的性关系之后，她无法理解为什么像李弟兄这样一个神圣启示的属神的仆人，怎么会有男女的情欲执念。她虽然很生气，但当同工之间在处理李弟兄的问题上意见分歧的时候，她也压抑住了内心的怒火，接纳了李弟兄。李夜声了解李如是的性情，因此他不能在李如是面前表现出任何的软弱，这某种程度上使得李夜声不敢向他的同工分享他的软弱。<br>当李如是知道了李夜声也玷污了她的另外一个学生廖文君之后，她的内心崩溃了。一方面，她无法调和李夜声的属灵教导和他的伦理标准，当两者发生激烈冲突的时候，她只能在两者选其一，而赤裸裸的现实她无法否认，于是，她只有否认李夜声的属灵教导。而她又无法把神的真理和李夜声的属灵教导分开，最终只有否认神和祂的真理了。另一方面，她无法接受自己的两个最好的学生都被玷污的事实。她们就像她的孩子，她觉得自己太失败了，没有保护自己的孩子。但她不知道，这其中有这两个学生的软弱，她们也都深深的被李夜声所吸引，为他所倾倒。她们和他发生关系，有很大的一部分不仅是她们心甘情愿的，还是她们作为他的跟随者梦寐以求的。</p>
+<p>而最后十几年在狱中，她一直无法走出来，根本的原因是她无法原谅自己，她觉得自己被骗了，被李夜声骗了，也被神骗了；她无法接纳自己的不结。她无法接受自己的笃定，并完全的牺牲摆上到头来居然是一个错误，她无法接受这个现实。其实，她最后越批判控诉李夜声，她就是在批判控诉自己。小说的最后提到她的死，其实是她一生的一个隐喻。她是一个非常爱干净的人，或许这使她深深的被神吸引。即使临死的时候，她依然要努力保守她自己的圣洁，透过不吃东西的方式。但最终，她没有得逞，她死的时候，她的屎和尿都出来了，她承认：脏了，脏了。然而，她反而如释重负，脏了，就无法再靠着自己维护自己的圣洁，而只能完全仰望那位完全圣洁的主了。读到此，我深深感到，神对一个人的剥夺和揭露是那么的深。李如是以为是她自己选择了神，是她自己的坚持和委身，但神向她显明，不是她李如是选择了神，而是神拣选了她李如是。从这个真理来看，她虽然被剥夺，但正因为她被剥夺，恰恰显明她是被神所钟爱的。</p>
+<p>王慕真是李如是的学生，与李如是一起是地方教会除李夜声之外的灵魂人物，是李夜声的左膀右臂。她是很有讲道恩赐的姐妹。但她知道神透过李弟兄对教会和这个时代说话，就自甘退居幕后，顺服李夜声不站讲台，而去服事教导儿童。她是李夜声1949年之前重新出山带领教会，并因此带来地方教会复兴的关键人物李。后来，她和李如是一起被捕，在得知了李夜声的个人问题之后，她和李如是一道起来控诉李夜声，也放弃了信仰。但她的心路历程与李如是不一样。李如是是冷峻的，没有一丝半点的儿女情长。王慕真却是把儿女情长深深的埋藏起来，以至于这些情愫不自觉的影响她的属灵判断和抉择，却不自知。她心里很喜欢李夜声，但却是一个带着属灵光环的李夜声；她不愿去面对一个有着真实软弱的李夜声，包括他身体的软弱，情欲的软弱。面对这些软弱，她选择逃避，选择遮掩，选择”多盖几层土“，好不让别人看见。</p>
+<blockquote>
+<p>她習慣於在心中仰望那個講道時的李述先，習慣有一種距離地來欣賞甚至敬佩他，但若要獨自面對他的病容，面對他因高燒而汗濕的頭髮和衣服……</p>
+<p>王慕真不知道自己為什麼要說這句話，她不願意認為自己是要為李夜聲遮掩，她只是不願面對，不願面對一場對他的審訊，更不能面對他或者會有的認罪。</p>
+</blockquote>
+<p>她逃避面对李夜声的软弱，其实也是逃避自己内心的软弱：她也喜欢这个人。或许在许多人看来，这不算什么软弱，但在她的圈子里，至少在她老师李如是眼中，这就是一种软弱。小说中多次提到，她无法面对她老师的眼神，探究的眼神。或许对王慕真来说，李如是对她的影响是最大的，她不自觉的按着她的标准过属灵生活。只是她做不到，她并不是李如是。她所埋藏的儿女情长终究毁了她和李夜声的关系。</p>
+<p>她最终控诉李夜声，或许是因为现实的李夜声毁了她心目中的光辉的李夜声，或许因为她再也无法遮掩。神不仅暴露她内心深处隐藏的情愫，而且残忍的剥夺了；她无法再暗恋他，崇拜他，她必须控诉她。或许她因爱生恨，恨李夜声，也恨神。</p>
+<blockquote>
+<p>(控诉李夜声那一天)王慕真甚至希望那天李夜聲根本就不在台下。<br>但從那天起，她心中對李夜聲的恨突然就消失了，那個人似乎與她無關了。但隨著這恨的消失，隨著他這個人的消失，她的支撐似乎就沒了，心裡搖晃得越來越厲害。</p>
+</blockquote>
+<p>正如她的老师李如是，她们需要不是控诉别人的黑暗，而是在神面前承认自己里面的污秽和黑暗，好让光可以进到她里面来。只有这样，她们才可以重新看见那位永在者，也才能进入祂的同在。最后，面对老师死时的眼神发出的光芒，她将信将疑的说：她在。小说没有交代她最后是否真的与神和好，只说廖文君来领走了她的骨灰，安葬了她。或许施玮想要说的是，无论她是否在今生完全与神和好，但神从来没有忘记她，神知道祂的仆人，并且纪念他们。</p>
+<p>赵心洁心地单纯，她喜欢李夜声，一心想嫁给他。但当李夜声选择了他青梅竹马的伙伴的时候，她愤愤然离开去了美国。解放后，教会受到逼迫的时候，她回来后得知她的好姐妹廖文君也跟李夜声发生关系。她终于经受不住打击，一下子就疯了，住进了精神病院。或许她单纯的心无法承受太错综复杂的人性，爱人、朋友、闺蜜、同窗、同工，所有的情感纠结在一起，她无法解开，就当机了。或许发疯是神对她的保护，她不用去面对所有的痛苦，可以依然简单的活着。</p>
+<p>四个人中只有廖文君在李夜声被捕和私德问题暴露后唯一没有跌倒的。她是个心思细腻的姐妹。她知道自己喜欢李夜声，但她也也清楚明白赵心洁喜欢李夜声，考虑到赵的感受，她就隐藏自己的情感。她接纳自己内心的软弱，勇敢面对，她不否认自己喜欢李夜声，不否认和李夜声发生关系是她自己的愿意的，她爱就是爱，没有想要占有他。可能这是她跟赵心洁最不一样的地方，她并没有因为得不到李夜声就记恨他，或者因为他没有听她的话把录影带毁了而怨恨他；反而她清楚看到他的软弱，并接纳了他。因此，直到死，她也没有控诉批判李夜声。在这一点上，李夜声的妻子张惠雯也是这样。她清楚丈夫所犯的罪，但她在爱里面接纳了，并默默的承强受一切的羞辱。</p>
+<p>第三部讲述地方教会中那些忠心的见证人的故事，他们坚忍到底，虽至于死，也不否认他们所承认的道；不仅不否认神，也没有否认他们的属灵领袖。在那样一个绞肉机的时代，他们为什么能保守自己不失脚。小说讲了三个人物的故事：张茂良，于华恩，黄愚志。</p>
+<ol>
+<li>不是对领袖的愚忠。当儿子张茂良起来控诉李夜声，面对儿子的质问，张恩荣很生气，不理睬儿子，临死前留下一句话：主知道。这句话话体现了地方教会的一个深厚的属灵传统：不辩论，把主权交给主。这不是一句属灵的托辞，让自己逃避责任。在属神的人那里，这是一种谦卑降服的态度。这对涉世未深的年轻人来说，是无法理解的。他们要一个解释，要一个说法，要一个答案。但在那个年代，或者面对复杂的人性，谁能诉说清楚呢？这些功课是无法教的，当的儿子经历了一辈子的世事沧桑、人性真实之后，面对别人的提问，他像他父亲一样自信的说：”主知道！“<br>或许这一点也是东方属灵传统的一个体现。教会历史上，西方教会重道的言说，用哲学思想把信仰表达呈现；东方教会却强调道的不可言说。我想”主知道“这三个字是地方教会在教会实践中继承东方属灵传统的体现。</li>
+<li>是无法被破坏的内在生命使人承受外在环境的崩塌。于华恩弟兄是地方教会最强调内在生命的，他自己也在这方面有操练，时刻与神保持交通；并在神面前被神所雕琢。因此，当面对险恶的环境之时，他能够在肉身之外得到神的力量。     <blockquote>
+<p>現在當他面對人的審判時，竟然比誰都坦然，他不會在工作隊長這雙審判的目光下發抖、崩潰，因為他早已經在上帝聖潔之靈的目光下發抖、崩潰過無數次，並一次次得著了上帝的赦免與遮蓋。  </p>
+</blockquote>
+</li>
+</ol>
+<p>当他殉道之后，他的儿子忍不住气愤大骂李夜声，说父亲是被他害死的。母亲对他说：”你父亲没有恨过人，你是他儿子，也不准恨任何一个人。“</p>
+<ol>
+<li>是对神和弟兄完全单纯的爱使人可以面对外在的险恶。黄愚志不仅是一个对神单纯赤城的人，同时也是一个对弟兄充满爱和怜悯的人。他爱李夜声，责问他是否悔改；他接纳李弟兄，因为看到李弟兄的悔改和对神的摆上；他反思教会在处理李夜声问题上不对的地方；他在监狱中也软弱想自杀。他知道自己的软弱，但他在细微之处体会了神的怜悯。最后让他招致杀身之祸的是他向一个软弱逃跑的弟兄，显出的怜悯和接待；在那个年代，就是最亲的亲人也会自保以彻底撇清关系的。</li>
+</ol>
+<p>看这一段历史，看小说中每个人身上所流露出来的生命，发现施玮姐妹似乎在讲一个属灵生命的重要原则，这个原则谁都知道，但只有在熔炉般的试炼中才能显出你是否真的知道。这就是加尔文在他最著名的《基督教要义》中一开始就提到的：认识神，认识自己。在那个时代，似乎只有在神的光中真的认识自己的软弱和败坏的人才能真正站立得住。使你站立得住的不是你的敬虔圣洁，乃是你对自己不敬虔不圣洁的认识，因此你能在试炼中信靠神，并活出怜悯。</p>
+<p>了解一点中国教会历史的人都知道，这部小说是以倪柝声弟兄及其创立的小群教会(也称地方教会)为原型的。借着小说，作者施玮指出了小群教会对其灵魂人物倪柝声弟兄的个人崇拜，最终导致了神对整个教会的拆毁。这个问题在今天的小群教会依然是存在的，而且可能还很严重。他们很多人还认为倪弟兄是有神特殊启示的，是个神人，是没有污点的。记得十多年前，梁家霖博士(现在建道神学院的院长)调查了倪柝声弟兄的私德问题，面对自己收集的许多证据，他下结论肯定了倪弟兄在性方面的犯罪; 结果引起了小群教会许多弟兄姐妹的”义怒“，他们把梁博士骂了个狗血喷头，甚至否认他的人品，质疑他的动机，怀疑他是否得救。</p>
+<p>我们需要尊重领袖，需要学习上一辈的优秀传统。但这种神圣化教会领袖，把他们放在神坛上的做法是偶像崇拜，是偏离了圣经的教导，是很危险的; 上帝必然管教审判。这有领袖的责任，但主要的责任却是在教会的弟兄姐妹身上。在最后一章”掰饼者“，李夜声在狱中反省教会的问题，他说：”也許世人和教會都會判定我該為這些人的悲慘負責，但我卻知道責任不在我。我是誰？他們又是誰？他們不是我的門徒，他們是主的門徒。主擊打，主纏裹……主為著他的揀選而來破碎這些人，就像破碎我一樣，這是出於他的定意和他的愛，而我，不過是上帝隨手拿來一用的棍子。“  </p>
+<p>但这个认识，是李夜声在狱中默想他的服事才意识到的。有多少人在当时的处境中，有如此超越的认识呢？我想，读完小说的人，会在最后和作者产生深刻的共鸣：</p>
+<blockquote>
+<p>若将我扔进那个绞肉机般的时代，我最大的可能就是成为一个叛教者。</p>
+</blockquote>
+<p>但是，施玮并没有让我们停在这里。福音书的故事也没有停在耶稣受难的前夜：犹大卖主，门徒四散，彼得三次不认主。福音书把我们带到耶稣的十字架以及复活节的清晨。在人性的软弱和败坏之中，有耶稣被撕裂的身体和流出来的血，这血是为多人的罪流出的，这身体是被掰开以喂饱我们的。</p>
+<p>小说的最后，透过李夜声在狱中的反省，我们看到的是神深沉的爱，神对那些爱祂之人深邃的爱；这爱超过我们肉体所能想象，是言语无法诉说，却是在十字架的苦难和羞辱中流淌出来。这是神的荣耀！</p>
+
+          
+        
+      
+    </div>
+
+
+    
+    
+    
+
+
+
+    <div>
+      
+    </div>
+
+
+
+    
+
+
+
+    
+
+
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+         
+    
+      
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://igencong.com/2017-11-10/江妈妈，我们爱你！/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="耶书仑Jeshurun">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="耶书仑的生命志">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017-11-10/江妈妈，我们爱你！/" itemprop="url">江妈妈，我想对你说</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-10T00:00:00-05:00">
+                2017-11-10
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/时事评论/" itemprop="url" rel="index">
+                    <span itemprop="name">时事评论</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017-11-10/江妈妈，我们爱你！/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017-11-10/江妈妈，我们爱你！/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2017-11-10/江妈妈，我们爱你！/" class="leancloud_visitors" data-flag-title="江妈妈，我想对你说">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <h3 id="我们都是江妈妈"><a href="#我们都是江妈妈" class="headerlink" title="我们都是江妈妈"></a>我们都是江妈妈</h3><p>越多的了解江妈妈，就越来越发现江妈妈身上我们自己生命的影子。越看江妈妈，越觉得她就是我们，因为她代表了千千万万中国人的形象。</p>
+<p>她有一个破碎的婚姻，丈夫在女儿1 岁的时候抛弃了她们，就如我们许多人一样；<br>她坚强自立，独自一人做生意打拼，抚养老人，养育孩子，就如我们许多人一样；<br>她虽然势单力薄，但懂得运用网络资源，借用草根网民的力量，要为自己的孩子赢得公道，就如我们许多人一样；<br>她懂得珍惜生命，筹集签名要判处陈世峰死刑，她说其中有一个目的是，“不判处死刑，就不知道生命的珍贵”，就如我们许多人一样；<br>她有正义感，她说“如果我江歌的这种善良就这么被践踏的话，所有知道江歌这件事情的人会有对人性颠覆性的认识”，渴望有一个公义的社会，善良的价值被肯定，就如我们许多人一样；<br>她有责任心，面对刘鑫的躲避，她批评说“一个成年人在这个社会上立足，一定要为自己的行为负责，因为你是一个人”，她逼刘鑫出面除了自己的目的外，还有一个很重要的目的是教他人要做一个负责任的人，就如我们许多人一样；<br>她相信饶恕在与人相处中很重要，但她说，”一个人要想被对方原谅，需要拿出一个可以被原谅的态度“；她认为饶恕的前提是对方真的意识到自己错了，有悔过的态度，就如我们许多人一样；<br>她知道一个人犯了错，真诚的说”对不起“很重要，这不仅影响个人的声誉，也会影响整个民族的形象。她说，同样是伤害中国，但战后德国及时道歉，一直诚恳的道歉；而日本没有这么去做，一直得不到中国的原谅。她希望每个人做错了，不管是什么，就要勇敢说”对不起“，就如我们许多人一样；<br>最后，也是最让人感动的，她爱她的孩子，不惜卖掉房子供她读书；她愿意为孩子付出生命，恨不得替孩子承受痛苦，就如我们一样。</p>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2017-11-10/江妈妈，我们爱你！/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+
+    
+    
+    
+
+
+
+    <div>
+      
+    </div>
+
+
+
+    
+
+
+
+    
+
+
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+         
+    
+      
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://igencong.com/2017-10-23/宗教改革值得庆祝吗？/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="耶书仑Jeshurun">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="耶书仑的生命志">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017-10-23/宗教改革值得庆祝吗？/" itemprop="url">宗教改革不值得庆祝，为什么？</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-10-23T00:00:00-04:00">
+                2017-10-23
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/微信文章/" itemprop="url" rel="index">
+                    <span itemprop="name">微信文章</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017-10-23/宗教改革值得庆祝吗？/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017-10-23/宗教改革值得庆祝吗？/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2017-10-23/宗教改革值得庆祝吗？/" class="leancloud_visitors" data-flag-title="宗教改革不值得庆祝，为什么？">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <h3 id="庆祝，还是共同回忆？"><a href="#庆祝，还是共同回忆？" class="headerlink" title="庆祝，还是共同回忆？"></a>庆祝，还是共同回忆？</h3><p>1517 年10月31 日，西方万圣节的夜晚，一个当时名不见经传的修士马丁路德在威丁堡大学的门上，一个普通平常的布告栏，贴了95条论纲，他当时只是想和教会人士做些讨论。没有想到，却因此引发了一场声势浩大的反抗罗马天主教的运动。这场宗教改革深深的影响了今天教会的格局：从东方希腊正教会和西方天主教会两大基督教流派变成东正教、天主教和新教三足鼎立的局面，其中新教中又有无数的教派和独立教会。 同时，今天世界的格局和社会世俗文化也与这场改革有直接的联系。<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> </p>
+<p>见过纪念宗教改革500周年的各种活动主题，大部分都是回顾那段历史，回顾神在其中的作为，激励人们重拾宗教改革的宝贵属灵传统，比如五个”唯独”：唯独圣经，唯独基督，唯独信心，唯独恩典，唯独上帝得荣耀。大部分的记念活动都是借此机会，强调新教的信仰立场，重新确立新教在神国度里的身份认定，特别是与天主教不同的方面。这些都是很宝贵的，作为新教的一分子，我们应该了解我们自己特有的属灵传承。但在我内心深处，这种不断强化我们与天主教信仰不同的方式，让我总感觉缺少什么。因为我自己属灵成长的过程中，得到了许多天主教传统的喂养，尤其在灵修方面，比如：盖恩夫人、劳伦斯、卢云和梅顿; 我总觉得我们和天主教之间的相同要远远大过我们的不同。</p>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2017-10-23/宗教改革值得庆祝吗？/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+
+    
+    
+    
+
+
+
+    <div>
+      
+    </div>
+
+
+
+    
+
+
+
+    
+
+
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+         
+    
+      
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://igencong.com/2017-10-20/女人在生产上得救？/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="耶书仑Jeshurun">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="耶书仑的生命志">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017-10-20/女人在生产上得救？/" itemprop="url">”女人在生产上得救“是什么意思</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-10-20T00:00:00-04:00">
+                2017-10-20
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/圣经解读/" itemprop="url" rel="index">
+                    <span itemprop="name">圣经解读</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017-10-20/女人在生产上得救？/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017-10-20/女人在生产上得救？/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2017-10-20/女人在生产上得救？/" class="leancloud_visitors" data-flag-title="”女人在生产上得救“是什么意思">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p>提前2:15 说：然而，女人若常存信心、爱心，又圣洁自守，就必在生产上得救。(和合本翻译） </p>
+<h3 id="应许还是审判"><a href="#应许还是审判" class="headerlink" title="应许还是审判"></a>应许还是审判</h3><p>提前的这节经文让许多怀孕的姐妹很困惑。有些人从中看到神的应许，得到信心和勇气去面对可怕的生产的阵痛; 而有些人却从中看到神的审判，很受打击; 因为觉得自己缺少信心，爱心，又不够圣洁和自守，特别是怀孕期间，身体的种种变化不由的自己，自己的忍耐到了极限，情绪失控是常有的事。如果只有敬虔的生命状态才能顺产的话，那自己肯定要在生产上被上帝管教了。</p>
+<p>对想使用这节经文去安慰鼓励他人的弟兄姐妹来说，要清楚的意识到这是一把双刃剑，一不小心这把剑反而会挫伤了对方。妻子怀老大的时候，我就犯了错误。面对第一次临产，她有些恐慌，她说她很怕疼; 我当时就想透过神的话，鼓励她抓住神的应许。没想到我一说完，她就更沮丧了，说：“我觉得自己肯定要挂了，因为我信心不好，爱心不够，也不是很圣洁。哎…” 我只好连忙鼓励说，“神知道你的软弱，但耶稣的宝血已经遮盖你了。不要怕，主会与你同在的！”</p>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2017-10-20/女人在生产上得救？/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+
+    
+    
+    
+
+
+
+    <div>
+      
+    </div>
+
+
+
+    
+
+
+
+    
+
+
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+         
+    
   </section>
 
-  {% include '_partials/pagination.swig' %}
-{% endblock %}
+  
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/6/">6</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right"></i></a>
+  </nav>
 
-{% block sidebar %}
-  {{ sidebar_template.render(false) }}
-{% endblock %}
+
+
+          </div>
+          
+
+
+          
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview sidebar-panel sidebar-panel-active">
+        <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image" src="/images/avatar.jpg" alt="耶书仑Jeshurun">
+          <p class="site-author-name" itemprop="name">耶书仑Jeshurun</p>
+           
+              <p class="site-description motion-element" itemprop="description">信仰，一种有热度的生活方式！</p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives/">
+                <span class="site-state-item-count">39</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">14</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">92</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://twitter.com/qingxin" target="_blank" title="Twitter" rel="external nofollow noopener noreferrer">
+                  
+                    <i class="fa fa-fw fa-twitter"></i>
+                  
+                    
+                      Twitter
+                    
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://douban.com/people/qingxin" target="_blank" title="豆瓣" rel="external nofollow noopener noreferrer">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                    
+                      豆瓣
+                    
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+          <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              Links
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://jeshurun.coding.net" title="国内镜像" target="_blank" rel="external nofollow noopener noreferrer">国内镜像</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://levifish.com" title="未鱼居" target="_blank" rel="external nofollow noopener noreferrer">未鱼居</a>
+                </li>
+              
+            </ul>
+          </div>
+        
+
+        
+
+
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">耶书仑Jeshurun</span>
+<span id="busuanzi_container_site_pv">
+    本站总访问量<span id="busuanzi_value_site_pv"></span>次
+</span>
+
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io" rel="external nofollow noopener noreferrer" target="_blank">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next" rel="external nofollow noopener noreferrer" target="_blank">
+    NexT.Mist
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.2"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.2"></script>
+
+
+
+  
+  
+
+  
+    <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.2"></script>
+
+
+
+  
+
+
+  
+
+    
+      <script id="dsq-count-scr" src="https://qingxin.disqus.com/count.js" async></script>
+    
+
+    
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script>AV.initialize("ToRiPOJGKIWMAoYm56Nrw6Cj-gzGzoHsz", "IAUyQHvrCT4BUb5eDcAiiBbn");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+  
+
+  
+
+  
+
+  
+
+
+
+</body>
+</html>
