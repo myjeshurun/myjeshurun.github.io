@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://igencong.com/"/>
-  <updated>2018-09-11T14:15:15.021Z</updated>
+  <updated>2018-09-11T14:16:20.893Z</updated>
   <id>http://igencong.com/</id>
   
   <author>
@@ -17,10 +17,10 @@
   
   <entry>
     <title>教会，神的家</title>
-    <link href="http://igencong.com/2018-09-05/%E6%95%99%E4%BC%9A%EF%BC%8C%E7%A5%9E%E7%9A%84%E5%AE%B6/"/>
-    <id>http://igencong.com/2018-09-05/教会，神的家/</id>
-    <published>2018-09-05T11:34:53.000Z</published>
-    <updated>2018-09-11T14:15:15.021Z</updated>
+    <link href="http://igencong.com/2018-09-09/%E6%95%99%E4%BC%9A%EF%BC%8C%E7%A5%9E%E7%9A%84%E5%AE%B6/"/>
+    <id>http://igencong.com/2018-09-09/教会，神的家/</id>
+    <published>2018-09-08T16:00:00.000Z</published>
+    <updated>2018-09-11T14:16:20.893Z</updated>
     
     <summary type="html">
     
@@ -202,9 +202,9 @@
     
       <category term="传讲神" scheme="http://igencong.com/tags/%E4%BC%A0%E8%AE%B2%E7%A5%9E/"/>
     
-      <category term="江歌案" scheme="http://igencong.com/tags/%E6%B1%9F%E6%AD%8C%E6%A1%88/"/>
-    
       <category term="神的真实" scheme="http://igencong.com/tags/%E7%A5%9E%E7%9A%84%E7%9C%9F%E5%AE%9E/"/>
+    
+      <category term="江歌案" scheme="http://igencong.com/tags/%E6%B1%9F%E6%AD%8C%E6%A1%88/"/>
     
   </entry>
   
@@ -345,9 +345,9 @@
       <category term="时事评论" scheme="http://igencong.com/categories/%E6%97%B6%E4%BA%8B%E8%AF%84%E8%AE%BA/"/>
     
     
-      <category term="死亡" scheme="http://igencong.com/tags/%E6%AD%BB%E4%BA%A1/"/>
-    
       <category term="江歌案" scheme="http://igencong.com/tags/%E6%B1%9F%E6%AD%8C%E6%A1%88/"/>
+    
+      <category term="死亡" scheme="http://igencong.com/tags/%E6%AD%BB%E4%BA%A1/"/>
     
   </entry>
   
