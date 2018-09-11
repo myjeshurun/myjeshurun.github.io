@@ -1,38 +1,1397 @@
-{% extends '_layout.swig' %}
-{% import '_macro/post.swig' as post_template %}
-{% import '_macro/sidebar.swig' as sidebar_template %}
+<!DOCTYPE html>
 
 
-{% block title %}{{ page.title }} | {{ config.title }}{% endblock %}
 
-{% block page_class %}page-post-detail{% endblock %}
+  
 
 
-{% block content %}
+<html class="theme-next mist use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css">
+
+
+  <meta name="keywords" content="神学院,神学教育,城市,">
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="耶书仑的生命志" type="application/atom+xml">
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.2">
+
+
+
+
+
+
+<meta name="description" content="不时的碰到有弟兄姊妹问，如何选择美国的神学院？等你推荐了之后，他/她就会问：那个神学院有什么比较牛的教授吗？然后你就会说某某某……话里话外，许多人选择神学院除了财政支持之外最大的考量就是教授的水平。作为学生，笔者特别理解这种心情，毕竟我们出来就是为了学习、研读神的话语，好将来回去能做好讲道、教导等话语的服事。  不仅是悟性 但是，笔者从自己美国读神学、生活、养育子女（3个）4年多的经历中深深体会到">
+<meta name="keywords" content="神学院,神学教育,城市">
+<meta property="og:type" content="article">
+<meta property="og:title" content="落脚在一个暂住的家——如何选好北美神学院">
+<meta property="og:url" content="http://igencong.com/2017-09-11/Chinese students how to choose a fitful seminary/index.html">
+<meta property="og:site_name" content="耶书仑的生命志">
+<meta property="og:description" content="不时的碰到有弟兄姊妹问，如何选择美国的神学院？等你推荐了之后，他/她就会问：那个神学院有什么比较牛的教授吗？然后你就会说某某某……话里话外，许多人选择神学院除了财政支持之外最大的考量就是教授的水平。作为学生，笔者特别理解这种心情，毕竟我们出来就是为了学习、研读神的话语，好将来回去能做好讲道、教导等话语的服事。  不仅是悟性 但是，笔者从自己美国读神学、生活、养育子女（3个）4年多的经历中深深体会到">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://ou5zkeopz.bkt.clouddn.com/cts-logo.png">
+<meta property="og:updated_time" content="2017-09-11T01:09:26.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="落脚在一个暂住的家——如何选好北美神学院">
+<meta name="twitter:description" content="不时的碰到有弟兄姊妹问，如何选择美国的神学院？等你推荐了之后，他/她就会问：那个神学院有什么比较牛的教授吗？然后你就会说某某某……话里话外，许多人选择神学院除了财政支持之外最大的考量就是教授的水平。作为学生，笔者特别理解这种心情，毕竟我们出来就是为了学习、研读神的话语，好将来回去能做好讲道、教导等话语的服事。  不仅是悟性 但是，笔者从自己美国读神学、生活、养育子女（3个）4年多的经历中深深体会到">
+<meta name="twitter:image" content="http://ou5zkeopz.bkt.clouddn.com/cts-logo.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://igencong.com/2017-09-11/Chinese students how to choose a fitful seminary/">
+
+
+
+
+
+  <title>落脚在一个暂住的家——如何选好北美神学院 | 耶书仑的生命志</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope="" itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">耶书仑的生命志</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">信仰 生命 生活</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off" placeholder="搜索..." spellcheck="false" type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
 
   <div id="posts" class="posts-expand">
-    {{ post_template.render(page) }}
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://igencong.com/2017-09-11/Chinese students how to choose a fitful seminary/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="耶书仑Jeshurun">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="耶书仑的生命志">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">落脚在一个暂住的家——如何选好北美神学院</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-11T08:43:15+08:00">
+                2017-09-11
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/生活日记/" itemprop="url" rel="index">
+                    <span itemprop="name">生活日记</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017-09-11/Chinese students how to choose a fitful seminary/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017-09-11/Chinese students how to choose a fitful seminary/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2017-09-11/Chinese students how to choose a fitful seminary/" class="leancloud_visitors" data-flag-title="落脚在一个暂住的家——如何选好北美神学院">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>不时的碰到有弟兄姊妹问，如何选择美国的神学院？等你推荐了之后，他/她就会问：那个神学院有什么比较牛的教授吗？然后你就会说某某某……<br>话里话外，许多人选择神学院除了财政支持之外最大的考量就是教授的水平。作为学生，笔者特别理解这种心情，毕竟我们出来就是为了学习、研读神的话语，好将来回去能做好讲道、教导等话语的服事。</p>
+<img src="http://ou5zkeopz.bkt.clouddn.com/cts-logo.png" class="class1" width="600" title="加尔文神学院">
+<pre><code>不仅是悟性
+</code></pre><p>但是，笔者从自己美国读神学、生活、养育子女（3个）4年多的经历中深深体会到，读神学不只是“读”，也不只是为了更深刻的理解圣经，而是为了更好的被神塑造——不仅在理性、灵性和身体上，也包括个人生活和群体生活，是全人的塑造。因此，选择就读M.Div.（道学硕士，简称道硕）的神学院，不只要考虑教授的学术水平，还要权衡其它很多方面的因素。<br>事实上，选择一所神学院，好比在一个特定的城市、文化和信仰氛围中，选择一个暂住的家，在其中生活几年——一所神学院所提供的不仅是神学教授，而是一个“Package”（整套的训练环境），里面除了神学课程外，还有很多其他附带的却重要的东西。<br><a id="more"></a></p>
+<p>在打开Package之前，首先要澄清几点：</p>
+<ol>
+<li>本文的心得分享是针对在美国的英文神学院，不含各地华人神学院，或其他地区的英文神学院。</li>
+<li>本文对象是想读道硕的弟兄姊妹。其他学位的权衡标准不一样，不在本文探讨范围内。</li>
+<li>关于如何祷告寻求明白神的带领、财政上的供应等等，不在本文考虑范围之内。本文旨在帮助那些有机会做自由选择的弟兄姊妹、在如何选择神学院的问题上多做些思考。</li>
+<li><p>本文也考虑到完成装备后有心要回国服事者。</p>
+<p> 打开 “Package”</p>
+</li>
+</ol>
+<p>现在言归正传，让我列出观察到的神学院Package 的清单：</p>
+<ol>
+<li>神学教授与学术水准。<br>优秀的教授毫无疑问也是一个学校的招牌，也是最直接明显的选校条件。<br>对勤奋好学的中国学生而言，自然是很看重该神学院有没有什么大牛教授，无论是系统神学、圣经神学、历史神学还是实践神学。不过，评判大牛教授的标准都是很专业和学术的，这意味着道硕学生如果不想以后进入相关的领域攻读博士，这些教授或许并不会如你所想象的那么有帮助。<br>再者，有名气的教授一般都很忙：著书写作、各种演讲、活动……除非特例，不要奢望他们有多少的时间给学生，在那些人数很多的大神学院更是如此。因此，道硕专业学生大可不必太过于看重神学院教授在学术界的知名度，反而要了解一下他是否有过教会牧养的实际经历。</li>
+<li>神学院的信仰背景。<br>每个神学院都有它的宗派背景，或信仰背景，此包含了神学传统和属灵传承。<br>美国宗派林立，大多数宗派只要有能力都会建立自己的神学院，有天主教的神学院，改革宗的神学院，浸信会的神学院，卫理公会的神学院等等。很明显，宗派神学院首要的目的是培养自己宗派的牧师。<br>在美国要做牧师，必须被按立；要被按立必须具道硕资格。而折腾人的是，宗派之间不一定互相承认牧师的按立。也就是说，天主教不会承认新教按立的牧师；改革宗的教会也不太会承认浸信会按立的牧师。所以，对美国本地的神学生来说，选择自己宗派认可的神学院（包括自己宗派的神学院或其他超宗派的神学院）是第一选择。<br>对没有宗派背景的中国神学生来说，这意味着，选择一个神学院，就是在选择一个宗派、一种信仰传统，包括神学传统和属灵传承。这就好比，你跟一个人结婚，得到的不只是现在活生生的这个人，还有这个人的过去、未来，以及这个人背后的大家族。<br>与此关联的好处是，当你进入一个宗派神学院的时候，你得到的不只是神学教育的资源，还有所属宗派、教会几十年、上百年甚至上千年所积累的属灵遗产和资源。而这或许是超宗派的神学院比较难以企及的。<br>笔者所在神学院的宗派，上百年的发展已经建立起很成熟的教会体制，也特别注重保存档案。但凡每一个重要的教会议题（特别是有争议的现实议题），都会成立专门的学习小组进行研究讨论，并形成研究报告；这些报告都被很好的保存整理，以供后人参考使用。</li>
+<li>学习压力与家庭生活。<br>每个神学院对学生的作业要求不一样，或松或严。<br>过去常常听有人说，神学生没有时间读圣经、灵修祷告，当时我不太明白。等自己进入神学院学习，才明白为什么：<br>一开学，每天要完成老师布置的阅读作业，要写小论文，大论文，可能还要准备考试；自己英语也不是那么好，英文阅读、写作不够快，很痛苦；但每天又不敢松懈，就得不停的看、写，还有背。那种感觉就好像开车上了高速路，你必须不停往前开，直到了一个路口，你才能下高速休息一下、加个油。<br>神学生也是人，在一种很有压力的状态下，神学生容易找到特有的自我安慰——“我本身就是在研读神的话” ，所以最容易被挤掉的很自然是读经、祷告的时间。不仅如此，在压力下，与妻子和孩子相处的家庭生活，也很容易被牺牲掉的。一般来说，来读神学的都是年轻人，结婚不久，孩子也小，读神学期间恰好也是最需要投入家庭的阶段。<br>如果神学院对学生的课业要求很高，给学生特别是国际学生带来的压力，甚至大到没有时间运动、休息、亲近神，这对学生的身体、属灵生命会是个灾难。要命的是，在高压环境中塑造出来的人，在未来的牧会现场中很难给人安息，反而容易给人带来焦虑。<br>笔者认为，神学院对人的塑造应该不只是知性层面，还包括情感层面、关系层面和属灵层面等，是全人全面的。所以，了解一下神学院的课业压力，权衡自己的能力，对有（几个）孩子的家庭尤其重要。</li>
+<li>当地教会的属灵资源。<br>笔者一直以为，对中国神学生来说，参与当地教会的崇拜是一个很宝贵的属灵体验。不少中国神学生是第一代的基督徒，蒙召服事之前经历的教会生活很有限，对教会的认识还是停留在头脑的层面。西方的教会一般都是有历史与传统的，进入这样的一个教会，了解他们的发展沿革、信仰传统、属灵生活、敬拜服事等，对建造未来稳健的中国教会有很大的帮助。<br>读道硕的神学生一般都会兼顾教会的服事，而且神学生也需要当地教会的关怀和支持（特别是有孩子的家庭）。有的神学院所在地方离教会比较远，要找个合适的教会聚会得开一个小时的车，这对神学生参与教会是个很大的困难。有的神学院在小城市，这对于想要委身投入大城市教会牧养的人来说，就难以找到合适的教会成长和学习。有的人希望可以参与当地华人教会的服事，而并不是每个神学院附近都有华人教会。<br>所以，了解神学院当地的教会也是一个重要的层面。</li>
+<li>所在的社区、城市。<br>神学院分布在小城市或大都市：小城市安静、简单、稳定，没有多少事情发生；大都市喧嚣、复杂，充满了变化和不确定。诞生和孕育神学院的城市，对个人生活，特别家庭生活影响很大。<br>神学院与所在城市的互动不一样。有些神学院像一座孤岛：要么远离尘世，要么被格格不入的世界包围，比如富人区、闹市区；有些神学院则能融入周遭的环境中中，让神学生有很多的机会可以去接触现实社会、服务社区。<br>我入学的神学院有个神学生，正是因为这个原因而选择这里的，他觉得神学院就应该和周遭的社会融在一起的。</li>
+<li><p>附带的属灵资源。<br>每个神学院可能都有自己的特色，或者专门的研究中心，这些资源可能不在课程之内，但却是该神学院的独特之处。例如：<br>对教会历史人物的研究，有些神学院就收集了该人物所有的作品和相关论文，像耶鲁神学院有“爱德华兹研究中心” (<a href="http://edwards.yale.edu/" rel="external nofollow noopener noreferrer" target="_blank">http://edwards.yale.edu/</a> )，加尔文神学院有“加尔文研究中心” (<a href="https://calvin.edu/centers-institutes/meeter-center/" rel="external nofollow noopener noreferrer" target="_blank">https://calvin.edu/centers-institutes/meeter-center/</a> )等等，这是不可多得的属灵资源。<br>关于使用软件做圣经研究以及教授圣经课程外，达拉斯神学院提供给每个神学生Logos圣经软件，能在几年的课程中，把圣经66卷书讲授一遍。这或许无出其右。<br>对领导力的研究，哥登神学院有“福音派领导力发展中心”(<a href="http://www.gordonconwell.edu/resources/CDEL.cfm" rel="external nofollow noopener noreferrer" target="_blank">http://www.gordonconwell.edu/resources/CDEL.cfm</a> )。对福音主义的研究，惠顿大学有“葛培理中心”(<a href="http://www.wheaton.edu/BGCE" rel="external nofollow noopener noreferrer" target="_blank">http://www.wheaton.edu/BGCE</a> )。这些都是具有广泛和持久影响力。<br>又如，笔者所在的神学院，拥有丰富的敬拜资源，有一个“敬拜研究中心” (<a href="http://worship.calvin.edu/" rel="external nofollow noopener noreferrer" target="_blank">http://worship.calvin.edu/</a> )，每年所主办的“敬拜研讨会”(<a href="http://worship.calvin.edu/symposium/" rel="external nofollow noopener noreferrer" target="_blank">http://worship.calvin.edu/symposium/</a> )有30年的历史；每两年一次的“信仰与写作”( Festival of Faith and Writing, <a href="http://festival.calvin.edu/" rel="external nofollow noopener noreferrer" target="_blank">http://festival.calvin.edu/</a> )，也有27年之久。这些资源对那些在某方面特别有兴趣或负担的弟兄姊妹，会很有帮助！<br>在神学院几年的生活中，经常听到的一句话是：We learn outside the classroom as well as inside the classroom. （我们不仅在课堂内学习，也在课堂外学习）——甚至课堂外的学习要超过课堂内的学习。笔者举出上面各校的例子，是想提醒，很多神学院在神学课程之外，还有很多宝贵的资源值得未来教会的牧者去探索和学习。</p>
+<p> 不同经历，同样恩典<br>笔者深深的觉得，能到国外读神学是神一个很大的恩典——在神学院这个Package里，不仅仅可以学到神学知识，更能开拓属灵的视野，丰富生命的阅历。神给每一个属祂的仆人预备的，是一份丰富的属灵筵席：有主菜，也有配菜，还有甜点。每个人口味不一样，神预备的也不一样。</p>
+</li>
+</ol>
+<p>笔者也明白，人生常是不完美的；要找到一个各方面都完全满足个人内心渴望的神学院，也不太现实；但有条件的人应该可以从中找到个人的优先级，尽量满足最优先的几个。<br>对立志服事的人来说，我们清醒地意识到，神的带领有时也会与我们个人的喜好不同；这个时候，我们需要的是放下自己的标准、顺服神的带领。因为神的意念高过我们的意念，祂的道路高过我们的道路；我们要背起自己的十字架，跟随祂的带领。</p>
+<p>愿每一个渴望忠心又有见识的来服事主的人都能进入最适合自己的那一个神学院，尽情的领受装备和滋养，身心灵都预备好了，将来更好的被主使用，祝福祂所托付的羊群！</p>
+<hr>
+<p>本文首发于举目：<a href="http://mp.weixin.qq.com/s/-ud--pyKVZWIKpco0z5eqg" rel="external nofollow noopener noreferrer" target="_blank">落脚在一个暂住的家——如何选好北美神学院</a></p>
+
+      
+    </div>
+
+
+    
+    
+    
+
+ 
+      <h3>相关文章：</h3><ul class="related-posts"><li><a href="/2017-08-23/一次普通的聊天，一个未来的异象/">一次普通的谈话，一个开启未来的异象</a></li></ul> 
+
+
+    <div>
+      
+        
+<div class="my_post_copyright">
+  <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
+
+  <!-- JS库 sweetalert 可修改路径 -->
+  <script type="text/javascript" src="http://jslibs.wuxubj.cn/sweetalert_mini/jquery-1.7.1.min.js"></script>
+  <script src="http://jslibs.wuxubj.cn/sweetalert_mini/sweetalert.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="http://jslibs.wuxubj.cn/sweetalert_mini/sweetalert.mini.css">
+  <p><span>文章作者:</span><a href="/" title="访问 耶书仑Jeshurun 的个人博客">耶书仑Jeshurun</a></p>
+<p><span>原始链接:</span><a href="/2017-09-11/Chinese students how to choose a fitful seminary/" title="落脚在一个暂住的家——如何选好北美神学院">http://igencong.com/2017-09-11/Chinese students how to choose a fitful seminary/</a>
+    <span class="copy-path" title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="http://igencong.com/2017-09-11/Chinese students how to choose a fitful seminary/" aria-label="复制成功！"></i></span>
+  </p>
+
+<p><span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">署名-非商业性使用-禁止演绎 4.0 国际</a> 转载请保留原文链接及作者。</p>
+</div>
+<script>
+    var clipboard = new Clipboard('.fa-clipboard');
+    clipboard.on('success', $(function(){
+      $(".fa-clipboard").click(function(){
+        swal({
+          title: "",
+          text: '复制成功',
+          html: false,
+          timer: 500,
+          showConfirmButton: false
+        });
+      });
+    }));
+</script>
+
+
+      
+    </div>
+
+
+
+    
+      <div>
+        <div id="wechat_subscriber" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
+    <img id="wechat_subscriber_qcode" src="/images/wxbible-qcode.jpg" alt="耶书仑Jeshurun wechat" style="width: 200px; max-width: 100%;">
+    <div></div>
+</div>
+
+
+      </div>
+    
+
+
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>坚持原创信仰·生活分享，您的支持将鼓励我继续创作！</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>Donate</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechat-donate.jpeg" alt="耶书仑Jeshurun WeChat Pay">
+        <p>WeChat Pay</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/alipay-donate.jpeg" alt="耶书仑Jeshurun Alipay">
+        <p>Alipay</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+
+
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/神学院/" rel="tag"># 神学院</a>
+          
+            <a href="/tags/神学教育/" rel="tag"># 神学教育</a>
+          
+            <a href="/tags/城市/" rel="tag"># 城市</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017-08-31/利未记对现代基督徒的意义/" rel="next" title="利未记对现代基督徒的意义">
+                <i class="fa fa-chevron-left"></i> 利未记对现代基督徒的意义
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017-09-11/谁能逃过人生的这场骗局/" rel="prev" title="80后天才程序员自杀：每一场成功的骗局，都有“内奸”在呼应">
+                80后天才程序员自杀：每一场成功的骗局，都有“内奸”在呼应 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
 
     <div class="post-spread">
-      {% if theme.jiathis %}
-        {% include '_partials/share/jiathis.swig' %}
-      {% elseif theme.baidushare %}
-        {% include '_partials/share/baidushare.swig' %}
-      {% elseif theme.add_this_id %}
-        {% include '_partials/share/add-this.swig' %}
-      {% elseif theme.duoshuo_shortname and theme.duoshuo_share %}
-        {% include '_partials/share/duoshuo_share.swig' %}
-      {% endif %}
+      
     </div>
   </div>
 
-{% endblock %}
 
-{% block sidebar %}
-  {{ sidebar_template.render(true) }}
-{% endblock %}
+          </div>
+          
 
 
-{% block script_extra %}
-  {% include '_scripts/pages/post-details.swig' %}
-{% endblock %}
+          
+  <div class="comments" id="comments">
+    
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript" rel="external nofollow noopener noreferrer" target="_blank">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview sidebar-panel sidebar-panel-active">
+        <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image" src="/images/avatar.jpg" alt="耶书仑Jeshurun">
+          <p class="site-author-name" itemprop="name">耶书仑Jeshurun</p>
+           
+              <p class="site-description motion-element" itemprop="description">信仰，一种有热度的生活方式！</p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives/">
+                <span class="site-state-item-count">46</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">16</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">107</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://twitter.com/qingxin" target="_blank" title="Twitter" rel="external nofollow noopener noreferrer">
+                  
+                    <i class="fa fa-fw fa-twitter"></i>
+                  
+                    
+                      Twitter
+                    
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://douban.com/people/qingxin" target="_blank" title="豆瓣" rel="external nofollow noopener noreferrer">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                    
+                      豆瓣
+                    
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+          <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              Links
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://jeshurun.coding.net" title="国内镜像" target="_blank" rel="external nofollow noopener noreferrer">国内镜像</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://levifish.com" title="未鱼居" target="_blank" rel="external nofollow noopener noreferrer">未鱼居</a>
+                </li>
+              
+            </ul>
+          </div>
+        
+
+        
+
+
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">耶书仑Jeshurun</span>
+<span id="busuanzi_container_site_pv">
+    本站总访问量<span id="busuanzi_value_site_pv"></span>次
+</span>
+
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io" rel="external nofollow noopener noreferrer" target="_blank">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next" rel="external nofollow noopener noreferrer" target="_blank">
+    NexT.Mist
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.2"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.2"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.2"></script>
+
+
+
+  
+
+
+  
+
+    
+      <script id="dsq-count-scr" src="https://qingxin.disqus.com/count.js" async></script>
+    
+
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'http://igencong.com/2017-09-11/Chinese students how to choose a fitful seminary/';
+          this.page.identifier = '2017-09-11/Chinese students how to choose a fitful seminary/';
+          this.page.title = '落脚在一个暂住的家——如何选好北美神学院';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://qingxin.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
+    
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script>AV.initialize("ToRiPOJGKIWMAoYm56Nrw6Cj-gzGzoHsz", "IAUyQHvrCT4BUb5eDcAiiBbn");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+  
+
+  
+
+  
+
+  
+
+
+
+</body>
+</html>
