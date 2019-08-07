@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://igencong.com/"/>
-  <updated>2019-08-07T13:00:25.214Z</updated>
+  <updated>2019-08-07T13:16:33.766Z</updated>
   <id>http://igencong.com/</id>
   
   <author>
@@ -14,6 +14,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>just a test</title>
+    <link href="http://igencong.com/2019-08-07/test/"/>
+    <id>http://igencong.com/2019-08-07/test/</id>
+    <published>2019-08-07T13:15:55.759Z</published>
+    <updated>2019-08-07T13:16:33.766Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;just a test.&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="无题·随笔" scheme="http://igencong.com/categories/%E6%97%A0%E9%A2%98%C2%B7%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="下半场" scheme="http://igencong.com/tags/%E4%B8%8B%E5%8D%8A%E5%9C%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>高中毕业20周年聚会分享</title>
@@ -31,9 +52,9 @@
       <category term="无题·随笔" scheme="http://igencong.com/categories/%E6%97%A0%E9%A2%98%C2%B7%E9%9A%8F%E7%AC%94/"/>
     
     
-      <category term="高中" scheme="http://igencong.com/tags/%E9%AB%98%E4%B8%AD/"/>
-    
       <category term="下半场" scheme="http://igencong.com/tags/%E4%B8%8B%E5%8D%8A%E5%9C%BA/"/>
+    
+      <category term="高中" scheme="http://igencong.com/tags/%E9%AB%98%E4%B8%AD/"/>
     
   </entry>
   
@@ -112,13 +133,13 @@
       <category term="讲章分享" scheme="http://igencong.com/categories/%E6%95%99%E4%BC%9A%E7%89%A7%E5%85%BB/%E8%AE%B2%E7%AB%A0%E5%88%86%E4%BA%AB/"/>
     
     
-      <category term="传讲神" scheme="http://igencong.com/tags/%E4%BC%A0%E8%AE%B2%E7%A5%9E/"/>
-    
       <category term="聘牧" scheme="http://igencong.com/tags/%E8%81%98%E7%89%A7/"/>
     
       <category term="牧职" scheme="http://igencong.com/tags/%E7%89%A7%E8%81%8C/"/>
     
       <category term="毕德生" scheme="http://igencong.com/tags/%E6%AF%95%E5%BE%B7%E7%94%9F/"/>
+    
+      <category term="传讲神" scheme="http://igencong.com/tags/%E4%BC%A0%E8%AE%B2%E7%A5%9E/"/>
     
   </entry>
   
@@ -222,11 +243,11 @@
     
       <category term="见证" scheme="http://igencong.com/tags/%E8%A7%81%E8%AF%81/"/>
     
+      <category term="传讲神" scheme="http://igencong.com/tags/%E4%BC%A0%E8%AE%B2%E7%A5%9E/"/>
+    
       <category term="江歌案" scheme="http://igencong.com/tags/%E6%B1%9F%E6%AD%8C%E6%A1%88/"/>
     
       <category term="神的真实" scheme="http://igencong.com/tags/%E7%A5%9E%E7%9A%84%E7%9C%9F%E5%AE%9E/"/>
-    
-      <category term="传讲神" scheme="http://igencong.com/tags/%E4%BC%A0%E8%AE%B2%E7%A5%9E/"/>
     
   </entry>
   
@@ -495,36 +516,6 @@
       <category term="Kindle" scheme="http://igencong.com/tags/Kindle/"/>
     
       <category term="Calibre" scheme="http://igencong.com/tags/Calibre/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>微信时代的名片是什么？</title>
-    <link href="http://igencong.com/2017-09-14/%E5%BE%AE%E4%BF%A1%E6%97%B6%E4%BB%A3%E7%9A%84%E5%90%8D%E7%89%87/"/>
-    <id>http://igencong.com/2017-09-14/微信时代的名片/</id>
-    <published>2017-09-13T19:36:22.000Z</published>
-    <updated>2017-09-13T21:17:18.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;博客blog&lt;/strong&gt;。十年前应该是个人博客，但现在最大的问题在于很少的流量，因为个人空间很不容易被搜索引擎搜到。好处自然是可以最大程度的呈现自己的一切。 &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;简书&lt;/strong&gt;，又是一个比较封闭的系统
-    
-    </summary>
-    
-      <category term="工具控" scheme="http://igencong.com/categories/%E5%B7%A5%E5%85%B7%E6%8E%A7/"/>
-    
-    
-      <category term="blog" scheme="http://igencong.com/tags/blog/"/>
-    
-      <category term="简书" scheme="http://igencong.com/tags/%E7%AE%80%E4%B9%A6/"/>
-    
-      <category term="个人公号" scheme="http://igencong.com/tags/%E4%B8%AA%E4%BA%BA%E5%85%AC%E5%8F%B7/"/>
-    
-      <category term="搜狐号" scheme="http://igencong.com/tags/%E6%90%9C%E7%8B%90%E5%8F%B7/"/>
-    
-      <category term="知乎专栏" scheme="http://igencong.com/tags/%E7%9F%A5%E4%B9%8E%E4%B8%93%E6%A0%8F/"/>
     
   </entry>
   
